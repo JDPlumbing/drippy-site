@@ -4,11 +4,25 @@
   <meta charset="UTF-8">
   <title>Tech Dashboard | Drippy</title>
   <link rel="stylesheet" href="./styles.css">
+  <script src="/js/core.js"></script>
 </head>
 <body>
   <main style="max-width: 900px; margin: 4em auto;">
     <h2 style="text-align: center;">🛠️ Technician Dashboard</h2>
     <p style="text-align: center;">Welcome to Drippy's internal tools. Select an action below.</p>
+
+    <div id="adminBroadcast" class="alert" style="display:none; margin-top: 2em;"></div>
+    <div id="taskStatus" class="alert" style="display:none; margin-top: 1em;"></div>
+
+    <section id="taskSection" class="card" style="margin-top: 2em;">
+      <h3>🧾 Daily Tasks</h3>
+      <ul id="taskList"></ul>
+    </section>
+
+    <section class="card" style="margin-top: 2em;">
+      <h3>🏆 Employee Acknowledgement</h3>
+      <p><strong>Latest Shoutout:</strong> <span id="shoutout">Loading...</span></p>
+    </section>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2em; margin-top: 3em;">
       <a href="#" class="card" onclick="checkAccess('assigned_jobs')">
@@ -44,7 +58,6 @@
   </main>
 
   <script>
-    // Simulated flag to gate job access after check-out
     const hasCheckedOut = localStorage.getItem('drippyJobCheckedOut') === 'true';
 
     function checkAccess(action) {
@@ -58,6 +71,52 @@
         window.location.href = '/tech/job_checkout.html';
       }
     }
+
+    // Broadcast
+    const broadcastMsg = localStorage.getItem('drippyBroadcast');
+    if (broadcastMsg) {
+      const banner = document.getElementById("adminBroadcast");
+      banner.innerHTML = `📢 <strong>Admin Broadcast:</strong> ${broadcastMsg}`;
+      banner.style.display = 'block';
+    }
+
+    // Daily Tasks
+    const tasks = JSON.parse(localStorage.getItem('drippyTasks') || '[]');
+    const taskList = document.getElementById('taskList');
+    const taskStatus = document.getElementById('taskStatus');
+
+    function updateTaskStatus() {
+      const allDone = tasks.every(t => t.done);
+      if (tasks.length === 0) {
+        taskStatus.style.display = 'none';
+      } else {
+        taskStatus.style.display = 'block';
+        taskStatus.innerHTML = allDone
+          ? '✅ All tasks complete. Great work!'
+          : '⚠️ You have unfinished tasks.';
+      }
+    }
+
+    tasks.forEach((task, i) => {
+      const li = document.createElement('li');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.checked = task.done;
+      checkbox.onchange = () => {
+        tasks[i].done = checkbox.checked;
+        localStorage.setItem('drippyTasks', JSON.stringify(tasks));
+        updateTaskStatus();
+      };
+      li.appendChild(checkbox);
+      li.appendChild(document.createTextNode(' ' + task.text));
+      taskList.appendChild(li);
+    });
+
+    updateTaskStatus();
+
+    // Employee shoutout
+    const shout = localStorage.getItem('drippyShoutout') || 'No shoutouts yet.';
+    document.getElementById('shoutout').textContent = shout;
   </script>
 </body>
 </html>

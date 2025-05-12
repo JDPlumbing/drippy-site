@@ -3,42 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <title>Master Admin Panel | Drippy</title>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="/styles.css">
   <script src="/js/core.js"></script>
 </head>
 <body>
   <main style="max-width: 900px; margin: 4em auto;">
     <h2 style="text-align:center;">🧠 Master Admin Panel</h2>
-    <p style="text-align:center;">This page is restricted to JD Plumbing administrators only.</p>
+    <p style="text-align:center;">Welcome, admin. Your tools live below.</p>
 
-    <section class="card" style="margin-top: 3em;">
-      <h3>🔑 Manage Tech Access Keys</h3>
-      <p>Below is a simulated list of today's valid tech login keys:</p>
-      <ul id="techKeyList"></ul>
+    <section class="card" style="margin-top: 3em; text-align: center;">
+      <h3>🔑 Today's Access Code</h3>
+      <p>The current Drip master key is:</p>
+      <div style="font-size: 1.8em; font-weight: bold; margin-top: 1em;">
+        <span id="todayCode">Loading...</span>
+      </div>
     </section>
 
     <section class="card" style="margin-top: 3em;">
-      <h3>📦 Coming Soon: Estimate Overrides & Diagnostic Tracking</h3>
-      <p>Here you’ll be able to override estimate pricing, manage diagnostic results, and control tool visibility.</p>
+      <h3>📢 Post an Admin Broadcast</h3>
+      <p>Create a message to display on the tech dashboard or booking page.</p>
+      <form onsubmit="postBroadcast(event)">
+        <textarea id="broadcastText" rows="4" class="input-field" placeholder="Enter your announcement here..." required></textarea>
+        <button type="submit" style="margin-top: 1em; width: 100%;">📨 Post Broadcast</button>
+      </form>
+      <div id="confirmationMsg" class="alert" style="display: none; margin-top: 1em;"></div>
+    </section>
+
+    <section class="card" style="margin-top: 3em;">
+      <h3>📋 Assign Daily Tasks</h3>
+      <form onsubmit="assignTask(event)">
+        <input type="text" id="newTask" class="input-field" placeholder="Enter task here..." required>
+        <button type="submit" style="margin-top: 1em; width: 100%;">➕ Add Task</button>
+      </form>
+      <ul id="adminTaskList" style="margin-top: 1em;"></ul>
+    </section>
+
+    <section class="card" style="margin-top: 3em;">
+      <h3>🏅 Employee Acknowledgement</h3>
+      <form onsubmit="postShoutout(event)">
+        <input type="text" id="shoutoutInput" class="input-field" placeholder="e.g. Kevin for excellent valve diagnostics!" required>
+        <button type="submit" style="margin-top: 1em; width: 100%;">🏆 Post Shoutout</button>
+      </form>
     </section>
   </main>
 
   <script>
-    const valid = localStorage.getItem('accessKey') === generateDripCode();
-    if (!valid) {
+    if (localStorage.getItem('accessKey') !== generateDripCode()) {
       window.location.href = "/auth/tech-login.html";
     }
 
-    const techKeys = {
-      "2025-05-12": ["tech2025a", "kevinClockIn", "plumberX"]
-    };
-    const today = new Date().toISOString().slice(0, 10);
-    const list = document.getElementById("techKeyList");
-    (techKeys[today] || []).forEach(key => {
-      const li = document.createElement("li");
-      li.textContent = key;
-      list.appendChild(li);
-    });
+    document.getElementById("todayCode").textContent = generateDripCode();
+
+    function postBroadcast(e) {
+      e.preventDefault();
+      const msg = document.getElementById("broadcastText").value.trim();
+      localStorage.setItem('drippyBroadcast', msg);
+      document.getElementById("confirmationMsg").innerHTML = `✅ Broadcast posted: <em>${msg}</em>`;
+      document.getElementById("confirmationMsg").style.display = 'block';
+      document.getElementById("broadcastText").value = '';
+    }
+
+    function assignTask(e) {
+      e.preventDefault();
+      const newTask = document.getElementById("newTask").value.trim();
+      const tasks = JSON.parse(localStorage.getItem('drippyTasks') || '[]');
+      tasks.push({ text: newTask, done: false });
+      localStorage.setItem('drippyTasks', JSON.stringify(tasks));
+      document.getElementById("newTask").value = '';
+      renderAdminTasks();
+    }
+
+    function renderAdminTasks() {
+      const taskList = document.getElementById("adminTaskList");
+      const tasks = JSON.parse(localStorage.getItem('drippyTasks') || '[]');
+      taskList.innerHTML = '';
+      tasks.forEach((task, index) => {
+        const li = document.createElement("li");
+        li.textContent = `${task.done ? '✅' : '⬜️'} ${task.text}`;
+        taskList.appendChild(li);
+      });
+    }
+
+    function postShoutout(e) {
+      e.preventDefault();
+      const shout = document.getElementById("shoutoutInput").value.trim();
+      localStorage.setItem('drippyShoutout', shout);
+      alert(`🏅 Shoutout posted: ${shout}`);
+      document.getElementById("shoutoutInput").value = '';
+    }
+
+    renderAdminTasks();
   </script>
 </body>
 </html>
