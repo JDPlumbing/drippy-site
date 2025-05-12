@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Tech Login | Drippy</title>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="/js/core.js"></script>
 </head>
 <body>
   <main style="max-width: 400px; margin: 5em auto; text-align: center;">
     <h2>🔐 Tech/Admin Login</h2>
     <p>Please enter your access key to proceed.</p>
 
-    <form onsubmit="handleLogin(event)" class="card" style="margin-top: 2em;">
+    <form id="loginForm" class="card" style="margin-top: 2em;">
       <input type="password" id="accessKey" class="input-field" placeholder="Access Key" required>
       <button type="submit" style="margin-top: 1.5em; width: 100%;">Login</button>
     </form>
@@ -22,7 +23,28 @@
     </div>
   </main>
 
-<script src="/js/core.js"></script>
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const key = document.getElementById('accessKey').value.trim();
+      const today = new Date().toISOString().slice(0, 10);
 
+      const techKeys = {
+        "2025-05-12": ["tech2025a", "kevinClockIn", "plumberX"]
+      };
+
+      const masterKey = generateDripCode();
+
+      if (key === masterKey) {
+        localStorage.setItem('accessKey', masterKey);
+        window.location.href = '/admin/master-admin-panel.html';
+      } else if ((techKeys[today] || []).includes(key)) {
+        localStorage.setItem('accessKey', key);
+        window.location.href = '/tech/dashboard.html';
+      } else {
+        document.getElementById('loginError').style.display = 'block';
+      }
+    });
+  </script>
 </body>
 </html>
