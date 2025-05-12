@@ -1,7 +1,13 @@
 {
-    "builds": [],
-    "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
-    ]
-  }
-  
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*\\.css|.*\\.js|.*\\.png|.*\\.jpg|.*\\.svg|.*\\.html)",
+      "headers": { "cache-control": "public,max-age=31536000,immutable" }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
