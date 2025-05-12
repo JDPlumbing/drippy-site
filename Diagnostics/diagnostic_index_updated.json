@@ -1,0 +1,56 @@
+[
+  {
+    "testId": "valveTest",
+    "file": "valveTest_updated.json",
+    "title": "Whole Home Shutoff Valve Diagnostic",
+    "tags": [
+      "valve",
+      "main shutoff",
+      "fixture valves",
+      "dripping"
+    ],
+    "fixtureType": "supply_system",
+    "minRole": "customer"
+  },
+  {
+    "testId": "drainTest",
+    "file": "drainTest_updated.json",
+    "title": "Drainage System Diagnostic",
+    "tags": [
+      "drain",
+      "sewer",
+      "clog",
+      "cleanout",
+      "odor"
+    ],
+    "fixtureType": "drainage_system",
+    "minRole": "customer"
+  },
+  {
+    "testId": "waterHeaterTest",
+    "file": "waterHeaterTest.json",
+    "title": "Water Heater Performance Test",
+    "tags": [
+      "heating",
+      "hot water",
+      "tank",
+      "noisy",
+      "leak"
+    ],
+    "fixtureType": "water_heater",
+    "minRole": "tech"
+  },
+  {
+    "testId": "waterPressureTest",
+    "file": "waterPressureTest.json",
+    "title": "Water Pressure Evaluation",
+    "tags": [
+      "pressure",
+      "supply",
+      "aerator",
+      "gauge"
+    ],
+    "fixtureType": "supply_system",
+    "minRole": "customer"
+  }
+]

@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drippy | Diagnostic Test Runner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 2em; }
+    .container { background: white; padding: 2em; border-radius: 8px; max-width: 600px; margin: auto; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .step { margin-bottom: 2em; }
+    .step h2 { margin: 0 0 0.5em 0; }
+    .step p { margin: 0.5em 0; }
+    .check { margin: 0.3em 0; }
+    button { padding: 0.6em 1.2em; font-size: 1em; margin-top: 1em; background: #1576d3; color: white; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div id="testTitle"></div>
+  <div id="stepContent"></div>
+  <div id="navigationButtons"></div>
+</div>
+
+<script>
+let currentStep = 0;
+let testData = null;
+let responses = [];
+
+async function loadTest(file) {
+  const res = await fetch(file);
+  testData = await res.json();
+  currentStep = 0;
+  responses = [];
+  document.getElementById("testTitle").innerHTML = "<h1>" + testData.title + "</h1>";
+  showStep(currentStep);
+}
+
+function showStep(index) {
+  const step = testData.steps[index];
+  const container = document.getElementById("stepContent");
+  const nav = document.getElementById("navigationButtons");
+
+  let html = `<div class='step'><h2>Step ${index + 1}: ${step.title}</h2><p>${step.description}</p>`;
+  step.checks.forEach((check, i) => {
+    html += `
+      <div class="check">
+        <label>${check}</label><br/>
+        <select id="response_${i}">
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="notsure">Not Sure</option>
+        </select>
+      </div>
+    `;
+  });
+  html += "</div>";
+  container.innerHTML = html;
+
+  nav.innerHTML = `<button onclick="submitStep()">Next</button>`;
+}
+
+function submitStep() {
+  const step = testData.steps[currentStep];
+  const stepResult = step.checks.map((_, i) => {
+    return document.getElementById("response_" + i).value || "notsure";
+  });
+  responses.push({ stepId: step.id, responses: stepResult });
+
+  currentStep++;
+  if (currentStep >= testData.steps.length) {
+    showSummary();
+  } else {
+    showStep(currentStep);
+  }
+}
+
+function showSummary() {
+  const summary = document.getElementById("stepContent");
+  const nav = document.getElementById("navigationButtons");
+
+  let failures = false;
+  const summaryDetails = responses.map((r, i) => {
+    const step = testData.steps[i];
+    const flagged = r.responses.some(res => step.escalateIf.includes(res));
+    if (flagged) failures = true;
+    return `<p><strong>${step.title}:</strong> ${flagged ? "⚠️ Issue Detected" : "✅ OK"}</p>`;
+  }).join("");
+
+  const result = failures ? testData.onFailure.message : testData.onPass.message;
+  summary.innerHTML = `<h2>Test Summary</h2>${summaryDetails}<p><strong>${result}</strong></p>`;
+  nav.innerHTML = "";
+}
+
+// Auto-load test (can be changed dynamically)
+loadTest("valveTest.json");
+</script>
+
+</body>
+</html>

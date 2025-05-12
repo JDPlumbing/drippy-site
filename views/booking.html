@@ -1,0 +1,55 @@
+<!-- booking.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Schedule a Technician - Drippy</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    .booking { max-width: 500px; margin: auto; }
+    label { display: block; margin: 1em 0 0.3em; }
+    input, textarea { width: 100%; padding: 0.5em; }
+    button { margin-top: 1.5em; padding: 0.75em 1.5em; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <div class="booking">
+    <h1>📅 Schedule a Visit</h1>
+    <p id="contextMessage">Reviewing your issue...</p>
+
+    <form onsubmit="submitBooking(event)">
+      <label for="name">Your Name</label>
+      <input id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required />
+
+      <label for="desc">Issue Summary</label>
+      <textarea id="desc" name="desc" rows="4"></textarea>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const testId = params.get('testId');
+
+    fetch('diagnostic_index_updated.json')
+      .then(res => res.json())
+      .then(index => {
+        const match = index.find(t => t.testId === testId);
+        if (match) {
+          document.getElementById('contextMessage').textContent = `Based on your ${match.title}, we recommend scheduling service.`;
+          document.getElementById('desc').value = `Escalation from Drippy Diagnostic: ${match.title}`;
+        }
+      });
+
+    function submitBooking(e) {
+      e.preventDefault();
+      alert("🧰 Booking submitted! (placeholder)");
+      // TODO: connect to backend or email trigger
+    }
+  </script>
+</body>
+</html>

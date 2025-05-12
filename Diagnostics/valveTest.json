@@ -1,0 +1,54 @@
+{
+  "testId": "valveTest",
+  "title": "Shutoff Valve Diagnostic Test",
+  "steps": [
+    {
+      "id": "v1",
+      "zoomwaveNode": "ZL3+",
+      "title": "Locate Main Shutoff Valve",
+      "description": "Find the main water shutoff valve where water enters the property.",
+      "checks": [
+        "Can you locate the shutoff valve?",
+        "Is the valve accessible and not obstructed?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ]
+    },
+    {
+      "id": "v2",
+      "zoomwaveNode": "ZL3+",
+      "title": "Operate the Valve",
+      "description": "Turn the valve clockwise until it stops. This should shut off water to the home.",
+      "checks": [
+        "Did the valve turn smoothly?",
+        "Did the water stop flowing from faucets?"
+      ],
+      "escalateIf": [
+        "no"
+      ]
+    },
+    {
+      "id": "v3",
+      "zoomwaveNode": "ZL3+",
+      "title": "Reopen the Valve",
+      "description": "Turn the valve counterclockwise to restore water flow.",
+      "checks": [
+        "Did the valve reopen smoothly?",
+        "Did water resume normally?"
+      ],
+      "escalateIf": [
+        "no"
+      ]
+    }
+  ],
+  "onFailure": {
+    "action": "recommend_booking",
+    "message": "Your shutoff valve may be failing or stuck. Book a diagnostic visit to confirm and replace if needed."
+  },
+  "onPass": {
+    "action": "continue_diy",
+    "message": "Your valve is working correctly. You can proceed with additional plumbing tasks."
+  }
+}

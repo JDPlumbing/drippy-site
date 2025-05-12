@@ -1,0 +1,69 @@
+{
+  "testId": "drainTest",
+  "title": "Drainage System Diagnostic Test",
+  "steps": [
+    {
+      "id": "d1",
+      "zoomwaveNode": "ZL2\u2212",
+      "title": "Locate and Inspect Your Main Cleanout",
+      "description": "Your cleanout will be located outside the home near the wall. Look for cracks, loose caps, or corrosion. If buried or missing, make note.",
+      "checks": [
+        "I was able to locate my cleanout.",
+        "The cleanout is secure and does not move when gently wiggled.",
+        "The cleanout cap is not visibly cracked or rusted.",
+        "I am comfortable opening the cap by hand or with small pliers."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "advanced"
+    },
+    {
+      "id": "d2",
+      "zoomwaveNode": "ZL9\u2212",
+      "title": "Perform a Head Test on Sinks, Lavs, and Tub",
+      "description": "Plug your drains, fill to the top, mark water line, and check for leaks and drain speed.",
+      "checks": [
+        "All drains could be plugged easily.",
+        "I observed no dripping or leaks below the sink or tub during the fill.",
+        "Water held steady for 10\u201315 minutes with no drop.",
+        "Drains created a whirlpool and drained quickly when opened.",
+        "No gurgling or bubbling occurred during drain.",
+        "No sewer gas odor was noticed."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure",
+        "yes"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "d3",
+      "zoomwaveNode": "ZL8\u2212",
+      "title": "Perform a Shower Pan Drain Test",
+      "description": "Remove drain cover, plug the shower drain, and fill it ~1\" below the curb. Check for leaks or level drop.",
+      "checks": [
+        "I was able to safely remove the shower grate.",
+        "The drain was properly plugged using a test ball or equivalent.",
+        "Water level held for 24 hours without a drop.",
+        "No leaking was seen outside the shower curb or nearby rooms."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure",
+        "yes"
+      ],
+      "skillLevel": "advanced"
+    }
+  ],
+  "onFailure": {
+    "action": "recommend_snake",
+    "message": "Potential drainage issues detected. Consider snaking the affected line or booking a camera inspection."
+  },
+  "onPass": {
+    "action": "confirm_clear",
+    "message": "No signs of slow drains or backup. Your drainage system appears to be functioning properly."
+  }
+}

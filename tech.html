@@ -23,12 +23,44 @@
     </section>
 
     <!-- Materials Section -->
-    <section id="materials" class="card" style="margin-top: 3em;">
-      <h3>Quick Material Lookup</h3>
-      <input type="text" class="input-field" placeholder="Search fittings, fixtures, parts...">
-      <button style="margin-top: 1em;">Search</button>
-      <p style="margin-top: 1em; font-size: 0.9em; color: var(--text-secondary);">Results will appear here. Integrated with Droogle (coming soon).</p>
-    </section>
+   <section id="materials" class="card" style="margin-top: 3em;">
+  <h3>Quick Material Lookup</h3>
+  <input type="text" class="input-field" id="materialSearch" placeholder="Search fittings, fixtures, parts...">
+  <button id="searchButton" style="margin-top: 1em;">Search</button>
+  <div id="searchResults" style="margin-top: 2em;"></div>
+</section>
+
+<script>
+  document.getElementById('searchButton').addEventListener('click', function() {
+    const query = document.getElementById('materialSearch').value;
+    
+    if (!query) return alert('Please enter a search term');
+    
+    // Make a GET request to Flask API
+    fetch(`http://127.0.0.1:5000/search?q=${query}`)
+      .then(response => response.json())
+      .then(data => {
+        const resultsContainer = document.getElementById('searchResults');
+        resultsContainer.innerHTML = '';
+        
+        if (data.length === 0) {
+          resultsContainer.innerHTML = '<p>No results found.</p>';
+        } else {
+          data.forEach(item => {
+            const result = document.createElement('div');
+            result.classList.add('card');
+            result.innerHTML = `<h4>${item.name}</h4><p>Price: ${item.price}</p><p>Availability: ${item.availability}</p>`;
+            resultsContainer.appendChild(result);
+          });
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('Failed to fetch search results');
+      });
+  });
+</script>
+
 
     <!-- Estimate Placeholder -->
     <section id="estimates" class="card" style="margin-top: 3em;">

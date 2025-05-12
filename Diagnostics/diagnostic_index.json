@@ -1,0 +1,55 @@
+[
+  {
+    "testId": "valveTest",
+    "file": "valveTest.json",
+    "title": "Main Shutoff Valve Test",
+    "tags": [
+      "valve",
+      "supply",
+      "emergency",
+      "location"
+    ],
+    "fixtureType": "supply_system",
+    "minRole": "customer"
+  },
+  {
+    "testId": "drainTest",
+    "file": "drainTest.json",
+    "title": "Drain Function Test",
+    "tags": [
+      "drain",
+      "sink",
+      "shower",
+      "clog"
+    ],
+    "fixtureType": "drainage_system",
+    "minRole": "customer"
+  },
+  {
+    "testId": "waterHeaterTest",
+    "file": "waterHeaterTest.json",
+    "title": "Water Heater Performance Test",
+    "tags": [
+      "heating",
+      "hot water",
+      "tank",
+      "noisy",
+      "leak"
+    ],
+    "fixtureType": "water_heater",
+    "minRole": "tech"
+  },
+  {
+    "testId": "waterPressureTest",
+    "file": "waterPressureTest.json",
+    "title": "Water Pressure Evaluation",
+    "tags": [
+      "pressure",
+      "supply",
+      "aerator",
+      "gauge"
+    ],
+    "fixtureType": "supply_system",
+    "minRole": "customer"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "testId": "waterHeaterTest",
+  "title": "Water Heater Diagnostic Test",
+  "steps": [
+    {
+      "id": "wh1",
+      "zoomwaveNode": "ZL6+",
+      "title": "Check for Hot Water Availability",
+      "description": "Turn on a hot water faucet and observe if hot water is present.",
+      "checks": [
+        "Is hot water available?",
+        "Does the water reach the expected temperature?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "wh2",
+      "zoomwaveNode": "ZL6+",
+      "title": "Inspect for Leaks or Corrosion",
+      "description": "Examine the water heater and surrounding area for any signs of leaks or corrosion.",
+      "checks": [
+        "Are there any visible leaks?",
+        "Is there any rust or corrosion on the tank or pipes?"
+      ],
+      "escalateIf": [
+        "yes"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "wh3",
+      "zoomwaveNode": "ZL6+",
+      "title": "Listen for Unusual Noises",
+      "description": "Stand near the water heater and listen for any unusual sounds such as popping or rumbling.",
+      "checks": [
+        "Are there any unusual noises coming from the water heater?"
+      ],
+      "escalateIf": [
+        "yes"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "wh4",
+      "zoomwaveNode": "ZL6+",
+      "title": "Check Temperature Setting",
+      "description": "Verify that the thermostat is set to the recommended temperature (typically around 120\u00b0F or 49\u00b0C).",
+      "checks": [
+        "Is the thermostat set to the recommended temperature?"
+      ],
+      "escalateIf": [
+        "no"
+      ],
+      "skillLevel": "advanced"
+    },
+    {
+      "id": "wh5",
+      "zoomwaveNode": "ZL6+",
+      "title": "Test the Pressure Relief Valve",
+      "description": "Lift the lever on the pressure relief valve to ensure it operates correctly. Only perform this test if you are experienced and understand the risk of hot water discharge.",
+      "checks": [
+        "Did water discharge when the valve was lifted?",
+        "Did the valve reseat properly after the test?"
+      ],
+      "escalateIf": [
+        "no"
+      ],
+      "skillLevel": "pro"
+    },
+    {
+      "id": "wh6",
+      "zoomwaveNode": "ZL6+",
+      "title": "Inspect the Anode Rod",
+      "description": "Only a trained professional should remove or inspect the anode rod. Skip this step unless qualified.",
+      "checks": [
+        "Is the anode rod significantly corroded or depleted?"
+      ],
+      "escalateIf": [
+        "yes"
+      ],
+      "skillLevel": "pro"
+    }
+  ],
+  "onFailure": {
+    "action": "recommend_booking",
+    "message": "Issues detected with your water heater. It's recommended to schedule a professional inspection and possible maintenance."
+  },
+  "onPass": {
+    "action": "confirm_clear",
+    "message": "Your water heater appears to be functioning correctly. No immediate action is required."
+  }
+}

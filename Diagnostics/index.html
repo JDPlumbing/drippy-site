@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Drippy Diagnostic</title>
+  <style>
+    .hidden { display: none; }
+    .tooltip { color: red; font-style: italic; }
+    .pretest-instructions {
+  background-color: #ffe7cc;
+  border-left: 5px solid #ff8800;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 6px;
+  font-size: 0.95em;
+}
+
+.book-button {
+  margin-top: 2em;
+  padding: 1em;
+  text-align: center;
+}
+
+.book-button button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book-button button:hover {
+  background-color: #005fa3;
+}
+
+  </style>
+</head>
+<body>
+  <h1>Drippy Diagnostic Runner</h1>
+  <label for="testSelector">Choose a diagnostic test:</label>
+  <select id="testSelector"></select>
+
+  <div id="testSteps"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "testId": "drainTest",
+  "title": "Drain Flow Diagnostic Test",
+  "steps": [
+    {
+      "id": "d1",
+      "zoomwaveNode": "ZL9\u2212",
+      "title": "Test Drain with Water Flow",
+      "description": "Run water for 30 seconds in the affected fixture (sink, shower, etc.)",
+      "checks": [
+        "Does the water drain immediately?",
+        "Is there gurgling or backup sound?",
+        "Does water rise and slowly drain?"
+      ],
+      "escalateIf": [
+        "yes",
+        "notsure"
+      ]
+    },
+    {
+      "id": "d2",
+      "zoomwaveNode": "ZL8\u2212",
+      "title": "Visual Check of P-Trap",
+      "description": "Inspect the visible trap under the fixture for blockage or signs of leak.",
+      "checks": [
+        "Is there standing water or visible debris in the trap?",
+        "Does the trap appear cracked or misaligned?"
+      ],
+      "escalateIf": [
+        "yes"
+      ]
+    }
+  ],
+  "onFailure": {
+    "action": "recommend_snake",
+    "message": "You may have a partial or full blockage. Try a drain snake or call for service."
+  },
+  "onPass": {
+    "action": "confirm_clear",
+    "message": "Drain appears functional. No action needed unless symptoms return."
+  }
+}

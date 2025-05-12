@@ -1,0 +1,131 @@
+{
+  "testId": "valveTest",
+  "title": "Whole Home Shutoff Valve Diagnostic",
+  "steps": [
+    {
+      "id": "v1",
+      "zoomwaveNode": "ZL3+",
+      "title": "Main Valve Test",
+      "description": "Locate your main water shutoff valve. It is typically outside on the wall of your house near the hose bibb, or in a utility closet if you\u2019re in a condo or high-rise. Turn the valve off using your hand only. It should turn with no more force than opening a soda bottle.",
+      "checks": [
+        "Were you able to locate your main valve?",
+        "Did the valve turn off easily by hand?",
+        "Did the valve start dripping during or after turning it?",
+        "Did the water fully drain out of the system after opening a faucet?",
+        "After turning the valve back on, did the water return normally?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure",
+        "yes"
+      ],
+      "skillLevel": "advanced"
+    },
+    {
+      "id": "v2",
+      "zoomwaveNode": "ZL5+",
+      "title": "Water Heater Valve Test",
+      "description": "Locate the shutoff valve on the cold inlet side of your water heater. Turn it off by hand only. Then test the hot water at a nearby faucet to ensure water flow stops completely.",
+      "checks": [
+        "Did the valve turn off easily by hand?",
+        "Did the hot water stop running from a faucet?",
+        "Did the valve drip during or after turning?",
+        "Did turning it back on restore normal hot water flow?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure",
+        "yes"
+      ],
+      "skillLevel": "advanced"
+    },
+    {
+      "id": "v3",
+      "zoomwaveNode": "ZL8+",
+      "title": "Hose Bibb Test",
+      "description": "Go to every exterior hose bibb on your property. Attempt to turn the handle off fully using your hand. Check for dripping after shutoff.",
+      "checks": [
+        "Were all hose bibbs able to be turned off easily by hand?",
+        "Did any hose bibb drip after shutoff?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure",
+        "yes"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "v4",
+      "zoomwaveNode": "ZL8+",
+      "title": "Washing Machine Valve Test",
+      "description": "Locate the hot and cold valves behind your washing machine. Turn each one off using only your hand. Observe for stiffness or dripping.",
+      "checks": [
+        "Did both valves turn off easily by hand?",
+        "Did either valve leak when turned?",
+        "Did the washing machine stop receiving water when turned off?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "advanced"
+    },
+    {
+      "id": "v5",
+      "zoomwaveNode": "ZL8+",
+      "title": "Kitchen Sink Valve Test",
+      "description": "Look under your kitchen sink. You should have two valves (hot and cold), or more if you have a dishwasher or icemaker line. Turn each valve off by hand and test if the faucet stops running.",
+      "checks": [
+        "Were all under-sink valves easy to turn by hand?",
+        "Did any valve drip or leak during testing?",
+        "Did turning them off stop water to the faucet?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure",
+        "yes"
+      ],
+      "skillLevel": "advanced"
+    },
+    {
+      "id": "v6",
+      "zoomwaveNode": "ZL8+",
+      "title": "Toilet Valve Test",
+      "description": "Locate the shutoff valve behind each toilet (usually near the floor, to the left). Turn it off by hand. Flush the toilet and observe if the tank stops refilling.",
+      "checks": [
+        "Did the valve turn easily by hand?",
+        "Did the tank stop refilling after flush?",
+        "Did the valve drip after being turned?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure",
+        "yes"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "v7",
+      "zoomwaveNode": "ZL9+",
+      "title": "Toilet Fill Valve Check",
+      "description": "Carefully lift the tank lid. Look inside while the valve is turned off. If you see any trickling water, the valve is failing internally and needs service.",
+      "checks": [
+        "Was the fill valve trickling or letting water into the tank while off?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "advanced"
+    }
+  ],
+  "onFailure": {
+    "action": "recommend_booking",
+    "message": "Some valves may be faulty or failing. Consider scheduling a technician to replace any sticky, leaking, or non-functional valves."
+  },
+  "onPass": {
+    "action": "confirm_clear",
+    "message": "All valves appear to be functional and leak-free. No service required at this time."
+  }
+}
