@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assigned Jobs | Drippy</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main style="max-width: 900px; margin: 4em auto;">
+    <h2 style="text-align: center;">📋 Assigned Jobs</h2>
+    <p style="text-align: center;">Review your assigned tasks for today and accept jobs you're ready for.</p>
+
+    <section id="jobsList" style="margin-top: 3em; display: grid; gap: 2em;"></section>
+  </main>
+
+  <script>
+    const jobs = [
+      {
+        id: "job001",
+        city: "Pembroke Pines",
+        zip: "33024",
+        description: "Low water pressure in kitchen faucet",
+        notes: "Customer reported possible clog in aerator or PRV issue.",
+        parts: ["PRV", "aerator kit"]
+      },
+      {
+        id: "job002",
+        city: "Hollywood",
+        zip: "33020",
+        description: "Toilet constantly running",
+        notes: "Estimate generated from DIY test. Possible flapper or fill valve replacement.",
+        parts: ["toilet flapper", "fill valve"]
+      }
+    ];
+
+    const jobsList = document.getElementById("jobsList");
+
+    jobs.forEach(job => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>🧰 ${job.description}</h3>
+        <p><strong>Location:</strong> ${job.city} (${job.zip})</p>
+        <p><strong>Notes:</strong> ${job.notes}</p>
+        <p><strong>Suggested Parts:</strong> ${job.parts.join(", ")}</p>
+        <button onclick="acceptJob('${job.id}')">✅ Accept Job</button>
+      `;
+      jobsList.appendChild(card);
+    });
+
+    function acceptJob(jobId) {
+      // TODO: Save jobId to session or localStorage and redirect
+      alert(`Job ${jobId} accepted! Redirecting to briefing...`);
+      window.location.href = `/tech/job_brief.html?jobId=${jobId}`;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Check-In | Drippy</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main style="max-width: 800px; margin: 4em auto;">
+    <h2 style="text-align:center;">📍 Job Check-In</h2>
+    <p style="text-align:center;">Confirm job readiness and provide key arrival notes below.</p>
+
+    <form id="checkinForm" class="card" onsubmit="handleCheckin(event)" style="margin-top: 2em;">
+      <label for="estimateAccurate">Was the estimate accurate upon arrival?</label>
+      <select id="estimateAccurate" class="input-field" required>
+        <option value="">-- Select --</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        <option value="partial">Partially</option>
+      </select>
+
+      <label for="arrivalNotes" style="margin-top: 1.5em;">Arrival Notes / Customer Info:</label>
+      <textarea id="arrivalNotes" rows="5" class="input-field" placeholder="e.g. Customer requested to check bathroom sink too..."></textarea>
+
+      <button type="submit" style="margin-top: 2em; width: 100%;">Submit Check-In</button>
+    </form>
+
+    <div id="checkinConfirm" class="alert" style="display:none; margin-top: 2em;"></div>
+  </main>
+
+  <script>
+    const jobId = new URLSearchParams(window.location.search).get("jobId");
+
+    function handleCheckin(e) {
+      e.preventDefault();
+      const accuracy = document.getElementById("estimateAccurate").value;
+      const notes = document.getElementById("arrivalNotes").value.trim();
+
+      const confirmBox = document.getElementById("checkinConfirm");
+      confirmBox.innerHTML = `✅ Check-in complete.<br><br>Estimate: <strong>${accuracy}</strong><br>Notes: <em>${notes || 'No additional notes'}</em>`;
+      confirmBox.style.display = "block";
+
+      setTimeout(() => {
+        window.location.href = `/tech/dashboard.html`;
+      }, 2500);
+    }
+  </script>
+</body>
+</html>

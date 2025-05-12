@@ -2,61 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Drippy | Your AI Plumbing Assistant</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&family=Sora:wght@600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <title>Drippy | JD Plumbing</title>
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <div class="navbar">
+
+  <header class="navbar">
     <h1>Drippy</h1>
     <nav>
-      <a href="#what">What is Drippy?</a>
-      <a href="#how">How it Works</a>
-      <a href="#contact">Contact</a>
+      <a href="/tech/login.html">Tech Login</a>
     </nav>
-  </div>
+  </header>
 
-  <main style="padding: 2em;">
-    <!-- Hero Section -->
-    <section style="text-align: center; margin-top: 3em;">
-      <h2 style="font-size: 2.5rem;">Meet Drippy</h2>
-      <p style="max-width: 600px; margin: 1em auto;">Your AI-powered plumbing assistant—ready to diagnose, estimate, and streamline your next job before the first wrench turns.</p>
-      <button onclick="location.href='#contact'">Get Started</button>
-    </section>
+  <main style="max-width: 900px; margin: auto; padding: 2em;">
+    <h2 style="text-align:center;">Your intelligent plumbing assistant</h2>
 
-    <!-- What is Drippy -->
-    <section id="what" class="card" style="margin-top: 4em;">
-      <h3>What is Drippy?</h3>
-      <p>Drippy is a logic-driven tool designed by JD Plumbing to bring speed, clarity, and professionalism to every plumbing interaction. From diagnostics to estimates, it's your new best friend on the job.</p>
-    </section>
+    <div style="display: flex; justify-content: center; gap: 2em; margin-top: 3em;">
+      <a href="/Diagnostics/diagnostic_test_runner.html">
+        <button>🧪 Run Diagnostic</button>
+      </a>
+      <a href="#" onclick="alert('Coming soon: Drippy Estimator')">
+        <button>💵 Get an Estimate</button>
+      </a>
+    </div>
 
-    <!-- How it Works -->
-    <section id="how" style="margin-top: 4em;">
-      <h3 style="text-align: center;">How it Works</h3>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2em; margin-top: 2em;">
-        <div class="card">
-          <h4>1. Diagnose</h4>
-          <p>Describe the issue or upload a checklist. Drippy walks you through it, step-by-step.</p>
-        </div>
-        <div class="card">
-          <h4>2. Estimate</h4>
-          <p>Drippy uses permit logic, pricing tools, and your inputs to build an accurate job scope.</p>
-        </div>
-        <div class="card">
-          <h4>3. Book or Dispatch</h4>
-          <p>Generate printouts, book the job, or share it with the field team instantly.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact / CTA -->
-    <section id="contact" class="card" style="margin-top: 4em;">
-      <h3>Want to Talk to Drippy?</h3>
-      <p>We're currently deploying Drippy internally, but early testers are welcome. Drop us a note:</p>
-      <input type="text" class="input-field" placeholder="Your email" style="margin-top: 1em;">
-      <textarea class="input-field" placeholder="Tell us how you'd use Drippy..." rows="4" style="margin-top: 1em;"></textarea>
-      <button style="margin-top: 1em;">Submit</button>
-    </section>
+    <div style="margin-top: 3em; text-align:center;">
+      <a href="/views/booking.html">
+        <button style="width: 100%; font-size: 1.2rem; padding: 1em 2em;">📅 Book a Technician</button>
+      </a>
+    </div>
   </main>
+
+  <footer class="footer" style="text-align:center; margin-top: 4em;">
+    Built with ☕ and PVC by JD Plumbing & Tito
+  </footer>
+
 </body>
 </html>

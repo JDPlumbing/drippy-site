@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Check-Out | Drippy</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main style="max-width: 800px; margin: 4em auto;">
+    <h2 style="text-align: center;">✅ Job Check-Out</h2>
+    <p style="text-align: center;">Submit post-job details to finalize this assignment.</p>
+
+    <form id="checkoutForm" class="card" onsubmit="handleCheckout(event)" style="margin-top: 2em;">
+      <label for="completionPhoto">Upload Completion Photo(s):</label>
+      <input type="file" id="completionPhoto" class="input-field" accept="image/*" multiple required />
+
+      <label for="followup" style="margin-top: 1.5em;">Customer Follow-Up Needs:</label>
+      <textarea id="followup" rows="4" class="input-field" placeholder="e.g. Needs estimate for hallway bathroom repipe"></textarea>
+
+      <label for="payment" style="margin-top: 1.5em;">Payment Method:</label>
+      <select id="payment" class="input-field" required>
+        <option value="">-- Select --</option>
+        <option value="zelle">Zelle</option>
+        <option value="cash">Cash</option>
+        <option value="check">Check</option>
+        <option value="notpaid">Not Paid Yet</option>
+      </select>
+
+      <label for="amountPaid" style="margin-top: 1.5em;">Amount Collected (if applicable):</label>
+      <input type="number" id="amountPaid" class="input-field" placeholder="$0.00" min="0" step="0.01" />
+
+      <button type="submit" style="margin-top: 2em; width: 100%;">Submit Check-Out</button>
+    </form>
+
+    <div id="checkoutConfirm" class="alert" style="display:none; margin-top: 2em;"></div>
+
+    <div style="text-align: center; margin-top: 3em;">
+      <button onclick="resetCheckoutFlag()" style="background-color: #ff6666;">🔄 Reset Checkout Lock (Admin)</button>
+    </div>
+  </main>
+
+  <script>
+    function handleCheckout(e) {
+      e.preventDefault();
+
+      const photos = document.getElementById("completionPhoto").files;
+      const followup = document.getElementById("followup").value.trim();
+      const payment = document.getElementById("payment").value;
+      const amount = document.getElementById("amountPaid").value;
+
+      if (photos.length === 0) {
+        alert("📸 At least one photo is required to check out.");
+        return;
+      }
+
+      const confirmBox = document.getElementById("checkoutConfirm");
+      confirmBox.style.display = "block";
+      confirmBox.innerHTML = `✅ Check-out complete.<br><br>Payment: <strong>${payment}</strong><br>Amount: <strong>$${amount || '0.00'}</strong><br>Follow-Up: <em>${followup || 'None'}</em>`;
+
+      // ✅ Set flag to allow access to new jobs after checkout
+      localStorage.setItem('drippyJobCheckedOut', 'true');
+
+      setTimeout(() => {
+        window.location.href = '/tech/dashboard.html';
+      }, 3000);
+    }
+
+    function resetCheckoutFlag() {
+      localStorage.removeItem('drippyJobCheckedOut');
+      alert('🔓 Job checkout lock has been reset. Techs may now access new jobs.');
+    }
+  </script>
+</body>
+</html>

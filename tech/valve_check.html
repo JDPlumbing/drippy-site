@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valve Check | Drippy</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main style="max-width: 800px; margin: 4em auto;">
+    <h2 style="text-align: center;">🧪 Valve Pre-Check Required</h2>
+    <p style="text-align: center;">All valves must be tested and documented before work begins.</p>
+
+    <form id="valveForm" class="card" onsubmit="handleSubmit(event)" style="margin-top: 3em;">
+      <label for="valveStatus">Did the main valve turn off easily by hand?</label>
+      <select id="valveStatus" class="input-field" required>
+        <option value="">-- Select --</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        <option value="notsure">Not Sure</option>
+      </select>
+
+      <label for="valvePhoto" style="margin-top: 1.5em;">Upload a photo of the main valve:</label>
+      <input type="file" id="valvePhoto" class="input-field" accept="image/*" required />
+
+      <button type="submit" style="margin-top: 2em; width: 100%;">Submit Valve Check</button>
+    </form>
+
+    <div id="confirmation" class="alert" style="display: none; margin-top: 2em;"></div>
+  </main>
+
+  <script>
+    const jobId = new URLSearchParams(window.location.search).get("jobId");
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      const status = document.getElementById("valveStatus").value;
+      const file = document.getElementById("valvePhoto").files[0];
+
+      if (!file) {
+        alert("📸 A valve photo is required to proceed.");
+        return;
+      }
+
+      const confirmation = document.getElementById("confirmation");
+      confirmation.style.display = "block";
+      confirmation.innerHTML = `✅ Valve check submitted successfully.<br><br>Status: <strong>${status}</strong><br>Photo: <em>${file.name}</em>`;
+
+      setTimeout(() => {
+        window.location.href = `/tech/checkin_submit.html?jobId=${jobId}`;
+      }, 2500);
+    }
+  </script>
+</body>
+</html>

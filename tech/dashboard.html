@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Dashboard | Drippy</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main style="max-width: 900px; margin: 4em auto;">
+    <h2 style="text-align: center;">🛠️ Technician Dashboard</h2>
+    <p style="text-align: center;">Welcome to Drippy's internal tools. Select an action below.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2em; margin-top: 3em;">
+      <a href="#" class="card" onclick="checkAccess('assigned_jobs')">
+        <h3>📋 Assigned Jobs</h3>
+        <p>View new job offers and accept upcoming assignments.</p>
+      </a>
+
+      <a href="/Diagnostics/diagnostic_test_runner.html" class="card">
+        <h3>🧪 Run Diagnostics</h3>
+        <p>Perform plumbing system checks and escalate if needed.</p>
+      </a>
+
+      <a href="#" class="card" onclick="alert('Coming soon: Estimate builder')">
+        <h3>💵 Generate Estimate</h3>
+        <p>View parts pricing and assemble estimates for customers.</p>
+      </a>
+
+      <a href="/views/booking.html" class="card">
+        <h3>📅 Review Bookings</h3>
+        <p>See customer booking details and prepare for dispatch.</p>
+      </a>
+
+      <a href="#" class="card" onclick="alert('Coming soon: Job history log')">
+        <h3>📜 Job History</h3>
+        <p>Track previous jobs, notes, and service diagnostics.</p>
+      </a>
+
+      <a href="#" class="card" onclick="checkAccess('checkout')">
+        <h3>✅ Check Out</h3>
+        <p>Submit job completion details, photos, and final notes.</p>
+      </a>
+    </div>
+  </main>
+
+  <script>
+    // Simulated flag to gate job access after check-out
+    const hasCheckedOut = localStorage.getItem('drippyJobCheckedOut') === 'true';
+
+    function checkAccess(action) {
+      if (action === 'assigned_jobs') {
+        if (!hasCheckedOut) {
+          alert('🚧 You must complete your last job check-out before accessing new assignments.');
+          return;
+        }
+        window.location.href = '/tech/assigned_jobs.html';
+      } else if (action === 'checkout') {
+        window.location.href = '/tech/job_checkout.html';
+      }
+    }
+  </script>
+</body>
+</html>

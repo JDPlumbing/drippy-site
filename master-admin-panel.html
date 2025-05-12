@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Drippy Admin Panel</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main style="max-width: 900px; margin: 4em auto;">
+    <h2 style="text-align:center;">🧠 Master Admin Panel</h2>
+    <p style="text-align:center;">This page is restricted to JD Plumbing administrators only.</p>
+
+    <section class="card" style="margin-top: 3em;">
+      <h3>🔑 Manage Tech Access Keys</h3>
+      <p>Below is a simulated list of today's valid tech login keys:</p>
+      <ul id="techKeyList"></ul>
+    </section>
+
+    <section class="card" style="margin-top: 3em;">
+      <h3>📦 Coming Soon: Estimate Overrides & Diagnostic Tracking</h3>
+      <p>Here you’ll be able to override estimate pricing, manage diagnostic results, and control tool visibility.</p>
+    </section>
+  </main>
+
+  <script>
+    const techKeys = {
+      "2025-05-12": ["tech2025a", "kevinClockIn", "plumberX"],
+    };
+    const today = new Date().toISOString().slice(0, 10);
+    const list = document.getElementById("techKeyList");
+    (techKeys[today] || []).forEach(key => {
+      const li = document.createElement("li");
+      li.textContent = key;
+      list.appendChild(li);
+    });
+  </script>
+</body>
+</html>
