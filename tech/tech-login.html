@@ -16,20 +16,32 @@
     </form>
 
     <div id="loginError" class="alert" style="display:none; margin-top: 1em;">❌ Invalid access key.</div>
+
+    <div class="alert" style="margin-top: 3em;">
+      💡 Tip: Today's master code is <code>Drip-XXXXX</code> format based on the date.
+    </div>
   </main>
 
   <script>
+    function generateDripCode() {
+      const date = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+      const seed = "drippy-" + date;
+      const dailyCode = seed.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) % 100000;
+      return `Drip-${dailyCode}`;
+    }
+
     function handleLogin(e) {
       e.preventDefault();
       const key = document.getElementById('accessKey').value.trim();
       const today = new Date().toISOString().slice(0, 10);
 
       const techKeys = {
-        "2025-05-12": ["tech2025a", "kevinClockIn", "plumberX"],
-        "master": "jdadmin2024"
+        "2025-05-12": ["tech2025a", "kevinClockIn", "plumberX"]
       };
 
-      if (key === techKeys.master) {
+      const masterKey = generateDripCode();
+
+      if (key === masterKey) {
         window.location.href = '/admin/master.html';
       } else if ((techKeys[today] || []).includes(key)) {
         window.location.href = '/tech/dashboard.html';
