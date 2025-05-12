@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <title>Job Brief | Drippy</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/js/core.js"></script>
 </head>
 <body>
   <main style="max-width: 800px; margin: 4em auto;">
@@ -18,40 +19,20 @@
   </main>
 
   <script>
-    const jobs = {
-      job001: {
-        address: "1234 NW 7th St, Pembroke Pines, FL 33024",
-        customer: "Maria Sanchez",
-        phone: "(954) 123-4567",
-        description: "Low water pressure in kitchen faucet",
-        notes: "Customer reported possible clog in aerator or PRV issue.",
-        parts: ["PRV", "aerator kit"],
-        estimate: "$185"
-      },
-      job002: {
-        address: "8901 Johnson St, Hollywood, FL 33020",
-        customer: "Tony Alvarez",
-        phone: "(954) 987-6543",
-        description: "Toilet constantly running",
-        notes: "DIY test flagged flapper/fill valve. Estimate generated.",
-        parts: ["toilet flapper", "fill valve"],
-        estimate: "$129"
-      }
-    };
-
     const jobId = new URLSearchParams(window.location.search).get("jobId");
-    const job = jobs[jobId];
+    const allJobs = JSON.parse(localStorage.getItem('drippyAssignedJobs') || '[]');
+    const job = allJobs.find(j => j.id === jobId);
     const container = document.getElementById("jobInfo");
 
     if (job) {
       container.innerHTML = `
         <h3>🔧 ${job.description}</h3>
-        <p><strong>Customer:</strong> ${job.customer}</p>
-        <p><strong>Address:</strong> ${job.address}</p>
-        <p><strong>Phone:</strong> ${job.phone}</p>
-        <p><strong>Notes:</strong> ${job.notes}</p>
-        <p><strong>Estimate:</strong> ${job.estimate}</p>
-        <p><strong>Suggested Parts:</strong> ${job.parts.join(", ")}</p>
+        <p><strong>Job ID:</strong> ${job.id}</p>
+        <p><strong>Assigned From:</strong> ${job.fromBooking ? 'Customer Booking' : 'Internal Assignment'}</p>
+        <p><strong>City/ZIP:</strong> ${job.city}</p>
+        <p><strong>Notes:</strong> ${job.notes || 'None'}</p>
+        <p><strong>Parts to Bring:</strong> ${job.parts.length ? job.parts.join(", ") : 'None listed'}</p>
+        <p><strong>Customer Contact:</strong> ${job.contact || 'N/A'}</p>
       `;
     } else {
       container.innerHTML = `<p class="alert">❌ Job not found. Please return to Assigned Jobs.</p>`;

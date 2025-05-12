@@ -1,54 +1,84 @@
-<!-- booking.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Schedule a Technician - Drippy</title>
-  <style>
-    body { font-family: sans-serif; padding: 2em; }
-    .booking { max-width: 500px; margin: auto; }
-    label { display: block; margin: 1em 0 0.3em; }
-    input, textarea { width: 100%; padding: 0.5em; }
-    button { margin-top: 1.5em; padding: 0.75em 1.5em; font-size: 1rem; }
-  </style>
+  <meta charset="UTF-8">
+  <title>Book a Technician | Drippy</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <div class="booking">
-    <h1>📅 Schedule a Visit</h1>
-    <p id="contextMessage">Reviewing your issue...</p>
+  <main style="max-width: 800px; margin: 4em auto;">
+    <h2 style="text-align: center;">📅 Book a Service Call</h2>
+    <p style="text-align: center;">Fill out the form below to request a technician.</p>
 
-    <form onsubmit="submitBooking(event)">
-      <label for="name">Your Name</label>
-      <input id="name" name="name" required />
+    <form id="bookingForm" class="card" onsubmit="submitBooking(event)" style="margin-top: 2em;">
+      <label>Name</label>
+      <input type="text" class="input-field" id="custName" required>
 
-      <label for="email">Email</label>
-      <input id="email" name="email" type="email" required />
+      <label>Email</label>
+      <input type="email" class="input-field" id="custEmail" required>
 
-      <label for="desc">Issue Summary</label>
-      <textarea id="desc" name="desc" rows="4"></textarea>
+      <label>Phone Number</label>
+      <input type="tel" class="input-field" id="custPhone" required>
 
-      <button type="submit">Submit Booking</button>
+      <label>On-Site Contact (optional)</label>
+      <input type="text" class="input-field" id="contactName">
+
+      <label>Contact Role (e.g., tenant, neighbor, manager)</label>
+      <input type="text" class="input-field" id="contactRole">
+
+      <label>Contact Phone (optional)</label>
+      <input type="tel" class="input-field" id="contactPhone">
+
+      <label>Job Address (City or ZIP)</label>
+      <input type="text" class="input-field" id="jobAddress" required>
+
+      <label>Job Description</label>
+      <textarea id="jobDescription" class="input-field" required></textarea>
+
+      <label>Special Instructions (gate codes, security, etc.)</label>
+      <textarea id="specialInstructions" class="input-field"></textarea>
+
+      <label>Preferred Date & Time</label>
+      <input type="datetime-local" class="input-field" id="prefTime1" required>
+
+      <label>Backup Date/Time 1</label>
+      <input type="datetime-local" class="input-field" id="prefTime2">
+
+      <label>Backup Date/Time 2</label>
+      <input type="datetime-local" class="input-field" id="prefTime3">
+
+      <label><input type="checkbox" id="valveCheckConsent" required> I confirm that a working shutoff valve is accessible or I acknowledge it will be checked on arrival.</label>
+
+      <button type="submit" style="margin-top: 2em; width: 100%;">📨 Submit Booking</button>
     </form>
-  </div>
+
+    <div id="bookingConfirm" class="alert" style="display:none; margin-top: 2em;"></div>
+  </main>
 
   <script>
-    const params = new URLSearchParams(window.location.search);
-    const testId = params.get('testId');
-
-    fetch('diagnostic_index_updated.json')
-      .then(res => res.json())
-      .then(index => {
-        const match = index.find(t => t.testId === testId);
-        if (match) {
-          document.getElementById('contextMessage').textContent = `Based on your ${match.title}, we recommend scheduling service.`;
-          document.getElementById('desc').value = `Escalation from Drippy Diagnostic: ${match.title}`;
-        }
-      });
-
     function submitBooking(e) {
       e.preventDefault();
-      alert("🧰 Booking submitted! (placeholder)");
-      // TODO: connect to backend or email trigger
+      const booking = {
+        name: document.getElementById('custName').value,
+        email: document.getElementById('custEmail').value,
+        phone: document.getElementById('custPhone').value,
+        contactName: document.getElementById('contactName').value,
+        contactRole: document.getElementById('contactRole').value,
+        contactPhone: document.getElementById('contactPhone').value,
+        address: document.getElementById('jobAddress').value,
+        description: document.getElementById('jobDescription').value,
+        instructions: document.getElementById('specialInstructions').value,
+        time1: document.getElementById('prefTime1').value,
+        time2: document.getElementById('prefTime2').value,
+        time3: document.getElementById('prefTime3').value,
+        valveConsent: document.getElementById('valveCheckConsent').checked,
+        submittedAt: new Date().toISOString()
+      };
+      localStorage.setItem('drippyBooking', JSON.stringify(booking));
+      const msg = document.getElementById('bookingConfirm');
+      msg.innerHTML = `✅ Booking submitted successfully!<br>We'll be in touch soon.`;
+      msg.style.display = 'block';
+      document.getElementById('bookingForm').reset();
     }
   </script>
 </body>

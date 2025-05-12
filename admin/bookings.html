@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bookings | Drippy Admin</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="/js/core.js"></script>
+</head>
+<body>
+  <main style="max-width: 900px; margin: 4em auto;">
+    <h2 style="text-align:center;">📬 Booking Submissions</h2>
+    <p style="text-align:center;">View and manage incoming service requests.</p>
+
+    <section class="card" style="margin-top: 2em;">
+      <div id="bookingDetails">Loading booking data...</div>
+    </section>
+  </main>
+
+  <script>
+    if (localStorage.getItem('accessKey') !== generateDripCode()) {
+      window.location.href = "/auth/tech-login.html";
+    }
+
+    const data = JSON.parse(localStorage.getItem('drippyBooking'));
+    const container = document.getElementById('bookingDetails');
+
+    if (data) {
+      container.innerHTML = `
+        <h3>🔧 ${data.description}</h3>
+        <p><strong>Submitted:</strong> ${new Date(data.submittedAt).toLocaleString()}</p>
+        <p><strong>Name:</strong> ${data.name}</p>
+        <p><strong>Email:</strong> ${data.email}</p>
+        <p><strong>Phone:</strong> ${data.phone}</p>
+        ${data.contactName ? `<p><strong>On-Site Contact:</strong> ${data.contactName} (${data.contactRole}) - ${data.contactPhone}</p>` : ''}
+        <p><strong>Address:</strong> ${data.address}</p>
+        <p><strong>Instructions:</strong> ${data.instructions || 'None'}</p>
+        <p><strong>Preferred Time:</strong> ${data.time1}</p>
+        ${data.time2 ? `<p><strong>Backup Time 1:</strong> ${data.time2}</p>` : ''}
+        ${data.time3 ? `<p><strong>Backup Time 2:</strong> ${data.time3}</p>` : ''}
+        <p><strong>Valve Consent:</strong> ${data.valveConsent ? '✅ Yes' : '❌ No'}</p>
+        <button onclick="assignToJobs()" style="margin-top: 1.5em; width: 100%;">📋 Assign to Tech Jobs</button>
+      `;
+    } else {
+      container.innerHTML = `<p>No booking submissions found.</p>`;
+    }
+
+    function assignToJobs() {
+      const assignedJobs = JSON.parse(localStorage.getItem('drippyAssignedJobs') || '[]');
+      const jobId = `job${Date.now()}`;
+      assignedJobs.push({
+        id: jobId,
+        city: data.address,
+        zip: '',
+        description: data.description,
+        notes: data.instructions || '',
+        parts: [],
+        fromBooking: true,
+        contact: data.name
+      });
+      localStorage.setItem('drippyAssignedJobs', JSON.stringify(assignedJobs));
+      alert(`✅ Job assigned as ID: ${jobId}`);
+    }
+  </script>
+</body>
+</html>
