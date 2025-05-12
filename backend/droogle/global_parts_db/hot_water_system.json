@@ -1,0 +1,18 @@
+[
+    {
+      "partId": "wh_tpr_valve",
+      "name": "Water Heater T&P Relief Valve",
+      "category": "safety",
+      "system": "hot_water_system",
+      "description": "Temperature & Pressure relief valve for tank-type heaters.",
+      "unitCost": 15.00,
+      "markup": 2.0,
+      "laborMinutes": 20,
+      "recommendedFor": ["h3"],
+      "applicableFixtures": ["water_heater"],
+      "bundle": "wh_safety_kit",
+      "priority": "high",
+      "tags": ["safety", "code"]
+    }
+  ]
+  

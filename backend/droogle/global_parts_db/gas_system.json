@@ -1,0 +1,18 @@
+[
+    {
+      "partId": "gas_flex_line",
+      "name": "24\" Gas Appliance Flex Line",
+      "category": "connector",
+      "system": "gas_system",
+      "description": "Stainless braided flex line for gas ranges, dryers.",
+      "unitCost": 11.00,
+      "markup": 1.8,
+      "laborMinutes": 20,
+      "recommendedFor": ["g1"],
+      "applicableFixtures": ["gas_range", "water_heater"],
+      "bundle": null,
+      "priority": "medium",
+      "tags": ["flex", "gas", "universal"]
+    }
+  ]
+  

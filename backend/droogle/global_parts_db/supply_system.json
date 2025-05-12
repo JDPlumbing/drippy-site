@@ -1,0 +1,33 @@
+[
+    {
+      "partId": "main_shutoff_valve_1in",
+      "name": "1\" Brass Main Shutoff Valve",
+      "category": "supply",
+      "system": "supply_system",
+      "description": "Heavy-duty brass shutoff valve for 1\" main supply lines.",
+      "unitCost": 34.00,
+      "markup": 1.4,
+      "laborMinutes": 30,
+      "recommendedFor": ["v1"],
+      "applicableFixtures": ["main_line"],
+      "bundle": null,
+      "priority": "high",
+      "tags": ["brass", "shutoff", "main"]
+    },
+    {
+      "partId": "angle_stop_3_8",
+      "name": "3/8\" Compression Angle Stop",
+      "category": "valve",
+      "system": "supply_system",
+      "description": "Standard angle stop valve for sinks, toilets, and appliances.",
+      "unitCost": 5.50,
+      "markup": 2.0,
+      "laborMinutes": 15,
+      "recommendedFor": ["v5", "v6"],
+      "applicableFixtures": ["toilet", "lavatory", "kitchen_sink"],
+      "bundle": "angle_stop_kit",
+      "priority": "medium",
+      "tags": ["universal", "compression"]
+    }
+  ]
+  

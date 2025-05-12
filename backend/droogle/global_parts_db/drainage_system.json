@@ -1,0 +1,17 @@
+{
+    "partId": "shower_trap_solvent",
+    "name": "2\" Solvent-Weld Shower Trap",
+    "category": "trap",
+    "system": "drainage_system",
+    "description": "UPC-compliant solvent-weld trap for residential shower installs.",
+    "unitCost": 7.50,
+    "markup": 1.6,
+    "laborMinutes": 30,
+    "recommendedFor": ["d2"],
+    "applicableFixtures": ["shower"],
+    "bundle": null,
+    "priority": "high",
+    "tags": ["code", "solvent"],
+    "complianceRules": []
+  }
+  
