@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Today's Drip Code | Drippy Admin</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main style="max-width: 600px; margin: 5em auto; text-align: center;">
+    <h2>🔑 Today's Master Code</h2>
+    <p>This code grants admin access for today only.</p>
+
+    <div class="card" style="margin-top: 2em; font-size: 1.8em; padding: 2em;">
+      <span id="dripCode">Generating...</span>
+    </div>
+
+    <p style="margin-top: 2em; font-size: 0.9em; color: var(--text-secondary);">
+      Share this with techs/admins as needed. Auto-resets daily.
+    </p>
+  </main>
+
+  <script src="/js/core.js"></script>
+  <script>
+    document.getElementById("dripCode").textContent = generateDripCode();
+  </script>
+</body>
+</html>

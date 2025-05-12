@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Drippy Admin Panel</title>
-  <link rel="stylesheet" href="/styles.css" />
+  <meta charset="UTF-8">
+  <title>Master Admin Panel | Drippy</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="/js/core.js"></script>
 </head>
 <body>
   <main style="max-width: 900px; margin: 4em auto;">
@@ -23,8 +24,13 @@
   </main>
 
   <script>
+    const valid = localStorage.getItem('accessKey') === generateDripCode();
+    if (!valid) {
+      window.location.href = "/auth/tech-login.html";
+    }
+
     const techKeys = {
-      "2025-05-12": ["tech2025a", "kevinClockIn", "plumberX"],
+      "2025-05-12": ["tech2025a", "kevinClockIn", "plumberX"]
     };
     const today = new Date().toISOString().slice(0, 10);
     const list = document.getElementById("techKeyList");
