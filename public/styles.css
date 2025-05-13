@@ -7,33 +7,33 @@
     --surface-panel: rgba(255, 255, 255, 0.05);
     --text-primary: #F5F5F5;
     --text-secondary: #A0AEC0;
-  
+
     --font-sans: 'Manrope', sans-serif;
     --font-headline: 'Sora', sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
-  }
-  
-  body {
+}
+
+body {
     background-color: var(--bg-dark);
     color: var(--text-primary);
     font-family: var(--font-sans);
     line-height: 1.6;
     margin: 0;
     padding: 0;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-headline);
     color: var(--text-primary);
     margin-bottom: 0.5em;
-  }
-  
-  p, li, label, input, textarea {
+}
+
+p, li, label, input, textarea {
     font-family: var(--font-sans);
     color: var(--text-secondary);
-  }
-  
-  button {
+}
+
+button {
     background-color: var(--primary-blue);
     color: #fff;
     border: none;
@@ -43,22 +43,22 @@
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: var(--font-sans);
-  }
-  
-  button:hover {
+}
+
+button:hover {
     box-shadow: 0 0 10px var(--accent-glow);
     background-color: var(--accent-glow);
-  }
-  
-  .card {
+}
+
+.card {
     background: var(--surface-panel);
     border-radius: 16px;
     padding: 1.5em;
     backdrop-filter: blur(20px);
     box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-  }
-  
-  .input-field {
+}
+
+.input-field {
     background: var(--surface-panel);
     border: 1px solid var(--accent-glow);
     color: var(--text-primary);
@@ -67,36 +67,36 @@
     backdrop-filter: blur(10px);
     width: 100%;
     font-family: var(--font-sans);
-  }
-  
-  .input-field:focus {
+}
+
+.input-field:focus {
     outline: none;
     border-color: var(--primary-blue);
     box-shadow: 0 0 10px var(--primary-blue);
-  }
-  
-  .navbar {
+}
+
+.navbar {
     background: rgba(10, 14, 26, 0.8);
     padding: 1em 2em;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     color: var(--text-primary);
     text-decoration: none;
     margin-left: 1.5em;
     font-weight: 500;
     transition: color 0.2s;
-  }
-  
-  .navbar a:hover {
+}
+
+.navbar a:hover {
     color: var(--accent-glow);
-  }
-  
-  .code-block {
+}
+
+.code-block {
     font-family: var(--font-mono);
     background: #111522;
     padding: 1em;
@@ -104,25 +104,26 @@
     overflow-x: auto;
     color: var(--text-primary);
     box-shadow: inset 0 0 10px rgba(59, 167, 255, 0.2);
-  }
-  
-  /* Additions for full UI coverage */
-  
-  input[type="checkbox"], input[type="radio"] {
+}
+
+/* Additions for full UI coverage */
+
+input[type="checkbox"], input[type="radio"] {
     accent-color: var(--primary-blue);
     margin-right: 0.5em;
-  }
-  
-  select {
-    background: var(--surface-panel);
-    border: 1px solid var(--accent-glow);
+}
+
+select.input-field {
+    background-color: var(--surface-panel);
     color: var(--text-primary);
-    padding: 0.5em 1em;
+    border: 1px solid var(--accent-glow);
     border-radius: 8px;
+    padding: 0.5em 1em;
     font-family: var(--font-sans);
-  }
-  
-  textarea {
+    backdrop-filter: blur(10px);
+}
+
+textarea {
     background: var(--surface-panel);
     border: 1px solid var(--accent-glow);
     border-radius: 8px;
@@ -130,44 +131,52 @@
     font-family: var(--font-sans);
     color: var(--text-primary);
     resize: vertical;
-  }
-  
-  table {
+}
+
+.centered-form {
+    max-width: 800px;
+    margin: 4em auto;
+    padding: 1em;
+    width: 90%;
+}
+
+table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 2em;
     font-family: var(--font-sans);
-  }
-  th, td {
+}
+
+th, td {
     padding: 0.75em 1em;
     border-bottom: 1px solid rgba(255,255,255,0.1);
     color: var(--text-secondary);
-  }
-  th {
+}
+
+th {
     color: var(--text-primary);
     text-align: left;
-  }
-  
-  .alert {
+}
+
+.alert {
     background: rgba(59, 167, 255, 0.15);
     border-left: 4px solid var(--primary-blue);
     padding: 1em;
     margin-top: 1em;
     border-radius: 8px;
     color: var(--text-primary);
-  }
-  
-  .loader {
+}
+
+.loader {
     border: 4px solid rgba(255,255,255,0.1);
     border-top: 4px solid var(--primary-blue);
     border-radius: 50%;
     width: 24px;
     height: 24px;
     animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
+}
+
+@keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
-  
+}
