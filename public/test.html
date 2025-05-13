@@ -13,7 +13,8 @@
   <div id="catalog"></div>
 
   <script>
-    fetch("/data/Kohler_Catalog_product_preview.json") // Adjust filename if needed
+    fetch("/data/2016_Faucets_Service_Parts_product_preview.json")
+
       .then(response => {
         if (!response.ok) throw new Error("File not found");
         return response.json();
