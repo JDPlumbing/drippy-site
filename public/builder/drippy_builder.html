@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drippy Avatar Builder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<main class="centered-form">
+  <h1>Create Your Drippy</h1>
+
+  <div class="card">
+    <label for="faceSelect">Face</label>
+    <select id="faceSelect" class="input-field">
+      <option value="face_happy.svg">Happy</option>
+      <option value="face_skeptical.svg">Skeptical</option>
+      <option value="face_worried.svg">Worried</option>
+    </select>
+
+    <label for="outfitSelect">Outfit</label>
+    <select id="outfitSelect" class="input-field">
+      <option value="none">None</option>
+      <option value="toolbelt.svg">Toolbelt</option>
+      <option value="hardhat.svg">Hardhat</option>
+      <option value="swag.svg">Drippy Swag</option>
+    </select>
+
+    <label for="backgroundSelect">Background</label>
+    <select id="backgroundSelect" class="input-field">
+      <option value="none">None</option>
+      <option value="bg_bathroom.svg">Bathroom</option>
+      <option value="bg_van.svg">Van</option>
+      <option value="bg_workbench.svg">Workbench</option>
+    </select>
+  </div>
+
+  <div id="avatarPreview" style="position: relative; width: 300px; height: 300px; margin: 2em auto;">
+    <img id="bgLayer" style="position: absolute; width: 100%; height: 100%;">
+    <img id="baseLayer" src="/drippy_assets/base.svg" style="position: absolute; width: 100%; height: 100%;">
+    <img id="faceLayer" style="position: absolute; width: 100%; height: 100%;">
+    <img id="outfitLayer" style="position: absolute; width: 100%; height: 100%;">
+  </div>
+</main>
+
+<script>
+const updateAvatar = () => {
+  const face = document.getElementById('faceSelect').value;
+  const outfit = document.getElementById('outfitSelect').value;
+  const bg = document.getElementById('backgroundSelect').value;
+
+  document.getElementById('faceLayer').src = face !== 'none' ? `/drippy_assets/${face}` : '';
+  document.getElementById('outfitLayer').src = outfit !== 'none' ? `/drippy_assets/${outfit}` : '';
+  document.getElementById('bgLayer').src = bg !== 'none' ? `/drippy_assets/${bg}` : '';
+};
+
+document.getElementById('faceSelect').addEventListener('change', updateAvatar);
+document.getElementById('outfitSelect').addEventListener('change', updateAvatar);
+document.getElementById('backgroundSelect').addEventListener('change', updateAvatar);
+</script>
+
+</body>
+</html>
