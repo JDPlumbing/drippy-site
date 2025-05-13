@@ -139,6 +139,15 @@ textarea {
     padding: 1em;
     width: 90%;
 }
+.container {
+  max-width: 800px;
+  margin: 4em auto;
+  padding: 2em;
+  background: var(--surface-panel);
+  border-radius: 16px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
 
 div {
     background: var(--surface-panel);
