@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head><title>Catalog Preview</title></head>
+<head>
+  <title>Catalog Preview</title>
+  <style>
+    body { font-family: sans-serif; }
+    img { width: 200px; }
+    .card { margin-bottom: 20px; }
+  </style>
+</head>
 <body>
-  <h1>Kohler Catalog Preview</h1>
+  <h1>Drippy Catalog Preview</h1>
   <div id="catalog"></div>
 
   <script>
-    fetch("/data/2015_Toilet_Service_Parts_product_preview.json") // use your actual file name
-      .then(res => res.json())
-      .then(items => {
+    fetch("/data/Kohler_Catalog_product_preview.json") // Adjust filename if needed
+      .then(response => {
+        if (!response.ok) throw new Error("File not found");
+        return response.json();
+      })
+      .then(data => {
         const container = document.getElementById("catalog");
-        items.forEach(item => {
+        data.forEach(item => {
           const card = document.createElement("div");
+          card.className = "card";
           card.innerHTML = `
-            <img src="/${item.image}" style="width:200px"><br>
-            <small>Page ${item.page}</small><br>
-            <p>${item.text_excerpt}</p><hr>`;
+            <img src="/${item.image}" alt="product"><br>
+            <strong>Page ${item.page}</strong><br>
+            <p>${item.text_excerpt}</p>
+          `;
           container.appendChild(card);
         });
+      })
+      .catch(err => {
+        document.body.innerHTML += `<p style="color:red;">❌ Error: ${err.message}</p>`;
       });
   </script>
 </body>
+</html>
+
 </html>
