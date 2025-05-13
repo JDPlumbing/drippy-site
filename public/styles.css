@@ -140,6 +140,14 @@ textarea {
     width: 90%;
 }
 
+div {
+    background: var(--surface-panel);
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+    color: var(--text-primary);
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
