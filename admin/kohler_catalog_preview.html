@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kohler Catalog Preview</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main style="max-width: 1000px; margin: 4em auto;">
+    <h2 style="text-align:center;">🛁 Kohler Catalog Preview</h2>
+    <div id="catalogGallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2em; margin-top: 3em;"></div>
+  </main>
+
+  <script>
+    const dataPath = '/data/kohler_product_preview.json';
+const imageBase = '/kohler_images/';
+
+    fetch(dataPath)
+      .then(res => res.json())
+      .then(data => {
+        const gallery = document.getElementById('catalogGallery');
+        data.forEach(entry => {
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.innerHTML = `
+            <img src="${imageBase + entry.image}" alt="Catalog image" style="width: 100%; border-radius: 12px;">
+            <p><strong>Page ${entry.page}</strong></p>
+            <p>${entry.text_excerpt}</p>
+          `;
+          gallery.appendChild(card);
+        });
+      })
+      .catch(err => {
+        document.getElementById('catalogGallery').innerHTML = '<p>Failed to load catalog data.</p>';
+      });
+  </script>
+</body>
+</html>
