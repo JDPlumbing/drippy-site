@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Self Diagnostics Help | Drippy</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    body {
+      background-color: #121212;
+      color: #f5f5f5;
+      font-family: sans-serif;
+      padding: 2em;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+    h2, h3 {
+      text-align: center;
+    }
+    .button-group, .radio-group {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 1.5em 0;
+    }
+    button, label {
+      background-color: #2a82da;
+      color: white;
+      padding: 0.75em 1.5em;
+      margin: 0.5em;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s ease-in-out;
+    }
+    button:hover {
+      background-color: #1a5dab;
+    }
+    input[type="radio"] {
+      margin-right: 0.5em;
+    }
+    .consent {
+      margin-top: 2em;
+    }
+    .submit-block {
+      text-align: center;
+      margin-top: 2em;
+    }
+    .submit-block button:disabled {
+      background-color: #666;
+      cursor: not-allowed;
+    }
+    .highlight {
+      background-color: #2e2e2e;
+      border-left: 4px solid #f5f5f5;
+      padding: 1em;
+      margin-bottom: 2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Self Diagnostics Help</h2>
+
+    <div class="highlight">
+  <p>
+    Before you begin, it's important to follow safety best practices to avoid injury or damage to your property.
+    This simple DIY Valve Test helps you check if your emergency shutoff valves are working correctly.
+  </p>
+
+  <p>
+    <strong>⚠️ DO NOT skip or modify any steps.</strong><br>
+    <strong>⚠️ SERIOUS damage</strong> can occur if instructions are ignored.
+  </p>
+
+  <p>
+    <strong>No tools are required.</strong><br>
+    In fact, we strongly recommend <em>against</em> using tools for this test.
+    All valves should turn easily <strong>by hand only</strong>—about the same pressure you'd use to open a soda bottle.
+  </p>
+
+  <p>
+    <strong>DO NOT FORCE any valve.</strong><br>
+    Pros don’t, and neither should you.
+  </p>
+
+  <p>
+    It's smart to keep a towel, small container, or wet/dry vac nearby just in case there's a drip.
+  </p>
+
+  <p>
+    If you're ever unsure or uncomfortable, you can book a Diagnostic Visit and let a technician perform this test safely.
+  </p>
+</div>
+
+
+    <h3>Choose Your Property Type</h3>
+    <div class="button-group">
+      <button onclick="selectProperty('single')">Single Family Home</button>
+      <button onclick="selectProperty('condo')">Condo / Apartment</button>
+      <button onclick="selectProperty('commercial')">Commercial Property</button>
+    </div>
+
+    <h3>Are You a Property Owner or Technician?</h3>
+    <div class="radio-group">
+      <label><input type="radio" name="role" value="owner" onchange="selectRole(this.value)"> Property Owner</label>
+      <label><input type="radio" name="role" value="tech" onchange="selectRole(this.value)"> Technician</label>
+    </div>
+
+    <div class="consent">
+      <label><input type="checkbox" id="consentCheckbox" onchange="checkConsent()"> I have read and understood these instructions...</label>
+    </div>
+
+    <div class="submit-block">
+      <button id="continueBtn" disabled onclick="proceed()">→ Continue to Valve Test</button>
+    </div>
+  </div>
+
+  <script>
+    let selectedProperty = null;
+    let selectedRole = null;
+    let consentGiven = false;
+
+    function selectProperty(type) {
+      selectedProperty = type;
+    }
+
+    function selectRole(role) {
+      selectedRole = role;
+    }
+
+    function checkConsent() {
+      consentGiven = document.getElementById('consentCheckbox').checked;
+      document.getElementById('continueBtn').disabled = !consentGiven;
+    }
+
+    function proceed() {
+      if (selectedProperty && selectedRole && consentGiven) {
+        localStorage.setItem('propertyType', selectedProperty);
+        localStorage.setItem('userRole', selectedRole);
+        localStorage.setItem('valveTestConfirmed', true);
+        window.location.href = "/Diagnostics/diagnostic_test_runner.html";
+      } else {
+        alert("Please make sure you've selected a property type, a role, and accepted the consent.");
+      }
+    }
+  </script>
+</body>
+</html>
