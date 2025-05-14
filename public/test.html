@@ -1,25 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Catalog Preview</title>
-  <style>
-    body { font-family: sans-serif; }
-    img { width: 200px; }
-    .card { margin-bottom: 20px; }
-  </style>
+  <meta charset="UTF-8" />
+  <title>🧪 Drippy Logic Test</title>
+  <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  <h1>Drippy Catalog Preview</h1>
-  <div id="catalog"></div>
+  <main style="max-width: 900px; margin: auto; padding: 2em;">
+    <h1>🧠 Drippy Logic Test Panel</h1>
 
-    <script type="module">
-  import { toiletLogic } from '/js/ToiletLogic.js';
-  import { showerLogic, heaterLogic, faucetLogic, leakLogic } from '/js/MaterialSelector.js';
+    <!-- TOILET -->
+    <section>
+      <h2>🚽 Toilet</h2>
+      <input id="toiletIssue" placeholder="Issue (e.g. running)" />
+      <select id="toiletType">
+        <option value="gravity">Gravity</option>
+        <option value="ADA">ADA</option>
+        <option value="wallMount">Wall Mount</option>
+        <option value="flushometer">Flushometer</option>
+      </select>
+      <button onclick="runToilet()">Diagnose</button>
+      <div id="toiletResult" class="result"></div>
+    </section>
 
-  // your existing runX functions here...
-  
+    <!-- SHOWER -->
+    <section>
+      <h2>🚿 Shower</h2>
+      <input id="showerIssue" placeholder="Issue (e.g. low pressure)" />
+      <select id="showerType">
+        <option value="singleHandle">Single Handle</option>
+        <option value="twoHandle">Two Handle</option>
+        <option value="valveOnly">Valve Only</option>
+        <option value="diverter">Diverter</option>
+      </select>
+      <button onclick="runShower()">Diagnose</button>
+      <div id="showerResult" class="result"></div>
+    </section>
+
+    <!-- WATER HEATER -->
+    <section>
+      <h2>🔥 Water Heater</h2>
+      <input id="heaterIssue" placeholder="Issue (e.g. no hot water)" />
+      <select id="heaterType">
+        <option value="electric">Electric</option>
+        <option value="gas">Gas</option>
+        <option value="tankless">Tankless</option>
+      </select>
+      <button onclick="runHeater()">Diagnose</button>
+      <div id="heaterResult" class="result"></div>
+    </section>
+
+    <!-- FAUCET -->
+    <section>
+      <h2>🚰 Faucet</h2>
+      <input id="faucetIssue" placeholder="Issue (e.g. dripping)" />
+      <select id="faucetType">
+        <option value="singleHandle">Single Handle</option>
+        <option value="twoHandle">Two Handle</option>
+        <option value="pullDown">Pull-Down</option>
+        <option value="wallMount">Wall Mount</option>
+      </select>
+      <button onclick="runFaucet()">Diagnose</button>
+      <div id="faucetResult" class="result"></div>
+    </section>
+
+    <!-- PIPE LEAK -->
+    <section>
+      <h2>🛠️ Pipe Leak</h2>
+      <select id="pipeType">
+        <option value="pex">PEX</option>
+        <option value="copper">Copper</option>
+        <option value="cpvc">CPVC</option>
+        <option value="galvanized">Galvanized</option>
+        <option value="castIron">Cast Iron</option>
+      </select>
+      <select id="leakLocation">
+        <option value="slab leak">Slab Leak</option>
+        <option value="in wall">In Wall</option>
+        <option value="ceiling drip">Ceiling Drip</option>
+        <option value="underground">Underground</option>
+      </select>
+      <button onclick="runLeak()">Diagnose</button>
+      <div id="leakResult" class="result"></div>
+    </section>
+  </main>
+
+  <script type="module">
+    import toiletLogic from '/js/modules/ToiletLogic.js';
+    import {
+      showerLogic,
+      heaterLogic,
+      faucetLogic,
+      leakLogic
+    } from '/js/modules/MaterialSelector.js';
+
+    window.runToilet = () => {
+      const result = toiletLogic(
+        document.getElementById('toiletType').value,
+        document.getElementById('toiletIssue').value.trim().toLowerCase()
+      );
+      document.getElementById('toiletResult').innerText = result.join(', ');
+    };
+
+    window.runShower = () => {
+      const result = showerLogic(
+        document.getElementById('showerType').value,
+        document.getElementById('showerIssue').value.trim().toLowerCase()
+      );
+      document.getElementById('showerResult').innerText = result.join(', ');
+    };
+
+    window.runHeater = () => {
+      const result = heaterLogic(
+        document.getElementById('heaterType').value,
+        document.getElementById('heaterIssue').value.trim().toLowerCase()
+      );
+      document.getElementById('heaterResult').innerText = result.join(', ');
+    };
+
+    window.runFaucet = () => {
+      const result = faucetLogic(
+        document.getElementById('faucetType').value,
+        document.getElementById('faucetIssue').value.trim().toLowerCase()
+      );
+      document.getElementById('faucetResult').innerText = result.join(', ');
+    };
+
+    window.runLeak = () => {
+      const result = leakLogic(
+        document.getElementById('pipeType').value,
+        document.getElementById('leakLocation').value
+      );
+      document.getElementById('leakResult').innerText = result.join(', ');
+    };
   </script>
 </body>
-</html>
-
 </html>
