@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drippy | JD Plumbing</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<script type="module">
+  import toiletLogic from './modules/ToiletLogic.js';
+  import { showerLogic, heaterLogic, faucetLogic, leakLogic } from './modules/MaterialSelector.js';
+
+  window.runToilet = () => {
+    const parts = toiletLogic(
+      document.getElementById('toiletType').value,
+      document.getElementById('toiletIssue').value.trim().toLowerCase()
+    );
+    document.getElementById('toiletResult').innerText = parts.join(', ');
+  };
+
+  window.runShower = () => {
+    const parts = showerLogic(
+      document.getElementById('showerType').value,
+      document.getElementById('showerIssue').value.trim().toLowerCase()
+    );
+    document.getElementById('showerResult').innerText = parts.join(', ');
+  };
+
+  window.runHeater = () => {
+    const parts = heaterLogic(
+      document.getElementById('heaterType').value,
+      document.getElementById('heaterIssue').value.trim().toLowerCase()
+    );
+    document.getElementById('heaterResult').innerText = parts.join(', ');
+  };
+
+  window.runFaucet = () => {
+    const parts = faucetLogic(
+      document.getElementById('faucetType').value,
+      document.getElementById('faucetIssue').value.trim().toLowerCase()
+    );
+    document.getElementById('faucetResult').innerText = parts.join(', ');
+  };
+
+  window.runLeak = () => {
+    const parts = leakLogic(
+      document.getElementById('pipeType').value,
+      document.getElementById('leakLocation').value
+    );
+    document.getElementById('leakResult').innerText = parts.join(', ');
+  };
+</script>
+
+<body>
+
+  <header class="navbar">
+    <h1>Drippy</h1>
+    <nav>
+      <a href="/auth/tech-login.html">Tech Login</a>
+    </nav>
+  </header>
+
+  <main style="max-width: 900px; margin: auto; padding: 2em;">
+    <h2 style="text-align:center;">Your intelligent plumbing assistant</h2>
+
+    <div style="display: flex; justify-content: center; gap: 2em; margin-top: 3em;">
+      <a href="/Diagnostics/diagnostic_test_runner.html">
+        <button>🧪 Run Diagnostic</button>
+      </a>
+      <a href="#" onclick="alert('Coming soon: Drippy Estimator')">
+        <button>💵 Get an Estimate</button>
+      </a>
+    </div>
+
+    <div style="margin-top: 3em; text-align:center;">
+      <a href="/views/booking.html">
+        <button style="width: 100%; font-size: 1.2rem; padding: 1em 2em;">📅 Book a Technician</button>
+      </a>
+    </div>
+
+    <section style="margin-top: 4em; padding: 1em; border-top: 1px solid #ccc;">
+  <h3>🧠 Test Drippy's Brain</h3>
+
+  <!-- TOILET -->
+  <div>
+    <h4>Toilet</h4>
+    <input id="toiletIssue" placeholder="Issue (e.g. running)" />
+    <select id="toiletType">
+      <option value="gravity">Gravity</option>
+      <option value="ADA">ADA</option>
+      <option value="wallMount">Wall Mount</option>
+      <option value="flushometer">Flushometer</option>
+    </select>
+    <button onclick="runToilet()">Diagnose</button>
+    <div id="toiletResult"></div>
+  </div>
+
+  <!-- SHOWER -->
+  <div>
+    <h4>Shower</h4>
+    <input id="showerIssue" placeholder="Issue (e.g. low pressure)" />
+    <select id="showerType">
+      <option value="singleHandle">Single Handle</option>
+      <option value="twoHandle">Two Handle</option>
+      <option value="valveOnly">Valve Only</option>
+      <option value="diverter">Diverter</option>
+    </select>
+    <button onclick="runShower()">Diagnose</button>
+    <div id="showerResult"></div>
+  </div>
+
+  <!-- WATER HEATER -->
+  <div>
+    <h4>Water Heater</h4>
+    <input id="heaterIssue" placeholder="Issue (e.g. no hot water)" />
+    <select id="heaterType">
+      <option value="electric">Electric</option>
+      <option value="gas">Gas</option>
+      <option value="tankless">Tankless</option>
+    </select>
+    <button onclick="runHeater()">Diagnose</button>
+    <div id="heaterResult"></div>
+  </div>
+
+  <!-- FAUCET -->
+  <div>
+    <h4>Faucet</h4>
+    <input id="faucetIssue" placeholder="Issue (e.g. dripping)" />
+    <select id="faucetType">
+      <option value="singleHandle">Single Handle</option>
+      <option value="twoHandle">Two Handle</option>
+      <option value="pullDown">Pull-Down</option>
+      <option value="wallMount">Wall Mount</option>
+    </select>
+    <button onclick="runFaucet()">Diagnose</button>
+    <div id="faucetResult"></div>
+  </div>
+
+  <!-- LEAK -->
+  <div>
+    <h4>Leak</h4>
+    <select id="pipeType">
+      <option value="pex">PEX</option>
+      <option value="copper">Copper</option>
+      <option value="cpvc">CPVC</option>
+      <option value="galvanized">Galvanized</option>
+      <option value="castIron">Cast Iron</option>
+    </select>
+    <select id="leakLocation">
+      <option value="slab leak">Slab Leak</option>
+      <option value="in wall">In Wall</option>
+      <option value="ceiling drip">Ceiling Drip</option>
+      <option value="underground">Underground</option>
+    </select>
+    <button onclick="runLeak()">Diagnose</button>
+    <div id="leakResult"></div>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer class="footer" style="text-align:center; margin-top: 4em;">
+    Built with ☕ and PVC by JD Plumbing & Tito
+  </footer>
+
+  <!-- Use module-based JS -->
+  <script type="module">
+   import toiletLogic from './modules/ToiletLogic.js';
+
+
+    window.diagnose = () => {
+      const issue = document.getElementById('symptom').value;
+      const type = document.getElementById('toiletType').value;
+      const parts = toiletLogic(type, issue);
+      document.getElementById('results').innerText = `Try these: ${parts.join(', ')}`;
+    };
+  </script>
+
+</body>
+</html>
