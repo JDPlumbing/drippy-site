@@ -17,30 +17,7 @@
   import { showerLogic, heaterLogic, faucetLogic, leakLogic } from '/js/MaterialSelector.js';
 
   // your existing runX functions here...
-
-    fetch("/2016_Faucets_Service_Parts_product_preview.json")
-
-      .then(response => {
-        if (!response.ok) throw new Error("File not found");
-        return response.json();
-      })
-      .then(data => {
-        const container = document.getElementById("catalog");
-        data.forEach(item => {
-          const card = document.createElement("div");
-          card.className = "card";
-          card.innerHTML = `
-            <img src="${item.image}" alt="product"><br>
-            <strong>Page ${item.page}</strong><br>
-            <p>${item.text_excerpt}</p>
-          `;
-          container.appendChild(card);
-        });
-      })
-      .catch(err => {
-        document.body.innerHTML += `<p style="color:red;">❌ Error: ${err.message}</p>`;
-      });
-      
+  
   </script>
 </body>
 </html>
