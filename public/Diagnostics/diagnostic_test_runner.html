@@ -16,6 +16,15 @@
 </div>
 
 <script>
+  const property = localStorage.getItem('propertyType');
+  const role = localStorage.getItem('userRole');
+  const consent = localStorage.getItem('valveTestConfirmed') === 'true';
+
+  if (!property || !role || !consent) {
+    alert("Missing information. Please start the diagnostic from the beginning.");
+    window.location.href = "/Diagnostics/valve_test_start.html";
+  }
+
 let currentStep = 0;
 let testData = null;
 let responses = [];
@@ -82,9 +91,44 @@ function showSummary() {
   }).join("");
 
   const result = failures ? testData.onFailure.message : testData.onPass.message;
-  summary.innerHTML = `<h2>Test Summary</h2>${summaryDetails}<p><strong>${result}</strong></p>`;
+
+  let actions = "";
+
+  if (role === "owner") {
+    actions += `<button onclick="redirectToEstimate()">💵 Get Estimate</button>`;
+    actions += `<button onclick="redirectToBooking()">📅 Book a Technician</button>`;
+  } else if (role === "tech") {
+    actions += `<button onclick="printReport()">🖨️ Print Report</button>`;
+    actions += `<button onclick="sendToDispatch()">📤 Send to Dispatch</button>`;
+  }
+
+  summary.innerHTML = `
+    <h2>Test Summary</h2>
+    ${summaryDetails}
+    <p><strong>${result}</strong></p>
+    <div style="margin-top: 2em;">${actions}</div>
+  `;
+
   nav.innerHTML = "";
 }
+function redirectToEstimate() {
+  // You can preload estimate context here if needed
+  window.location.href = "/Estimator/index.html";
+}
+
+function redirectToBooking() {
+  window.location.href = "/views/booking.html";
+}
+
+function printReport() {
+  window.print();
+}
+
+function sendToDispatch() {
+  alert("Report queued to dispatch system (simulated)");
+  // Add integration for backend/invoice system here if needed
+}
+
 
 // Auto-load test (can be changed dynamically)
 loadTest("valveTest.json");

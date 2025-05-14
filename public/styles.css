@@ -236,3 +236,21 @@ body {
   text-align: left;
   line-height: 1.5;
 }
+.radio-group label {
+  background-color: #2a82da;
+  color: white;
+  padding: 0.75em 1.5em;
+  margin: 0.5em;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+  display: none;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  background-color: #1a5dab;
+  font-weight: bold;
+}

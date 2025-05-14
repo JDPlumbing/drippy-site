@@ -98,11 +98,12 @@
 
 
     <h3>Choose Your Property Type</h3>
-    <div class="button-group">
-      <button onclick="selectProperty('single')">Single Family Home</button>
-      <button onclick="selectProperty('condo')">Condo / Apartment</button>
-      <button onclick="selectProperty('commercial')">Commercial Property</button>
+    <div class="radio-group">
+      <label><input type="radio" name="property" value="single" onchange="selectProperty(this.value)"> Single Family Home</label>
+      <label><input type="radio" name="property" value="condo" onchange="selectProperty(this.value)"> Condo / Apartment</label>
+      <label><input type="radio" name="property" value="commercial" onchange="selectProperty(this.value)"> Commercial Property</label>
     </div>
+
 
     <h3>Are You a Property Owner or Technician?</h3>
     <div class="radio-group">
