@@ -1,15 +1,16 @@
 {
-  "testId": "valveTest",
-  "title": "Shutoff Valve Diagnostic Test",
+  "title": "Emergency Valve Shutoff Test",
   "steps": [
     {
-      "id": "v1",
-      "zoomwaveNode": "ZL3+",
-      "title": "Locate Main Shutoff Valve",
-      "description": "Find the main water shutoff valve where water enters the property.",
+      "id": "main_valve",
+      "title": "Main Water Valve",
+      "description": "Locate your main water shutoff valve based on your property type. Inspect for rust, moisture, and confirm it turns by hand (no tools).",
       "checks": [
-        "Can you locate the shutoff valve?",
-        "Is the valve accessible and not obstructed?"
+        "Was the valve found in the expected location?",
+        "Did the valve show signs of rust or corrosion?",
+        "Was the area around the valve dry?",
+        "Did the valve turn easily by hand?",
+        "Did the valve return to the ON position smoothly?"
       ],
       "escalateIf": [
         "no",
@@ -17,38 +18,71 @@
       ]
     },
     {
-      "id": "v2",
-      "zoomwaveNode": "ZL3+",
-      "title": "Operate the Valve",
-      "description": "Turn the valve clockwise until it stops. This should shut off water to the home.",
+      "id": "water_heater_valve",
+      "title": "Water Heater Valve",
+      "description": "This valve controls the cold water inlet into your water heater. It should be within 18\" of the unit. Inspect and test gently.",
       "checks": [
+        "Was the valve easy to locate?",
+        "Was the area around the valve dry?",
+        "Was there any corrosion present?",
         "Did the valve turn smoothly?",
-        "Did the water stop flowing from faucets?"
+        "Did the valve shut off and restore water without issue?"
       ],
       "escalateIf": [
-        "no"
+        "no",
+        "notsure"
       ]
     },
     {
-      "id": "v3",
-      "zoomwaveNode": "ZL3+",
-      "title": "Reopen the Valve",
-      "description": "Turn the valve counterclockwise to restore water flow.",
+      "id": "stop_valves_kitchen",
+      "title": "Kitchen Stop Valves",
+      "description": "Check under the kitchen sink. You may have separate hot/cold valves, plus valves for dishwasher and/or icemaker. Inspect and test each one.",
       "checks": [
-        "Did the valve reopen smoothly?",
-        "Did water resume normally?"
+        "Were both hot and cold valves present?",
+        "Did the valves show signs of leaking or rust?",
+        "Did each valve turn easily by hand?",
+        "Was there a saddle valve present? (illegal)",
+        "Was water able to be shut off and restored at each valve?"
       ],
       "escalateIf": [
-        "no"
+        "no",
+        "notsure"
+      ]
+    },
+    {
+      "id": "stop_valves_bathroom",
+      "title": "Bathroom Stop Valves",
+      "description": "Inspect and test the valves below your bathroom sink and toilet. Confirm easy operation and absence of leaks.",
+      "checks": [
+        "Were the sink and toilet valves found and accessible?",
+        "Was there any visible rust or moisture?",
+        "Did all valves turn without resistance?",
+        "Did valves restore water flow after turning back on?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ]
+    },
+    {
+      "id": "hose_bibbs",
+      "title": "Exterior Hose Bibbs",
+      "description": "Locate outdoor hose bibbs (spigots). Test function and inspect for leaks or corrosion.",
+      "checks": [
+        "Was the hose bibb functional?",
+        "Did the valve turn off/on by hand?",
+        "Were there any signs of leakage after testing?"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
       ]
     }
   ],
-  "onFailure": {
-    "action": "recommend_booking",
-    "message": "Your shutoff valve may be failing or stuck. Book a diagnostic visit to confirm and replace if needed."
-  },
   "onPass": {
-    "action": "continue_diy",
-    "message": "Your valve is working correctly. You can proceed with additional plumbing tasks."
+    "message": "\u2705 All valves appear to be functional. You may now continue with DIY instructions or schedule a service if needed."
+  },
+  "onFailure": {
+    "message": "\u26a0\ufe0f One or more valves may require service. We recommend obtaining a professional estimate or booking a technician."
   }
 }
