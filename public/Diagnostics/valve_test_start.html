@@ -106,10 +106,17 @@
 
 
     <h3>Are You a Property Owner or Technician?</h3>
-    <div class="radio-group">
-      <label><input type="radio" name="role" value="owner" onchange="selectRole(this.value)"> Property Owner</label>
-      <label><input type="radio" name="role" value="tech" onchange="selectRole(this.value)"> Technician</label>
-    </div>
+   <div class="radio-group">
+    <input type="radio" id="property_single" name="property" value="single" onchange="selectProperty(this.value)">
+    <label for="property_single">Single Family Home</label>
+
+    <input type="radio" id="property_condo" name="property" value="condo" onchange="selectProperty(this.value)">
+    <label for="property_condo">Condo / Apartment</label>
+
+    <input type="radio" id="property_commercial" name="property" value="commercial" onchange="selectProperty(this.value)">
+    <label for="property_commercial">Commercial Property</label>
+  </div>
+
 
     <div class="consent">
       <label><input type="checkbox" id="consentCheckbox" onchange="checkConsent()"> I have read and understood these instructions...</label>
