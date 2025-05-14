@@ -197,3 +197,18 @@ th {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+select {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: 1px solid #555;
+  padding: 0.5em;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+option {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
