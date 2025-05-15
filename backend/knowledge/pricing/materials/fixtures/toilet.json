@@ -1,0 +1,19 @@
+[
+  {
+    "sku": "TOILET-2PC-ROUND-STD",
+    "type": "Standard 2-piece",
+    "flushRate": "1.28 GPF",
+    "retailPrice": 99.0,
+    "bulkPrice": 90.0,
+    "source": "Home Depot",
+    "notes": "Economy brand (Glacier Bay); premium models much higher"
+  },
+  {
+    "sku": "TOILET-ADA-ELONG",
+    "type": "ADA Elongated",
+    "flushRate": "1.28 GPF",
+    "retailPrice": 199.0,
+    "bulkPrice": 180.0,
+    "source": "Home Depot"
+  }
+]

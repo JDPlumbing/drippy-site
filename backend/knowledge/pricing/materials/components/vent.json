@@ -1,0 +1,14 @@
+[
+  {
+    "sku": "VENT-PVC-2",
+    "size": "2 inch",
+    "material": "PVC",
+    "price": 3.1
+  },
+  {
+    "sku": "VENT-CI-3",
+    "size": "3 inch",
+    "material": "Cast Iron",
+    "price": 10.25
+  }
+]

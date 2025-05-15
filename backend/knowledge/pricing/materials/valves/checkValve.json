@@ -1,0 +1,20 @@
+[
+  {
+    "sku": "CV-1-PVC",
+    "size": "1 inch",
+    "material": "PVC",
+    "type": "Swing",
+    "retailPrice": 15.0,
+    "bulkPrice": 12.0,
+    "source": "Supply House"
+  },
+  {
+    "sku": "CV-1-BRONZE",
+    "size": "1 inch",
+    "material": "Bronze",
+    "type": "Swing",
+    "retailPrice": 35.0,
+    "bulkPrice": null,
+    "source": "Supply House"
+  }
+]

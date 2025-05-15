@@ -1,0 +1,135 @@
+{
+  "title": "Chapter 5 - Water Heaters",
+  "type": "chapter",
+  "source": "Chapter_5_Water_Heaters.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "501 General",
+      "content": [
+        {
+          "text": "501.1 Scope: Governs materials, design, and installation of water heaters and related safety devices."
+        },
+        {
+          "text": "501.2 Water heater as space heater: Requires mixing valve (ASSE 1017) if water exceeds 140\u00b0F for space heating."
+        },
+        {
+          "text": "501.3 Drain valves: Must be installed at the bottom of tank-type water heaters; 3/4-inch inlet, male hose thread outlet."
+        },
+        {
+          "text": "501.4 Location: Must allow access for observation, maintenance, servicing, and replacement."
+        },
+        {
+          "text": "501.5 Labeling: All water heaters must be third-party certified."
+        },
+        {
+          "text": "501.6 Temperature control from tankless heaters: Max output 140\u00b0F unless overridden by Section 412.3."
+        },
+        {
+          "text": "501.7 Pressure marking: Tanks must be clearly marked with max working pressure, accessible for inspection."
+        },
+        {
+          "text": "501.8 Temperature controls: Must be adjustable for the full intended temperature range."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "502 Installation",
+      "content": [
+        {
+          "text": "502.1 General: Install per manufacturer instructions and relevant Florida Building Codes."
+        },
+        {
+          "text": "502.1.1 Elevation/protection: Must comply with code requirements for mechanical and fuel gas systems."
+        },
+        {
+          "text": "502.2 Plenum restriction: No fuel-burning heaters in rooms used as plenums."
+        },
+        {
+          "text": "502.3 Attic installations: Must allow access, have a 30x22 inch clear opening, solid flooring, and service space."
+        },
+        {
+          "text": "502.4 Seismic supports: Reserved."
+        },
+        {
+          "text": "502.5 Clearances: Must allow inspection and service without removing permanent construction or impairing fire resistance."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "503 Connections",
+      "content": [
+        {
+          "text": "503.1 Cold water line valve: Must be accessible, not disrupt cold water to rest of system."
+        },
+        {
+          "text": "503.2 Circulation: Must enable proper flow through the water heater, conform to material standards."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "504 Safety Devices",
+      "content": [
+        {
+          "text": "504.1 Antisiphon devices: Required for all storage water heaters/tanks."
+        },
+        {
+          "text": "504.2 Vacuum relief valve: Required for bottom-fed heaters/tanks; must comply with ANSI Z21.22."
+        },
+        {
+          "text": "504.3 Shutdown: NFPA 70-compliant disconnects and fuel shutoff valves required."
+        },
+        {
+          "text": "504.4 Relief valve: Required for pressurized systems; must comply with ANSI Z21.22; not for thermal control."
+        },
+        {
+          "text": "504.4.1 Installation: Must be in top 6 inches of tank; no check/shutoff valves allowed between relief valve and tank."
+        },
+        {
+          "text": "504.5 Relief valve approval: Max temp 210\u00b0F, max pressure 150 psi or less; must be agency-labeled."
+        },
+        {
+          "text": "504.6 Discharge piping requirements",
+          "bullet_points": [
+            "Not directly connected to drainage.",
+            "Air gap required in same room.",
+            "Full-size piping only, no reduction.",
+            "Serve single relief device only.",
+            "Discharge to floor, pan, receptor, or outdoors.",
+            "No injury or damage risk.",
+            "Termination visible to occupants.",
+            "No traps or valves.",
+            "Gravity flow only.",
+            "Terminate within 6\"\u20132x pipe diam. above receptor.",
+            "No threaded end.",
+            "No tee fittings.",
+            "Materials per Section 605.4.",
+            "Allowable size upstep for insert fittings only."
+          ]
+        },
+        {
+          "text": "504.7 Required pan",
+          "bullet_points": [
+            "Must use galvanized steel (\u22650.0236\u201d), aluminum, or plastic (\u22650.036\u201d).",
+            "Plastic pans not allowed under gas-fired heaters.",
+            "Minimum 1.5\" depth with 3/4\" drain to indirect waste.",
+            "Drain terminates at receptor, floor drain, or outside (6\"\u201324\" above grade).",
+            "Pan not required for replacement installs without existing drain."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "505 Insulation",
+      "content": [
+        {
+          "text": "[E] 505.1 Unfired vessel insulation: Must meet R-12.5 (imperial) or R-2.2 (metric)."
+        }
+      ]
+    }
+  ]
+}

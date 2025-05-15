@@ -1,0 +1,28 @@
+{
+  "title": "Table 915.2.2 \u2013 Size of Combination Waste and Vent Pipe",
+  "type": "table",
+  "source": "table-915-2-2_combination-waste-vent.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 915.2.2 \u2013 Size of Combination Waste and Vent Pipe",
+      "content": [
+        {
+          "table": [
+            "| Diameter of Pipe (inches) | Max DFU: Connecting to a Horizontal Branch or Stack | Max DFU: Connecting to Building Drain or Subdrain |",
+            "|----------------------------|------------------------------------------------------|---------------------------------------------------|",
+            "| 2                          | 3                                                    | 4                                                 |",
+            "| 2 1/2                      | 6                                                    | 26                                                |",
+            "| 3                          | 12                                                   | 31                                                |",
+            "| 4                          | 20                                                   | 50                                                |",
+            "| 5                          | 160                                                  | 250                                               |",
+            "| 6                          | 360                                                  | 575                                               |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm.*"
+        }
+      ]
+    }
+  ]
+}

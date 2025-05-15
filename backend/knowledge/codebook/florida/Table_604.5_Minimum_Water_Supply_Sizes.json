@@ -1,0 +1,51 @@
+{
+  "title": "Table 604.5 \u2014 Minimum Sizes of Fixture Water Supply Pipes",
+  "type": "table",
+  "source": "Table_604.5_Minimum_Water_Supply_Sizes.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 604.5 \u2014 Minimum Sizes of Fixture Water Supply Pipes",
+      "content": [
+        {
+          "table": [
+            "| Fixture                                  | Minimum Pipe Size (inch) |",
+            "|------------------------------------------|---------------------------|",
+            "| Bathtubs\u1d43 (60\" \u00d7 32\" and smaller)        | 1/2                       |",
+            "| Bathtubs\u1d43 (larger than 60\" \u00d7 32\")        | 3/4                       |",
+            "| Bidet                                    | 3/8                       |",
+            "| Combination sink and tray                | 1/2                       |",
+            "| Dishwasher, domestic\u1d43                    | 1/2                       |",
+            "| Drinking fountain                        | 3/8                       |",
+            "| Hose bibbs                               | 1/2                       |",
+            "| Kitchen sink\u1d43                            | 1/2                       |",
+            "| Laundry, 1, 2 or 3 compartments\u1d43         | 1/2                       |",
+            "| Lavatory                                 | 3/8                       |",
+            "| Shower, single head\u1d43                     | 1/2                       |",
+            "| Sinks, flushing rim                      | 3/4                       |",
+            "| Sinks, service                           | 1/2                       |",
+            "| Urinal, flush tank                       | 3/8                       |",
+            "| Urinal, flushometer valve                | 3/4                       |",
+            "| Wall hydrant                             | 3/4                       |",
+            "| Water closet, flush tank                 | 3/8                       |",
+            "| Water closet, flushometer tank           | 3/4                       |",
+            "| Water closet, flushometer valve          | 1                         |",
+            "| Water closet, one piece\u1d43                 | 3/8                       |"
+          ]
+        },
+        {
+          "text": "> **Footnotes**:"
+        },
+        {
+          "text": "> a. Where the developed length of the distribution line is 50 feet or less, and the available pressure at the meter is 35 psi or greater, the minimum size of an individual distribution line supplied from a manifold and installed as part of a parallel water distribution system shall be one nominal tube size smaller than the sizes indicated."
+        },
+        {
+          "text": "> **Conversions**:"
+        },
+        {
+          "text": "> For SI: 1 inch = 25.4 mm, 1 foot = 304.8 mm, 1 pound per square inch = 6.895 kPa."
+        }
+      ]
+    }
+  ]
+}

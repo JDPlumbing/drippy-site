@@ -1,0 +1,57 @@
+[
+  {
+    "sku": "BUSHING-PVC-3X1.5-DWV",
+    "fittingType": "bushing",
+    "material": "PVC DWV",
+    "size": "3 x 1-1/2 inch",
+    "variant": "Hub",
+    "retailPrice": 4.21,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "BUSHING-PVC-2X1.5-DWV",
+    "fittingType": "bushing",
+    "material": "PVC DWV",
+    "size": "2 x 1-1/2 inch",
+    "variant": "Spigot",
+    "retailPrice": 2.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "BUSHING-PVC-1.5X0.5-SCH40",
+    "fittingType": "bushing",
+    "material": "PVC Sch40",
+    "size": "1-1/2 x 1/2 inch",
+    "variant": "Spigot x Slip",
+    "retailPrice": 1.56,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "BUSHING-COPPER-0.75X0.5-PRESS",
+    "fittingType": "bushing",
+    "material": "Copper (Press)",
+    "size": "3/4 x 1/2 inch",
+    "variant": "Press Reducer",
+    "retailPrice": 6.32,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Viega"
+  },
+  {
+    "sku": "BUSHING-CI-1.5X1.25-NOHUB",
+    "fittingType": "bushing",
+    "material": "Cast Iron",
+    "size": "1-1/2 x 1-1/4 inch",
+    "variant": "No-Hub Bushing with Coupling",
+    "retailPrice": 21.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Jones Stephens"
+  }
+]

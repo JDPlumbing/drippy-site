@@ -1,0 +1,41 @@
+{
+  "title": "Table 604.4 \u2014 Maximum Flow Rates and Consumption for Plumbing Fixtures and Fixture Fittings",
+  "type": "table",
+  "source": "Table_604.4_Maximum_Flow_Rates.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 604.4 \u2014 Maximum Flow Rates and Consumption for Plumbing Fixtures and Fixture Fittings",
+      "content": [
+        {
+          "table": [
+            "| Plumbing Fixture or Fixture Fitting      | Maximum Flow Rate or Quantity             |",
+            "|------------------------------------------|-------------------------------------------|",
+            "| Lavatory, private                        | 2.2 gpm at 60 psi                          |",
+            "| Lavatory, public (metering)              | 0.25 gallon per metering cycle            |",
+            "| Lavatory, public (other than metering)   | 0.5 gpm at 60 psi                          |",
+            "| Shower head\u1d43                             | 2.5 gpm at 80 psi                          |",
+            "| Sink faucet                              | 2.2 gpm at 60 psi                          |",
+            "| Urinal                                   | 1.0 gallon per flushing cycle             |",
+            "| Water closet                             | 1.6 gallons per flushing cycle            |"
+          ]
+        },
+        {
+          "text": "> **Footnotes**:"
+        },
+        {
+          "text": "> a. A handheld shower spray is a shower head."
+        },
+        {
+          "text": "> b. Consumption tolerance shall be determined from referenced standards."
+        },
+        {
+          "text": "> **Conversions**:"
+        },
+        {
+          "text": "> For SI: 1 gallon = 3.785 L, 1 gallon per minute = 3.785 L/min, 1 pound per square inch = 6.895 kPa."
+        }
+      ]
+    }
+  ]
+}

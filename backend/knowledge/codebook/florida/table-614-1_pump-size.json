@@ -1,0 +1,33 @@
+{
+  "title": "Table 614.1 \u2013 Minimum Private Potable Water System Pump Size",
+  "type": "table",
+  "source": "table-614-1_pump-size.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 614.1 \u2013 Minimum Private Potable Water System Pump Size",
+      "content": [
+        {
+          "table": [
+            "| Bathrooms in Home | Minimum Pump Size (gpm) |",
+            "|-------------------|--------------------------|",
+            "| 1                 | 7                        |",
+            "| 1 \u2013 1 1/2         | 10                       |",
+            "| 2 \u2013 2 1/2         | 14                       |",
+            "| 3 \u2013 4             | 17                       |",
+            "| 5 \u2013 6             | 21                       |"
+          ]
+        },
+        {
+          "text": "**Notes:**"
+        },
+        {
+          "text": "1. Values given are average and do not include higher or low extremes."
+        },
+        {
+          "text": "2. Installations over six bathrooms shall be approved by the code official."
+        }
+      ]
+    }
+  ]
+}

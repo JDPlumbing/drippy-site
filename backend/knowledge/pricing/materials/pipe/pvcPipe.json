@@ -1,0 +1,30 @@
+[
+  {
+    "sku": "PVC-1/2-SCH40",
+    "size": "1/2 inch",
+    "length": "10 ft",
+    "material": "PVC Sch.40 (Solid Core)",
+    "retailPrice": 3.5,
+    "bulkPrice": 2.82,
+    "source": "Home Depot",
+    "notes": "Charlotte Pipe vs. off-brands \u2013 minimal difference"
+  },
+  {
+    "sku": "PVC-2-SCH40",
+    "size": "2 inch",
+    "length": "10 ft",
+    "material": "PVC Sch.40 (Solid Core)",
+    "retailPrice": 13.68,
+    "bulkPrice": 10.94,
+    "source": "Home Depot"
+  },
+  {
+    "sku": "PVC-4-FOAM-DWV",
+    "size": "4 inch",
+    "length": "10 ft",
+    "material": "PVC Sch.40 (Foam Core DWV)",
+    "retailPrice": 25.0,
+    "bulkPrice": 20.0,
+    "source": "Orgill / HBM / Ouellette Bros"
+  }
+]

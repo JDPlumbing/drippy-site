@@ -1,0 +1,40 @@
+{
+  "title": "Table 710.1(1) \u2013 Building Drains and Sewers",
+  "type": "table",
+  "source": "table-710-1-1_building-drains-sewers.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 710.1(1) \u2013 Building Drains and Sewers",
+      "content": [
+        {
+          "table": [
+            "| Diameter of Pipe (inches) | 1/16 inch Slope | 1/8 inch Slope | 1/4 inch Slope | 1/2 inch Slope |",
+            "|---------------------------|------------------|------------------|------------------|------------------|",
+            "| 1 1/4                     | \u2014                | \u2014                | 1                | 1                |",
+            "| 1 1/2                     | \u2014                | \u2014                | 3                | 3                |",
+            "| 2                         | \u2014                | \u2014                | 21               | 26               |",
+            "| 2 1/2                     | \u2014                | \u2014                | 24               | 31               |",
+            "| 3                         | \u2014                | 36               | 42               | 50               |",
+            "| 4                         | \u2014                | 180              | 216              | 250              |",
+            "| 5                         | \u2014                | 390              | 480              | 575              |",
+            "| 6                         | \u2014                | 700              | 840              | 1,000            |",
+            "| 8                         | 1,400            | 1,600            | 1,920            | 2,300            |",
+            "| 10                        | 2,500            | 2,900            | 3,500            | 4,200            |",
+            "| 12                        | 3,900            | 4,600            | 5,600            | 6,700            |",
+            "| 15                        | 7,000            | 8,300            | 10,000           | 12,000           |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 inch per foot = 83.3 mm/m.*"
+        },
+        {
+          "text": "**Note:**"
+        },
+        {
+          "text": "a. The minimum size of any building drain serving a water closet shall be 3 inches."
+        }
+      ]
+    }
+  ]
+}

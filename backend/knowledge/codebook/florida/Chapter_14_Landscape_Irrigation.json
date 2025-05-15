@@ -1,0 +1,28 @@
+{
+  "title": "Chapter 14: Subsurface Landscape Irrigation",
+  "type": "chapter",
+  "source": "Chapter_14_Landscape_Irrigation.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 1401: General",
+      "content": [
+        {
+          "bullet": "Applies to irrigation systems using subsurface or microirrigation methods."
+        },
+        {
+          "bullet": "Covers scope, permits, design submissions, definitions, and approved materials."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 1402: Definitions",
+      "content": [
+        {
+          "bullet": "Includes terms like Air Release Valve, Anti-Siphon Device, Application Rate, etc."
+        }
+      ]
+    }
+  ]
+}

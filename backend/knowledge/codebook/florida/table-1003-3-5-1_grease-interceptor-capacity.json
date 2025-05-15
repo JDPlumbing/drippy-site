@@ -1,0 +1,43 @@
+{
+  "title": "Table 1003.3.5.1 \u2013 Capacity of Grease Interceptors",
+  "type": "table",
+  "source": "table-1003-3-5-1_grease-interceptor-capacity.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 1003.3.5.1 \u2013 Capacity of Grease Interceptors",
+      "content": [
+        {
+          "table": [
+            "| Total Flow-Through Rating (gpm) | Grease Retention Capacity (pounds) |",
+            "|----------------------------------|-------------------------------------|",
+            "| 4                                | 8                                   |",
+            "| 6                                | 12                                  |",
+            "| 7                                | 14                                  |",
+            "| 9                                | 18                                  |",
+            "| 10                               | 20                                  |",
+            "| 12                               | 24                                  |",
+            "| 14                               | 28                                  |",
+            "| 15                               | 30                                  |",
+            "| 18                               | 36                                  |",
+            "| 20                               | 40                                  |",
+            "| 25                               | 50                                  |",
+            "| 35                               | 70                                  |",
+            "| 50                               | 100                                 |",
+            "| 75                               | 150                                 |",
+            "| 100                              | 200                                 |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 gallon per minute = 3.785 L/min, 1 pound = 0.454 kg.*"
+        },
+        {
+          "text": "**Note:**"
+        },
+        {
+          "text": "a. For total flow-through ratings greater than 100 gpm, double the flow-through rating to determine the grease retention capacity (pounds)."
+        }
+      ]
+    }
+  ]
+}

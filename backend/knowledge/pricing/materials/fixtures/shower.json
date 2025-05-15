@@ -1,0 +1,14 @@
+[
+  {
+    "sku": "SHOWER-BASIN",
+    "type": "shower pan",
+    "material": "fiberglass",
+    "price": 220.0
+  },
+  {
+    "sku": "SHOWER-WALL",
+    "type": "wall set",
+    "material": "fiberglass",
+    "price": 190.0
+  }
+]

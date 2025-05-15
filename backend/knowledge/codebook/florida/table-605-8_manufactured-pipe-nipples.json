@@ -1,0 +1,21 @@
+{
+  "title": "Table 605.8 \u2013 Manufactured Pipe Nipples: Material Standard",
+  "type": "table",
+  "source": "table-605-8_manufactured-pipe-nipples.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 605.8 \u2013 Manufactured Pipe Nipples: Material Standard",
+      "content": [
+        {
+          "table": [
+            "| Material                             | Standard     |",
+            "|--------------------------------------|--------------|",
+            "| Copper, copper alloy, and chromium-plated | ASTM B687    |",
+            "| Steel                                | ASTM A733    |"
+          ]
+        }
+      ]
+    }
+  ]
+}

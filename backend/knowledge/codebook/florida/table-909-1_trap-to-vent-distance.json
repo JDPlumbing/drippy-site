@@ -1,0 +1,27 @@
+{
+  "title": "Table 909.1 \u2013 Maximum Distance of Fixture Trap from Vent",
+  "type": "table",
+  "source": "table-909-1_trap-to-vent-distance.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 909.1 \u2013 Maximum Distance of Fixture Trap from Vent",
+      "content": [
+        {
+          "table": [
+            "| Size of Trap (inches) | Slope (inch per foot) | Distance from Trap (feet) |",
+            "|------------------------|------------------------|-----------------------------|",
+            "| 1 1/4                  | 1/4                    | 5                           |",
+            "| 1 1/2                  | 1/4                    | 6                           |",
+            "| 2                      | 1/4                    | 8                           |",
+            "| 3                      | 1/8                    | 12                          |",
+            "| 4                      | 1/8                    | 16                          |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 foot = 304.8 mm, 1 inch per foot = 83.3 mm/m.*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Table 917.2 \u2013 Single Stack Size",
+  "type": "table",
+  "source": "table-917-2_single-stack-size.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 917.2 \u2013 Single Stack Size",
+      "content": [
+        {
+          "table": [
+            "| Stack Size (inches) | Max DFU: < 75 ft Height | Max DFU: 75\u2013160 ft Height | Max DFU: \u2265 160 ft Height |",
+            "|----------------------|--------------------------|-----------------------------|-----------------------------|",
+            "| 3                    | 24                       | NP                          | NP                          |",
+            "| 4                    | 225                      | 24                          | NP                          |",
+            "| 5                    | 480                      | 225                         | 24                          |",
+            "| 6                    | 1,015                    | 480                         | 225                         |",
+            "| 8                    | 2,320                    | 1,015                       | 480                         |",
+            "| 10                   | 4,500                    | 2,320                       | 1,015                       |",
+            "| 12                   | 8,100                    | 4,500                       | 2,320                       |",
+            "| 15                   | 13,600                   | 8,100                       | 4,500                       |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 foot = 304.8 mm.*"
+        },
+        {
+          "text": "**Note:** NP = Not Permitted"
+        }
+      ]
+    }
+  ]
+}

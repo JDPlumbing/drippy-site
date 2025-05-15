@@ -1,0 +1,82 @@
+{
+  "title": "Table 709.1 \u2013 Drainage Fixture Units for Fixtures and Groups",
+  "type": "table",
+  "source": "table-709-1_drainage-fixture-units.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 709.1 \u2013 Drainage Fixture Units for Fixtures and Groups",
+      "content": [
+        {
+          "table": [
+            "| Fixture Type                                                                 | Drainage Fixture Unit Value | Minimum Size of Trap (inches) |",
+            "|------------------------------------------------------------------------------|------------------------------|-------------------------------|",
+            "| Automatic clothes washers, commerciala,g                                     | 3                            | 2                             |",
+            "| Automatic clothes washers, residentialg                                      | 2                            | 2                             |",
+            "| Bathroom group (1.6 gpf water closet)f                                       | 5                            | \u2014                             |",
+            "| Bathroom group (water closet flushing > 1.6 gpf)f                            | 6                            | \u2014                             |",
+            "| Bathtubb (with or without overhead shower or whirlpool attachments)         | 2                            | 1 1/2                         |",
+            "| Bidet                                                                        | 1                            | 1 1/4                         |",
+            "| Combination sink and tray                                                    | 2                            | 1 1/2                         |",
+            "| Dental lavatory                                                              | 1                            | 1 1/4                         |",
+            "| Dental unit or cuspidor                                                      | 1                            | 1 1/4                         |",
+            "| Dishwashing machinec, domestic                                               | 2                            | 1 1/2                         |",
+            "| Drinking fountain                                                            | 1/2                          | 1 1/4                         |",
+            "| Emergency floor drain                                                        | 0                            | 2                             |",
+            "| Floor drainsh                                                                | 2h                           | 2                             |",
+            "| Floor sinks                                                                  | Note h                       | 2                             |",
+            "| Kitchen sink, domestic                                                       | 2                            | 1 1/2                         |",
+            "| Kitchen sink, domestic w/ disposer and/or dishwasher                         | 2                            | 1 1/2                         |",
+            "| Laundry tray (1 or 2 compartments)                                           | 2                            | 1 1/2                         |",
+            "| Lavatory                                                                     | 1                            | 1 1/4                         |",
+            "| Shower: Flow \u2264 5.7 gpm                                                       | 2                            | 1 1/2                         |",
+            "| Shower: Flow > 5.7 gpm to 12.3 gpm                                           | 3                            | 2                             |",
+            "| Shower: Flow > 12.3 gpm to 25.8 gpm                                          | 5                            | 3                             |",
+            "| Shower: Flow > 25.8 gpm to 55.6 gpm                                          | 6                            | 4                             |",
+            "| Service sink                                                                 | 2                            | 1 1/2                         |",
+            "| Sink                                                                         | 2                            | 1 1/2                         |",
+            "| Urinal                                                                       | 4                            | Note d                        |",
+            "| Urinal, 1 gallon per flush or less                                           | 2e                           | Note d                        |",
+            "| Urinal, nonwater supplied                                                    | 1/2                          | Note d                        |",
+            "| Wash sink (circular or multiple) per faucet set                              | 2                            | 1 1/2                         |",
+            "| Water closet, flushometer tank, public/private                               | 4e                           | Note d                        |",
+            "| Water closet, private (1.6 gpf)                                              | 3e                           | Note d                        |",
+            "| Water closet, private (>1.6 gpf)                                             | 4e                           | Note d                        |",
+            "| Water closet, public (1.6 gpf)                                               | 4e                           | Note d                        |",
+            "| Water closet, public (>1.6 gpf)                                              | 6e                           | Note d                        |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 gallon = 3.785 L, gpf = gallon per flushing cycle, gpm = gallon per minute.*"
+        },
+        {
+          "text": "**Notes:**"
+        },
+        {
+          "bullet": "a. For traps larger than 3 inches, use Table 709.2."
+        },
+        {
+          "bullet": "b. A showerhead over a bathtub or whirlpool bathtub attachment does not increase the drainage fixture unit value."
+        },
+        {
+          "bullet": "c. See Sections 709.2 through 709.4.1 for computing unit values of unlisted fixtures or intermittent flows."
+        },
+        {
+          "bullet": "d. Trap size shall match fixture outlet size."
+        },
+        {
+          "bullet": "e. Water closets and urinals cannot be rated at a lower DFU unless verified by testing."
+        },
+        {
+          "bullet": "f. Add additional fixtures' DFU to bathroom group total."
+        },
+        {
+          "bullet": "g. See Section 406.2 for washer drain sizing."
+        },
+        {
+          "bullet": "h. See Sections 709.4 and 709.4.1."
+        }
+      ]
+    }
+  ]
+}

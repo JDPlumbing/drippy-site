@@ -1,0 +1,28 @@
+{
+  "title": "Table 1102.4 \u2013 Building Storm Sewer Pipe",
+  "type": "table",
+  "source": "table-1102-4_building-storm-sewer.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 1102.4 \u2013 Building Storm Sewer Pipe",
+      "content": [
+        {
+          "table": [
+            "| Material                                                                                           | Standard                                                                                      |",
+            "|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|",
+            "| Acrylonitrile butadiene styrene (ABS) plastic pipe in IPS diameters, including Schedule 40, DR 22 (PS 200) and DR 24 (PS 140); with a solid, cellular core or composite wall. | ASTM D2661; ASTM F628; ASTM F1488; CSA B181.1; CSA B182.1                                    |",
+            "| Cast-iron pipe                                                                                     | ASTM A74; ASTM A888; CISPI 301                                                               |",
+            "| Concrete pipe                                                                                      | ASTM C14; ASTM C76; CSA A257.1M; CSA A257.2M                                                 |",
+            "| Copper or copper-alloy tubing (Type K, L, M or DWV)                                                 | ASTM B75; ASTM B88; ASTM B251; ASTM B306                                                     |",
+            "| Polyethylene (PE) plastic pipe                                                                     | ASTM F667; ASTM F2306/F2306M; ASTM F2648/ASTM F2648M                                         |",
+            "| Polypropylene (PP) pipe                                                                            | ASTM F2881; CSA B182.13                                                                      |",
+            "| Polyvinyl chloride (PVC) plastic pipe (Type DWV, SDR26, SDR35, SDR41, PS50 or PS100) in IPS diameters, including Schedule 40, DR 22 (PS 200) and DR 24 (PS 140); with a solid, cellular core or composite wall. | ASTM D2665; ASTM D3034; ASTM F891; ASTM F1488; CSA B182.4; CSA B181.2; CSA B182.2 |",
+            "| Vitrified clay pipe                                                                                 | ASTM C4; ASTM C700                                                                           |",
+            "| Stainless steel drainage systems, Type 316L                                                        | ASME A112.3.1                                                                                |"
+          ]
+        }
+      ]
+    }
+  ]
+}

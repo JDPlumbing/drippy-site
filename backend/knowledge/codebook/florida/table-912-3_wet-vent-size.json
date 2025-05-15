@@ -1,0 +1,26 @@
+{
+  "title": "Table 912.3 \u2013 Wet Vent Size",
+  "type": "table",
+  "source": "table-912-3_wet-vent-size.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 912.3 \u2013 Wet Vent Size",
+      "content": [
+        {
+          "table": [
+            "| Wet Vent Pipe Size (inches) | Drainage Fixture Unit Load (dfu) |",
+            "|------------------------------|-----------------------------------|",
+            "| 1 1/2                        | 1                                 |",
+            "| 2                            | 4                                 |",
+            "| 2 1/2                        | 6                                 |",
+            "| 3                            | 12                                |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm.*"
+        }
+      ]
+    }
+  ]
+}

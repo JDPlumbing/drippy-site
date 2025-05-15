@@ -1,0 +1,25 @@
+{
+  "title": "Chapter 13: Nonpotable Water Systems",
+  "type": "table",
+  "source": "Chapter_13_Nonpotable_Water.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 1301: General",
+      "content": [
+        {
+          "bullet": "Governs design and use of rainwater and nonpotable water systems."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 1302: On-Site Nonpotable Reuse",
+      "content": [
+        {
+          "bullet": "1302.1\u20131302.9** \u2014 Detailed specs on system sources, pipe, filtration, storage, labeling, disinfection, valves, and pumps."
+        }
+      ]
+    }
+  ]
+}

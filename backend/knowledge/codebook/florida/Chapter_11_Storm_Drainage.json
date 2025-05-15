@@ -1,0 +1,49 @@
+{
+  "title": "Chapter 11: Storm Drainage",
+  "type": "chapter",
+  "source": "Chapter_11_Storm_Drainage.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 1101: General",
+      "content": [
+        {
+          "bullet": "1101.1 Scope** \u2014 Applies to storm drainage design, construction and materials."
+        },
+        {
+          "bullet": "1101.2 Disposal** \u2014 Stormwater must discharge to approved disposal locations."
+        },
+        {
+          "bullet": "1101.3 Prohibited drainage** \u2014 Stormwater cannot enter sanitary sewers."
+        },
+        {
+          "bullet": "1101.5 Change in pipe size** \u2014 Must not reduce in direction of flow."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 1102: Materials",
+      "content": [
+        {
+          "bullet": "1102.1 General**"
+        },
+        {
+          "bullet": "1102.2\u20131102.4** \u2014 Describes material standards for inside, underground, and storm sewer pipe."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 1113: Sumps and Pumping Systems",
+      "content": [
+        {
+          "bullet": "1113.1 System description**"
+        },
+        {
+          "bullet": "1113.1.1\u20131113.1.4** \u2014 Requirements for pump capacity, sump construction, electrical, and piping."
+        }
+      ]
+    }
+  ]
+}

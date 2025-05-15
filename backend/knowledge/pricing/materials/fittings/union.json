@@ -1,0 +1,68 @@
+[
+  {
+    "sku": "UNION-PVC-0.75-SCH40",
+    "fittingType": "union",
+    "material": "PVC Sch40",
+    "size": "3/4 inch",
+    "variant": "Slip x Slip O-Ring",
+    "retailPrice": 4.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Dura"
+  },
+  {
+    "sku": "UNION-PVC-2-SCH40",
+    "fittingType": "union",
+    "material": "PVC Sch40",
+    "size": "2 inch",
+    "variant": "Slip x Slip",
+    "retailPrice": 12.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Dura"
+  },
+  {
+    "sku": "UNION-COPPER-0.5-SWEAT",
+    "fittingType": "union",
+    "material": "Copper (Sweat)",
+    "size": "1/2 inch",
+    "variant": "Cup x Cup",
+    "retailPrice": 7.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "UNION-COPPER-0.75-SWEAT",
+    "fittingType": "union",
+    "material": "Copper (Sweat)",
+    "size": "3/4 inch",
+    "variant": "Cup x Cup",
+    "retailPrice": 11.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "UNION-COPPER-1-PRESS",
+    "fittingType": "union",
+    "material": "Copper (Press)",
+    "size": "1 inch",
+    "variant": "Press",
+    "retailPrice": 34.5,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Viega"
+  },
+  {
+    "sku": "UNION-BRASS-1.5-THREADED",
+    "fittingType": "union",
+    "material": "Brass (Dielectric)",
+    "size": "1-1/2 inch",
+    "variant": "Threaded Dielectric",
+    "retailPrice": 9.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "sku": "GI-HYDRO-20GPM",
+    "type": "Hydromechanical",
+    "capacity": "20 GPM",
+    "retailPrice": 527.0,
+    "bulkPrice": 309.99,
+    "source": "Webstaurant/Elite"
+  },
+  {
+    "sku": "GI-HYDRO-50GPM",
+    "type": "Hydromechanical",
+    "capacity": "50 GPM",
+    "retailPrice": 1200.0,
+    "bulkPrice": 800.0,
+    "source": "Webstaurant"
+  }
+]

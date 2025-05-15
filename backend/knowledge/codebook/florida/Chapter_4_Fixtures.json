@@ -1,0 +1,70 @@
+{
+  "title": "Chapter 4: Fixtures",
+  "type": "chapter",
+  "source": "Chapter_4_Fixtures.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 401: General",
+      "content": [
+        {
+          "text": "**401.1 Scope**"
+        },
+        {
+          "text": "This chapter covers materials, design, and installation of plumbing fixtures."
+        },
+        {
+          "text": "**401.2 Prohibited Fixtures**"
+        },
+        {
+          "text": "Water-operated devices not regularly used and plumbing fixtures that are not maintained shall be removed."
+        },
+        {
+          "text": "**401.3 Water Conservation**"
+        },
+        {
+          "text": "All plumbing fixtures shall meet the water efficiency standards set forth in this chapter and applicable regulations."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 402: Water Closets",
+      "content": [
+        {
+          "text": "**402.1 Water Closet Design**"
+        },
+        {
+          "text": "Water closets shall conform to ASME A112.19.2."
+        },
+        {
+          "text": "**402.2 Water Consumption**"
+        },
+        {
+          "text": "Water closets shall have a maximum water consumption of 1.6 gallons (6 L) per flush."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 403: Urinals",
+      "content": [
+        {
+          "text": "**403.1 Urinal Design**"
+        },
+        {
+          "text": "Urinals shall conform to the same performance standards as water closets."
+        },
+        {
+          "text": "**403.2 Water Consumption**"
+        },
+        {
+          "text": "Urinals shall consume no more than 1 gallon (3.8 L) per flush."
+        },
+        {
+          "text": "(Additional fixture details and fixture-type rules would continue here.)"
+        }
+      ]
+    }
+  ]
+}

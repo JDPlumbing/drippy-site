@@ -1,0 +1,27 @@
+{
+  "title": "Table E.2 \u2013 Pipe Sections Friction Loss Equivalent Length (feet)",
+  "type": "table",
+  "source": "table-e2_friction-loss-equivalent-length.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table E.2 \u2013 Pipe Sections Friction Loss Equivalent Length (feet)",
+      "content": [
+        {
+          "table": [
+            "| Pipe Section | Cold Water (calculation)      | Cold Water (ft) | Hot Water (calculation)     | Hot Water (ft) |",
+            "|--------------|-------------------------------|------------------|------------------------------|----------------|",
+            "| A-B          | 0.69 \u00d7 3.2                     | 2.21             | 0.69 \u00d7 3.2                    | 2.21           |",
+            "| B-C          | 0.085 \u00d7 3.1                    | 0.26             | 0.16 \u00d7 1.4                    | 0.22           |",
+            "| C-D          | 0.20 \u00d7 1.9                     | 0.38             | 0.17 \u00d7 3.2                    | 0.54           |",
+            "| D-E          | 1.62 \u00d7 1.9                     | 3.08             | 1.57 \u00d7 3.2                    | 5.02           |",
+            "| **Total**    |                                | **5.93**         |                               | **7.99**       |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 foot = 304.8 mm, 1 gpm = 3.785 L/min.*"
+        }
+      ]
+    }
+  ]
+}

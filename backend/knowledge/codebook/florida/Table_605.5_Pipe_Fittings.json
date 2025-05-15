@@ -1,0 +1,36 @@
+{
+  "title": "Table 605.5 \u2013 Pipe Fittings",
+  "type": "table",
+  "source": "Table_605.5_Pipe_Fittings.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 605.5 \u2013 Pipe Fittings",
+      "content": [
+        {
+          "table": [
+            "| Material                                                                                     | Standard                                                                                                                  |",
+            "|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|",
+            "| Acrylonitrile butadiene styrene (ABS) plastic                                                | ASTM D2468                                                                                                                |",
+            "| Cast iron                                                                                    | ASME B16.4                                                                                                                |",
+            "| Chlorinated polyvinyl chloride (CPVC) plastic                                                | ASSE 1061; ASTM D2846; ASTM F437; ASTM F438; ASTM F439; CSA B137.6                                                       |",
+            "| Copper or copper-alloy                                                                       | ASME B16.15; ASME B16.18; ASME B16.22; ASME B16.26; ASME B16.51; ASSE 1061; ASTM F1476; ASTM F1548; ASTM F3226           |",
+            "| Cross-linked polyethylene/aluminum/high-density polyethylene (PEX-AL-HDPE)                   | ASTM F1986                                                                                                                |",
+            "| Fittings for cross-linked polyethylene (PEX) plastic tubing                                  | ASSE 1061; ASTM F877; ASTM F1807; ASTM F1960; ASTM F2080; ASTM F2098; ASTM F2159; ASTM F2434; ASTM F2735; CSA B137.5     |",
+            "| Fittings for polyethylene of raised temperature (PE-RT) plastic tubing                       | ASSE 1061; ASTM D3261; ASTM F1807; ASTM F2098; ASTM F2159; ASTM F2735; ASTM F2769; CSA B137.18                           |",
+            "| Gray iron and ductile iron                                                                   | ASTM F1476; ASTM F1548; AWWA C110/A21.10; AWWA C153/A21.53                                                               |",
+            "| Insert fittings for PE-AL-PE and PEX-AL-PEX                                                  | ASTM F1974; ASTM F1281; ASTM F1282; CSA B137.9; CSA B137.10M                                                             |",
+            "| Malleable iron                                                                               | ASME B16.3                                                                                                                |",
+            "| Metal (brass) insert fittings for PE-AL-PE and PEX-AL-PEX                                    | ASTM F1974                                                                                                                |",
+            "| Polyethylene (PE) plastic pipe                                                               | ASTM D2609; ASTM D2683; ASTM D3261; ASTM F1055; CSA B137.1                                                                |",
+            "| Polypropylene (PP) plastic pipe or tubing                                                    | ASTM F2389; CSA B137.11                                                                                                   |",
+            "| Polyvinyl chloride (PVC) plastic                                                             | ASTM D2464; ASTM D2466; ASTM D2467; CSA B137.2; CSA B137.3                                                               |",
+            "| Stainless steel (Type 304/304L)                                                              | ASTM A312; ASTM A778; ASTM F1476; ASTM F1548; ASTM F3226                                                                |",
+            "| Stainless steel (Type 316/316L)                                                              | ASTM A312; ASTM A778; ASTM F1476; ASTM F1548; ASTM F3226                                                                |",
+            "| Steel                                                                                        | ASME B16.9; ASME B16.11; ASME B16.28; ASTM F1476; ASTM F1548                                                             |"
+          ]
+        }
+      ]
+    }
+  ]
+}

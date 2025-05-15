@@ -1,0 +1,37 @@
+{
+  "title": "Table 702.4 \u2013 Pipe Fittings",
+  "type": "table",
+  "source": "table-702-4_pipe-fittings.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 702.4 \u2013 Pipe Fittings",
+      "content": [
+        {
+          "table": [
+            "| Material                                                             | Standard                                                                 |",
+            "|----------------------------------------------------------------------|--------------------------------------------------------------------------|",
+            "| Acrylonitrile butadiene styrene (ABS) plastic pipe in IPS diameters | ASTM D2661; ASTM F628; CSA B181.1; ASME A112.4.4                         |",
+            "| Acrylonitrile butadiene styrene (ABS) plastic pipe in sewer and drain diameters | ASTM D2751                                                          |",
+            "| Cast iron                                                           | ASME B16.4; ASME B16.12; ASTM A74; ASTM A888; CISPI 301                 |",
+            "| Copper or copper alloy                                              | ASME B16.15; ASME B16.18; ASME B16.22; ASME B16.23; ASME B16.26; ASME B16.29 |",
+            "| Glass                                                               | ASTM C1053                                                              |",
+            "| Gray iron and ductile iron                                          | AWWA C110/A21.10                                                        |",
+            "| Polyethylene                                                        | ASTM D2683                                                              |",
+            "| Polyolefin                                                          | ASTM F1412; CSA B181.3                                                  |",
+            "| Polyvinyl chloride (PVC) plastic in IPS diameters                   | ASTM D2665; ASTM F1866; ASME A112.4.4                                   |",
+            "| Polyvinyl chloride (PVC) plastic pipe in sewer and drain diameters  | ASTM D3034                                                              |",
+            "| Polyvinyl chloride (PVC) plastic pipe with a 3.25-inch O.D.         | ASTM D2949                                                              |",
+            "| Polyvinylidene fluoride (PVDF) plastic pipe                         | ASTM F1673; CSA B181.3                                                  |",
+            "| Stainless steel drainage systems, Types 304 and 316L                | ASME A112.3.1                                                           |",
+            "| Steel                                                               | ASME B16.9; ASME B16.11; ASME B16.28                                    |",
+            "| Vitrified clay                                                      | ASTM C700                                                               |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm.*"
+        }
+      ]
+    }
+  ]
+}

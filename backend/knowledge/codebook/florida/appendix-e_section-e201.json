@@ -1,0 +1,103 @@
+{
+  "title": "Appendix E \u2013 Sizing of Water Piping System",
+  "type": "chapter",
+  "source": "appendix-e_section-e201.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Requirements:",
+      "content": [
+        {
+          "bullet": "Minimum service pipe size: **3/4 inch (19.1 mm)**"
+        },
+        {
+          "bullet": "Pipe sizing based on:"
+        },
+        {
+          "text": "- **Water supply demand** (in gpm or L/m)"
+        },
+        {
+          "text": "- **Available water pressure** (in psi or kPa)"
+        },
+        {
+          "text": "- **Friction loss** through the meter and developed length (including fittings)"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Procedure:",
+      "content": [
+        {
+          "text": "1. **Determine Supply Load**:"
+        },
+        {
+          "text": "- Total water supply fixture units (w.s.f.u.) per Table E103.3(2)"
+        },
+        {
+          "text": "- Use similar fixtures if not listed"
+        },
+        {
+          "text": "2. **Determine Available Static Pressure**:"
+        },
+        {
+          "text": "- Confirm with local water authority"
+        },
+        {
+          "text": "- Adjust for:"
+        },
+        {
+          "text": "- **Elevation** (\u00b10.5 psi/foot or \u00b13.4 kPa/m)"
+        },
+        {
+          "text": "- **Pressure-reducing valves** (use 80% of pressure or setpoint)"
+        },
+        {
+          "text": "- **Losses from special equipment** (get specs from manufacturers)"
+        },
+        {
+          "text": "- **Additional loss due to special fixtures** (\u22658 psi)"
+        },
+        {
+          "text": "3. **Calculate Developed Length**:"
+        },
+        {
+          "text": "- From source to most remote fixture (hot/cold)"
+        },
+        {
+          "text": "- Multiply by **1.2** to account for fittings"
+        },
+        {
+          "text": "4. **Select Water Service & Main Distribution Size**:"
+        },
+        {
+          "text": "- Use Table E201.1"
+        },
+        {
+          "text": "- Match developed length and fixture unit total to row for service pipe, meter, and main"
+        },
+        {
+          "text": "5. **Select Each Branch Pipe Size**:"
+        },
+        {
+          "text": "- Start from the most remote outlet and work back"
+        },
+        {
+          "text": "- Accumulate w.s.f.u. per segment"
+        },
+        {
+          "text": "- Match demand to distribution size per developed length"
+        },
+        {
+          "text": "---"
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 foot = 304.8 mm, 1 psi = 6.895 kPa, 1 gpm = 3.785 L/m*"
+        },
+        {
+          "text": "*Source: [FLPC 2023 Appendix E](https://codes.iccsafe.org/content/FLPC2023P1/appendix-e-sizing-of-water-piping-system#FLPC2023P1_AppxE)*"
+        }
+      ]
+    }
+  ]
+}

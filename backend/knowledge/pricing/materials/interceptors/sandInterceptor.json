@@ -1,0 +1,9 @@
+[
+  {
+    "sku": "SI-COMM-50GAL",
+    "type": "commercial",
+    "capacity": "50 gallon",
+    "material": "concrete",
+    "price": 480.0
+  }
+]

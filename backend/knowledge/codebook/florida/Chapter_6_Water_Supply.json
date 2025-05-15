@@ -1,0 +1,64 @@
+{
+  "title": "Chapter 6: Water Supply",
+  "type": "chapter",
+  "source": "Chapter_6_Water_Supply.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 601: General",
+      "content": [
+        {
+          "text": "**601.1 Scope**"
+        },
+        {
+          "text": "This chapter governs water supply and distribution in buildings."
+        },
+        {
+          "text": "**601.2 Design of Potable Water Systems**"
+        },
+        {
+          "text": "Design shall ensure adequate flow, pressure, and temperature, and shall avoid contamination."
+        },
+        {
+          "text": "**601.3 Water Supply System**"
+        },
+        {
+          "text": "Every fixture shall be connected to a water supply system with sufficient volume and pressure."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 605: Materials, Joints, and Connections",
+      "content": [
+        {
+          "text": "**605.1 Approved Materials**"
+        },
+        {
+          "text": "Approved piping materials include copper, CPVC, PEX, galvanized steel, and others as specified."
+        },
+        {
+          "text": "**605.4 Water Distribution Pipe**"
+        },
+        {
+          "text": "Pipe used for water distribution shall comply with NSF 61 and relevant ASTM standards."
+        },
+        {
+          "text": "**605.9 Prohibited Joints**"
+        },
+        {
+          "text": "No threaded connections allowed on copper tubing."
+        },
+        {
+          "text": "**605.10 Fittings**"
+        },
+        {
+          "text": "All fittings must be compatible with the piping and materials used."
+        },
+        {
+          "text": "(Additional sections on valves, backflow, and installation rules would follow.)"
+        }
+      ]
+    }
+  ]
+}

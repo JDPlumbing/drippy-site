@@ -1,0 +1,37 @@
+{
+  "title": "Chapter 12 - Special Piping and Storage Systems",
+  "type": "chapter",
+  "source": "Chapter_12_Special_Piping_and_Storage_Systems.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "1201 General",
+      "content": [
+        {
+          "text": "1201.1 Scope: Covers design and installation of nonflammable medical gas systems and nonmedical oxygen systems. Must comply with the Florida Fire Prevention Code for maintenance and operation."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "1202 Medical Gases",
+      "content": [
+        {
+          "text": "1202.1 Nonflammable medical gases: Systems must meet NFPA 99 standards for installation, testing, and labeling."
+        },
+        {
+          "text": "Exceptions: (1) Portable systems and cylinder storage are excluded. (2) Vacuum system exhausts must follow the Florida Building Code, Mechanical."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "1203 Oxygen Systems",
+      "content": [
+        {
+          "text": "1203.1 Design and installation: Nonmedical oxygen systems must comply with NFPA 55 and NFPA 51."
+        }
+      ]
+    }
+  ]
+}

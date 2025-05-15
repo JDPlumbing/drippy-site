@@ -1,0 +1,44 @@
+{
+  "title": "Appendix E \u2013 Sizing of Water Piping System",
+  "type": "chapter",
+  "source": "appendix-e_section-e202.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "E202.1 Determining Volume of Piping Systems",
+      "content": [
+        {
+          "text": "Where required for engineering design purposes, Table E202.1 shall be used to determine the approximate internal volume of water distribution piping."
+        },
+        {
+          "text": "---"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Table E202.1 \u2013 Internal Volume of Various Water Distribution Tubing",
+      "content": [
+        {
+          "table": [
+            "| Size Nominal (inches) | Copper Type M | Copper Type L | Copper Type K | CPVC CTS SDR 11 | CPVC SCH 40 | CPVC SCH 80 | PE-RT SDR 9 | Composite ASTM F1281 | PEX CTS SDR 9 |",
+            "|------------------------|----------------|----------------|----------------|------------------|--------------|--------------|-------------|------------------------|----------------|",
+            "| 3/8                   | 1.06 oz/ft     | 0.97 oz/ft     | 0.84 oz/ft     | \u2014                | 1.17 oz/ft   | \u2014            | 0.64 oz/ft  | 0.63 oz/ft             | 0.64 oz/ft     |",
+            "| 1/2                   | 1.69 oz/ft     | 1.55 oz/ft     | 1.45 oz/ft     | 1.25 oz/ft       | 1.89 oz/ft   | 1.46 oz/ft   | 1.18 oz/ft  | 1.31 oz/ft             | 1.18 oz/ft     |",
+            "| 3/4                   | 3.43 oz/ft     | 3.22 oz/ft     | 2.90 oz/ft     | 2.67 oz/ft       | 3.38 oz/ft   | 2.74 oz/ft   | 2.35 oz/ft  | 3.39 oz/ft             | 2.35 oz/ft     |",
+            "| 1                     | 5.81 oz/ft     | 5.49 oz/ft     | 5.17 oz/ft     | 4.43 oz/ft       | 5.53 oz/ft   | 4.57 oz/ft   | 3.91 oz/ft  | 5.56 oz/ft             | 3.91 oz/ft     |",
+            "| 1 1/4                 | 8.70 oz/ft     | 8.36 oz/ft     | 8.09 oz/ft     | 6.61 oz/ft       | 9.66 oz/ft   | 8.24 oz/ft   | 5.81 oz/ft  | 8.49 oz/ft             | 5.81 oz/ft     |",
+            "| 1 1/2                 | 12.18 oz/ft    | 11.83 oz/ft    | 11.45 oz/ft    | 9.22 oz/ft       | 13.20 oz/ft  | 11.38 oz/ft  | 8.09 oz/ft  | 13.88 oz/ft            | 8.09 oz/ft     |",
+            "| 2                     | 21.08 oz/ft    | 20.58 oz/ft    | 20.04 oz/ft    | 15.79 oz/ft      | 21.88 oz/ft  | 19.11 oz/ft  | 13.86 oz/ft | 21.48 oz/ft            | 13.86 oz/ft    |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 ounce = 0.030 liter*"
+        },
+        {
+          "text": "*Source: [FLPC 2023 Appendix E](https://codes.iccsafe.org/content/FLPC2023P1/appendix-e-sizing-of-water-piping-system#FLPC2023P1_AppxE)*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Table 1302.7.1 \u2013 Location of Nonpotable Water Reuse Storage Tanks",
+  "type": "table",
+  "source": "table-1302-7-1_nonpotable-storage-tank-location.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 1302.7.1 \u2013 Location of Nonpotable Water Reuse Storage Tanks",
+      "content": [
+        {
+          "table": [
+            "| Element                                | Minimum Horizontal Distance from Storage Tank (feet) |",
+            "|----------------------------------------|------------------------------------------------------|",
+            "| Critical root zone (CRZ) of protected trees | 2                                                  |",
+            "| Lot line adjoining private lots        | 5                                                   |",
+            "| Seepage pits                           | 5                                                   |",
+            "| Septic tanks                           | 5                                                   |",
+            "| Water wells                            | 50                                                  |",
+            "| Streams and lakes                      | 50                                                  |",
+            "| Water service                          | 5                                                   |",
+            "| Public water main                      | 10                                                  |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 foot = 304.8 mm.*"
+        }
+      ]
+    }
+  ]
+}

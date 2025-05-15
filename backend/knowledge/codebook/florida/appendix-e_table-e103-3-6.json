@@ -1,0 +1,55 @@
+{
+  "title": "Appendix E \u2013 Table E103.3(6)",
+  "type": "table",
+  "source": "appendix-e_table-e103-3-6.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Pressure Loss in Fittings and Valves (Equivalent Length of Tube in Feet)",
+      "content": [
+        {
+          "text": "This table provides allowances for pressure loss expressed as equivalent lengths of tube for various fittings and valves, based on pipe size."
+        },
+        {
+          "table": [
+            "| Size (inches) | 90\u00b0 Elbow | 45\u00b0 Elbow | Side Branch Tee | Straight Run Tee | Coupling | Ball Valve | Gate Valve | Butterfly Valve | Check Valve |",
+            "|---------------|-----------|-----------|------------------|------------------|----------|------------|------------|------------------|-------------|",
+            "| 3/8           | 0.5       | \u2014         | 1.5              | \u2014                | \u2014        | \u2014          | \u2014          | \u2014                | 1.5         |",
+            "| 1/2           | 1         | 0.5       | 2                | \u2014                | \u2014        | \u2014          | \u2014          | \u2014                | 2           |",
+            "| 5/8           | 1.5       | 0.5       | 2                | \u2014                | \u2014        | \u2014          | \u2014          | \u2014                | 2.5         |",
+            "| 3/4           | 2         | 0.5       | 3                | \u2014                | \u2014        | \u2014          | \u2014          | \u2014                | 3           |",
+            "| 1             | 2.5       | 1         | 4.5              | \u2014                | 0.5      | 0.5        | \u2014          | \u2014                | 4.5         |",
+            "| 1 1/4         | 3         | 1         | 5.5              | 0.5              | 0.5      | 0.5        | \u2014          | \u2014                | 5.5         |",
+            "| 1 1/2         | 4         | 1.5       | 7                | 0.5              | 0.5      | 0.5        | \u2014          | \u2014                | 6.5         |",
+            "| 2             | 5.5       | 2         | 9                | 0.5              | 0.5      | 0.5        | 0.5        | 7.5              | 9           |",
+            "| 2 1/2         | 7         | 2.5       | 12               | 0.5              | 0.5      | \u2014          | 1.0        | 10.0             | 11.5        |",
+            "| 3             | 9         | 3.5       | 15               | 1.0              | 1.0      | \u2014          | 1.5        | 15.5             | 14.5        |",
+            "| 3 1/2         | 9         | 3.5       | 14               | 1.0              | 1.0      | \u2014          | 2.0        | \u2014                | 12.5        |",
+            "| 4             | 12.5      | 5         | 21               | 1.0              | 1.0      | \u2014          | 2.0        | 16.0             | 18.5        |",
+            "| 5             | 16        | 6         | 27               | 1.5              | 1.5      | \u2014          | 3.0        | 11.5             | 23.5        |",
+            "| 6             | 19        | 7         | 34               | 2.0              | 2.0      | \u2014          | 3.5        | 13.5             | 26.5        |",
+            "| 8             | 29        | 11        | 50               | 3.0              | 3.0      | \u2014          | 5.0        | 12.5             | 39.0        |"
+          ]
+        },
+        {
+          "text": "**Notes:**"
+        },
+        {
+          "bullet": "Values assume streamlined soldered or recessed threaded fittings."
+        },
+        {
+          "bullet": "For threaded fittings, double the allowances."
+        },
+        {
+          "bullet": "Based on a Hazen-Williams C factor of 150."
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 foot = 304.8 mm*"
+        },
+        {
+          "text": "*Source: [FLPC 2023 Appendix E](https://codes.iccsafe.org/content/FLPC2023P1/appendix-e-sizing-of-water-piping-system#FLPC2023P1_AppxE)*"
+        }
+      ]
+    }
+  ]
+}

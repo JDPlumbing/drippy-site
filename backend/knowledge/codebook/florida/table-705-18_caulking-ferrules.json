@@ -1,0 +1,25 @@
+{
+  "title": "Table 705.18 \u2013 Caulking Ferrule Specifications",
+  "type": "table",
+  "source": "table-705-18_caulking-ferrules.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 705.18 \u2013 Caulking Ferrule Specifications",
+      "content": [
+        {
+          "table": [
+            "| Pipe Size (inches) | Inside Diameter (inches) | Length (inches) | Minimum Weight Each       |",
+            "|--------------------|--------------------------|------------------|----------------------------|",
+            "| 2                  | 2 1/4                    | 4 1/2            | 1 pound                   |",
+            "| 3                  | 3 1/4                    | 4 1/2            | 1 pound 12 ounces         |",
+            "| 4                  | 4 1/4                    | 4 1/2            | 2 pounds 8 ounces         |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 ounce = 28.35 g, 1 pound = 0.454 kg.*"
+        }
+      ]
+    }
+  ]
+}

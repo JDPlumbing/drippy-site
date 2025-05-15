@@ -1,0 +1,51 @@
+{
+  "title": "Table 604.3 \u2014 Water Distribution System Design Criteria",
+  "type": "table",
+  "source": "Table_604.3_Water_Distribution_Criteria.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 604.3 \u2014 Water Distribution System Design Criteria",
+      "content": [
+        {
+          "text": "**Required Capacity at Fixture Supply Pipe Outlets**"
+        },
+        {
+          "table": [
+            "| Fixture Supply Outlet Serving                                                                 | Flow Rate (gpm) | Flow Pressure (psi) |",
+            "|-----------------------------------------------------------------------------------------------|------------------|----------------------|",
+            "| Bathtub, balanced-pressure, thermostatic or combination balanced-pressure/mixing valve       | 4                | 20                   |",
+            "| Bidet, thermostatic mixing valve                                                              | 2                | 20                   |",
+            "| Combination fixture                                                                            | 4                | 8                    |",
+            "| Dishwasher, residential                                                                        | 2.75             | 8                    |",
+            "| Drinking fountain                                                                              | 0.75             | 8                    |",
+            "| Laundry tray                                                                                   | 4                | 8                    |",
+            "| Lavatory, private                                                                              | 0.8              | 8                    |",
+            "| Lavatory, private, mixing valve                                                               | 0.8              | 8                    |",
+            "| Lavatory, public                                                                               | 0.4              | 8                    |",
+            "| Shower                                                                                         | 2.5              | 8                    |",
+            "| Shower, balanced-pressure, thermostatic or combination balanced-pressure/mixing valve         | 2.5\u1d47             | 20                   |",
+            "| Sillcock, hose bibb                                                                            | 5                | 20                   |",
+            "| Sink, residential                                                                              | 1.75             | 8                    |",
+            "| Sink, service                                                                                  | 3                | 8                    |",
+            "| Urinal, valve                                                                                  | 12               | 25                   |",
+            "| Water closet, blow out, flushometer valve                                                     | 25               | 45                   |",
+            "| Water closet, flushometer tank                                                                | 1.6              | 20                   |",
+            "| Water closet, siphonic, flushometer valve                                                     | 25               | 35                   |",
+            "| Water closet, tank, close coupled                                                             | 3                | 20                   |",
+            "| Water closet, tank, one piece                                                                 | 6                | 20                   |"
+          ]
+        },
+        {
+          "text": "> **Footnotes**:"
+        },
+        {
+          "text": "> a. For SI: 1 pound per square inch = 6.895 kPa, 1 gallon per minute = 3.785 L/min"
+        },
+        {
+          "text": "> b. Where the shower mixing valve manufacturer indicates a lower flow rating, the lower value shall be applied."
+        }
+      ]
+    }
+  ]
+}

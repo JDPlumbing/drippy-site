@@ -1,0 +1,139 @@
+{
+  "title": "Chapter 10 - Traps, Interceptors, and Separators",
+  "type": "chapter",
+  "source": "Chapter_10_Traps_Interceptors_Separators.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "1001 General",
+      "content": [
+        {
+          "text": "1001.1 Scope: Covers materials and installation requirements for traps, interceptors, and separators."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "1002 Trap Requirements",
+      "content": [
+        {
+          "text": "1002.1 Fixture traps: Each fixture must have a separate trap; limitations on vertical (24\") and horizontal (30\") distances from outlet to weir."
+        },
+        {
+          "text": "1002.2 Design: Traps must be self-scouring and corrosion-resistant. Slip joints only on inlet, outlet, or within the trap seal."
+        },
+        {
+          "text": "1002.3 Prohibited traps: Moving part traps, bell traps, S traps, crown-vented traps, drum traps (except solids/chemical), and partition-reliant traps."
+        },
+        {
+          "text": "1002.4 Trap seals: Liquid seal must be 2\"\u20134\"; deeper for special needs fixtures."
+        },
+        {
+          "text": "1002.4.1 Trap seal protection: Includes potable, reclaimed, gray, wastewater primers, barrier devices, or shared drain connections."
+        },
+        {
+          "text": "1002.5 Sizing: Traps must match drainage needs and not exceed the size of the drainpipe."
+        },
+        {
+          "text": "1002.6 Building traps: Prohibited."
+        },
+        {
+          "text": "1002.7 Trap setting: Must be level and protected from freezing."
+        },
+        {
+          "text": "1002.8 Recesses: Underground traps (e.g., bathtubs) must be vermin- and corrosion-proof."
+        },
+        {
+          "text": "1002.9 Acid-resistant traps: Brittleware traps must be encased in 6\" concrete."
+        },
+        {
+          "text": "1002.10 Mental health centers: No exposed pipes or traps."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "1003 Interceptors and Separators",
+      "content": [
+        {
+          "text": "1003.1 Where required: Prevent discharge of hazardous or harmful materials into the sewer."
+        },
+        {
+          "text": "1003.2 Approval: Type, size, and location must be approved and meet code."
+        },
+        {
+          "text": "1003.3 Grease interceptors: Must be used in commercial kitchens; prohibited for food disposers."
+        },
+        {
+          "text": "1003.3.1 Required fixtures: Includes dishwashers, pot sinks, hood wash, wok stations, etc."
+        },
+        {
+          "text": "1003.3.2 Disposers not allowed: Must not be connected to grease interceptors."
+        },
+        {
+          "text": "1003.3.3 Additives: Only microbes permitted; chemicals/enzyme dosing is prohibited."
+        },
+        {
+          "text": "1003.3.4 Residential: Interceptors not required in private living quarters."
+        },
+        {
+          "text": "1003.3.5 Hydromechanical interceptors: Must follow ASME, CSA, PDI specs and be installed per instructions."
+        },
+        {
+          "text": "1003.3.5.1 Sizing: Refer to Table 1003.3.5.1 \u2013 gpm \u2192 grease retention capacity in lbs."
+        },
+        {
+          "text": "1003.3.5.2 Flow control: Must be vented and not exceed rated flow."
+        },
+        {
+          "text": "1003.3.6 Automatic grease removal: Must be sized per flow and allow access for maintenance."
+        },
+        {
+          "text": "1003.3.7 Gravity interceptors: Sizing = peak flow \u00d7 30 minutes. Must meet IAPMO/ANSI Z1001 or ASME A112.14.6."
+        },
+        {
+          "text": "1003.3.8 Direct connection: Required to sanitary drainage."
+        },
+        {
+          "text": "1003.3.9 On-site systems: Required for high grease-producing kitchens; connected before septic system."
+        },
+        {
+          "text": "1003.4 Oil separators: Required at garages, car washes, factories, elevators unless alarm present."
+        },
+        {
+          "text": "1003.4.1 Liquid separation: Must handle varying specific gravities."
+        },
+        {
+          "text": "1003.4.2 Design: Depth \u22652 ft, water seal \u226518 in. Garage units scaled by floor area."
+        },
+        {
+          "text": "1003.5 Sand interceptors: Must allow cleaning and have \u22656\" water seal."
+        },
+        {
+          "text": "1003.6 Clothes washer interceptor: Required unless in dwelling units. Basket required for >1/2\" debris."
+        },
+        {
+          "text": "1003.7 Bottling plants: Must intercept solids like broken glass."
+        },
+        {
+          "text": "1003.8 Slaughterhouses: Must prevent discharge of feathers, entrails, or clogging debris."
+        },
+        {
+          "text": "1003.9 Venting: Must be vented per Chapter 9 to avoid air binding."
+        },
+        {
+          "text": "1003.10 Access and maintenance: Must allow for grease/oil/scum removal."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "1004 Materials, Joints, and Connections",
+      "content": [
+        {
+          "text": "1004.1 General: Must conform to Chapter 4 and Chapter 7, and be free of obstructions to flow."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Table 314.2 \u2014 Condensate Drain Sizing",
+  "type": "table",
+  "source": "Table_314.2_Condensate_Drain_Sizing.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 314.2 \u2014 Condensate Drain Sizing",
+      "content": [
+        {
+          "table": [
+            "| Equipment Capacity                        | Minimum Condensate Pipe Diameter (inch) |",
+            "|------------------------------------------|-----------------------------------------|",
+            "| Up to 20 tons of refrigeration           | 3/4 inch                                |",
+            "| Over 20 tons to 40 tons of refrigeration | 1 inch                                  |",
+            "| Over 40 tons to 90 tons of refrigeration | 1 1/4 inch                              |",
+            "| Over 90 tons to 125 tons of refrigeration| 1 1/2 inch                              |",
+            "| Over 125 tons to 250 tons of refrigeration| 2 inch                                 |"
+          ]
+        },
+        {
+          "text": "> **Note:** For SI: 1 inch = 25.4 mm, 1 ton of capacity = 3.517 kW."
+        }
+      ]
+    }
+  ]
+}

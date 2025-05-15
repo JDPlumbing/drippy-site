@@ -1,0 +1,130 @@
+{
+  "title": "Appendix C \u2013 Structural Safety",
+  "type": "chapter",
+  "source": "appendix-c_structural-safety.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Appendix C \u2013 Structural Safety",
+      "content": [
+        {
+          "text": "> **Note**: The provisions in this appendix are *not mandatory* unless specifically referenced in the adopting ordinance."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "[BS] C101.1 Joist Notching",
+      "content": [
+        {
+          "bullet": "Notches on the ends of joists shall not exceed one-fourth the joist depth."
+        },
+        {
+          "bullet": "Holes bored in joists shall not be within 2 inches (51 mm) of the top or bottom of the joist."
+        },
+        {
+          "bullet": "Diameter of any such hole shall not exceed one-third the depth of the joist."
+        },
+        {
+          "bullet": "Notches in the top or bottom of joists shall not exceed one-sixth the depth."
+        },
+        {
+          "bullet": "Notches shall not be located in the middle third of the span."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "[BS] C101.2 Stud Cutting and Notching",
+      "content": [
+        {
+          "bullet": "In exterior walls and bearing partitions, a wood stud may be cut/notched up to 25% of its width."
+        },
+        {
+          "bullet": "In nonbearing partitions, studs may be cut/notched up to 40% of their width."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "[BS] C101.3 Bored Holes",
+      "content": [
+        {
+          "bullet": "In wood studs:"
+        },
+        {
+          "text": "- Max diameter = 40% of depth in general."
+        },
+        {
+          "text": "- Max diameter = 60% of depth in nonbearing partitions."
+        },
+        {
+          "text": "- Max diameter = 60% in any wall where each stud is doubled (no more than two successive doubles)."
+        },
+        {
+          "bullet": "Bored holes:"
+        },
+        {
+          "text": "- Not closer than 5/8 inch (15.9 mm) to the edge of the stud."
+        },
+        {
+          "text": "- Not located at the same section of the stud as a cut or notch."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "[BS] C101.4 Structural Steel Framing",
+      "content": [
+        {
+          "bullet": "Cutting, notching, and boring of holes in structural steel framing must follow prescriptions of a registered design professional."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "[BS] C101.5 Cold-Formed Steel Framing",
+      "content": [
+        {
+          "bullet": "No cutting/notching of flanges or lips in load-bearing members."
+        },
+        {
+          "bullet": "Holes in webs:"
+        },
+        {
+          "text": "- Must be centered along the web\u2019s centerline."
+        },
+        {
+          "text": "- Subject to spacing, dimension, and edge distance limits defined by a registered design professional."
+        },
+        {
+          "bullet": "Steel floor/roof decking must follow professional specifications."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "[BS] C101.6 Nonstructural Cold-Formed Steel Wall Framing",
+      "content": [
+        {
+          "bullet": "No cutting/notching of flanges or lips."
+        },
+        {
+          "bullet": "Web holes permitted:"
+        },
+        {
+          "text": "- Max width = 1 1/2 inches (38 mm)"
+        },
+        {
+          "text": "- Max length = 4 inches (102 mm)"
+        },
+        {
+          "text": "- Spacing \u2265 24 inches (610 mm) center-to-center"
+        },
+        {
+          "text": "- \u2265 10 inches (254 mm) from bearing end."
+        }
+      ]
+    }
+  ]
+}

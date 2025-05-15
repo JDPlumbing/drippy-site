@@ -1,0 +1,70 @@
+{
+  "title": "Chapter 2: Definitions",
+  "type": "chapter",
+  "source": "Chapter_2_Definitions.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 201: General",
+      "content": [
+        {
+          "text": "**201.1 Scope**"
+        },
+        {
+          "text": "Unless otherwise expressly stated, the following words and terms shall, for the purposes of this code, have the meanings shown in this chapter."
+        },
+        {
+          "text": "**201.2 Interchangeability**"
+        },
+        {
+          "text": "Words stated in the present tense include the future; words stated in the masculine gender include the feminine and neuter; the singular number includes the plural and the plural the singular."
+        },
+        {
+          "text": "**201.3 Terms Defined in Other Codes**"
+        },
+        {
+          "text": "Where terms are not defined in this code and are defined in the Florida Building Code, Building; Florida Fire Prevention Code; Florida Building Code, Fuel Gas; or the Florida Building Code, Mechanical, such terms shall have the meanings ascribed to them as in those codes."
+        },
+        {
+          "text": "**201.4 Terms Not Defined**"
+        },
+        {
+          "text": "Where terms are not defined through the methods authorized by this section, such terms shall have ordinarily accepted meanings such as the context implies."
+        },
+        {
+          "text": "---"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 202: General Definitions",
+      "content": [
+        {
+          "text": "(Definitions starting alphabetically from \"ACCEPTED ENGINEERING PRACTICE\" onward will follow in a structured key-term format.)"
+        },
+        {
+          "text": "**ACCEPTED ENGINEERING PRACTICE**"
+        },
+        {
+          "text": "That which conforms to accepted principles, tests or standards of nationally recognized technical or scientific authorities."
+        },
+        {
+          "text": "**ACCESS (TO)**"
+        },
+        {
+          "text": "That which enables a fixture, appliance or equipment to be reached by ready access or by a means that first requires the removal or movement of a panel, door or similar obstruction (see \u201cReady access\u201d)."
+        },
+        {
+          "text": "**ACCESS COVER**"
+        },
+        {
+          "text": "A removable plate, usually secured by bolts or screws, to permit access to a pipe or pipe fitting for the purposes of inspection, repair or cleaning."
+        },
+        {
+          "text": "... (continues with remaining terms in structured format)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Table E.1 \u2013 Cold and Hot Water Pipe Fittings/Valves Pressure Loss (Equivalent Length of Tube in Feet)",
+  "type": "table",
+  "source": "table-e1_pressure-loss-equivalent-length.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table E.1 \u2013 Cold and Hot Water Pipe Fittings/Valves Pressure Loss (Equivalent Length of Tube in Feet)",
+      "content": [
+        {
+          "table": [
+            "| Section | Fitting/Valve Description               | Cold Water Equivalent Length (ft) | Hot Water Equivalent Length (ft) |",
+            "|---------|------------------------------------------|-----------------------------------|----------------------------------|",
+            "| A-B     | 3\u20132 1/2\u2033 Gate valves                     | 3                                 | 3                                |",
+            "|         | 1\u20132 1/2\u2033 Side branch tee                 | 12                                | 12                               |",
+            "| B-C     | 1\u20132 1/2\u2033 Straight run tee                | 0.5                               | 7                                |",
+            "|         | 1\u20132\u2033 90-degree ell                       | 0.5                               |                                  |",
+            "| C-F     | 1\u20132 1/2\u2033 Side branch tee                 | 12                                | 7                                |",
+            "| C-D     | 1\u20132 1/2\u2033 90-degree ell                   | 7                                 | 4                                |",
+            "| D-E     | 1\u20132 1/2\u2033 Side branch tee                 | 12                                | 7                                |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 foot = 304.8 mm, 1 inch = 25.4 mm.*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "sku": "CLEANOUT-PVC-4",
+    "size": "4 inch",
+    "material": "PVC",
+    "price": 6.75
+  },
+  {
+    "sku": "CLEANOUT-CI-4",
+    "size": "4 inch",
+    "material": "Cast Iron",
+    "price": 17.25
+  }
+]

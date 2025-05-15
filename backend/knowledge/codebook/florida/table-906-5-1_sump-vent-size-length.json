@@ -1,0 +1,47 @@
+{
+  "title": "Table 906.5.1 \u2013 Size and Length of Sump Vents",
+  "type": "table",
+  "source": "table-906-5-1_sump-vent-size-length.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 906.5.1 \u2013 Size and Length of Sump Vents",
+      "content": [
+        {
+          "table": [
+            "| Discharge Capacity of Pump (gpm) | Max Developed Length of Vent (feet) by Diameter (inches) |",
+            "|----------------------------------|------------------------------------------------------------|",
+            "|                                  | 1 1/4 | 1 1/2 | 2   | 2 1/2 | 3   | 4   |",
+            "| 10                               | No limitb | No limit | No limit | No limit | No limit | No limit |",
+            "| 20                               | 270       | No limit | No limit | No limit | No limit | No limit |",
+            "| 40                               | 72        | 160      | No limit | No limit | No limit | No limit |",
+            "| 60                               | 31        | 75       | 270      | No limit | No limit | No limit |",
+            "| 80                               | 16        | 41       | 150      | 380      | No limit | No limit |",
+            "| 100                              | 10c       | 25       | 97       | 250      | No limit | No limit |",
+            "| 150                              | Not permitted | 10c   | 44       | 110      | 370      | No limit |",
+            "| 200                              | Not permitted | Not permitted | 20 | 60 | 210 | No limit |",
+            "| 250                              | Not permitted | Not permitted | 10 | 36 | 132 | No limit |",
+            "| 300                              | Not permitted | Not permitted | 10c | 22 | 88 | 380 |",
+            "| 400                              | Not permitted | Not permitted | Not permitted | 10c | 44 | 210 |",
+            "| 500                              | Not permitted | Not permitted | Not permitted | Not permitted | 24 | 130 |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 foot = 304.8 mm, 1 gallon per minute = 3.785 L/min.*"
+        },
+        {
+          "text": "**Notes:**"
+        },
+        {
+          "bullet": "a. Developed length plus an appropriate allowance for entrance losses and friction due to fittings, changes in direction and diameter. Suggested allowances shall be obtained from NBS Monograph 31 or other approved sources. An allowance of 50 percent of the developed length shall be assumed if a more precise value is not available."
+        },
+        {
+          "bullet": "b. Actual values greater than 500 feet."
+        },
+        {
+          "bullet": "c. Less than 10 feet."
+        }
+      ]
+    }
+  ]
+}

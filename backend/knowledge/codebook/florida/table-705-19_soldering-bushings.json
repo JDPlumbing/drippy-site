@@ -1,0 +1,28 @@
+{
+  "title": "Table 705.19 \u2013 Soldering Bushing Specifications",
+  "type": "table",
+  "source": "table-705-19_soldering-bushings.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 705.19 \u2013 Soldering Bushing Specifications",
+      "content": [
+        {
+          "table": [
+            "| Pipe Size (inches) | Minimum Weight Each   |",
+            "|--------------------|------------------------|",
+            "| 1 1/4              | 6 ounces               |",
+            "| 1 1/2              | 8 ounces               |",
+            "| 2                  | 14 ounces              |",
+            "| 2 1/2              | 1 pound 6 ounces       |",
+            "| 3                  | 2 pounds               |",
+            "| 4                  | 3 pounds 8 ounces      |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 ounce = 28.35 g, 1 pound = 0.454 kg.*"
+        }
+      ]
+    }
+  ]
+}

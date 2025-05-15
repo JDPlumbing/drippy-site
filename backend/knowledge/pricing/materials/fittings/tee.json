@@ -1,0 +1,82 @@
+[
+  {
+    "sku": "TEE-PVC-1/2-SxSxS",
+    "fittingType": "tee",
+    "material": "PVC Sch40",
+    "size": "1/2 inch",
+    "variant": "Slip x Slip x Slip",
+    "retailPrice": 0.79,
+    "bulkPrice": 0.4,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe",
+    "notes": "15-pack $5.93"
+  },
+  {
+    "sku": "TEE-PVC-1/2-SxSxFIP",
+    "fittingType": "tee",
+    "material": "PVC Sch40",
+    "size": "1/2 inch",
+    "variant": "Slip x Slip x FIP",
+    "retailPrice": 1.48,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "TEE-COPPER-1/2-SWEAT",
+    "fittingType": "tee",
+    "material": "Copper (Sweat)",
+    "size": "1/2 inch",
+    "variant": "Cup x Cup x Cup",
+    "retailPrice": 1.18,
+    "bulkPrice": 0.4,
+    "source": "Home Depot",
+    "brand": "Everbilt",
+    "notes": "50-pack $19.98"
+  },
+  {
+    "sku": "TEE-COPPER-1/2-PRESS",
+    "fittingType": "tee",
+    "material": "Copper (Press)",
+    "size": "1/2 inch",
+    "variant": "Viega ProPress",
+    "retailPrice": 4.19,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Viega"
+  },
+  {
+    "sku": "TEE-PEX-1/2-POLY",
+    "fittingType": "tee",
+    "material": "PEX (Poly Alloy)",
+    "size": "1/2 inch",
+    "variant": "Barb",
+    "retailPrice": 1.25,
+    "bulkPrice": 0.8,
+    "source": "Home Depot",
+    "brand": "Apollo",
+    "notes": "5-pack $6.23"
+  },
+  {
+    "sku": "TEE-PEX-1/2-BRASS",
+    "fittingType": "tee",
+    "material": "PEX (Brass)",
+    "size": "1/2 inch",
+    "variant": "Barb",
+    "retailPrice": 3.47,
+    "bulkPrice": 2.95,
+    "source": "Home Depot",
+    "brand": "SharkBite"
+  },
+  {
+    "sku": "TEE-CI-4-NOHUB",
+    "fittingType": "tee",
+    "material": "Cast Iron",
+    "size": "4 inch",
+    "variant": "No-Hub Sanitary",
+    "retailPrice": 61.0,
+    "bulkPrice": null,
+    "source": "Ferguson",
+    "brand": "Tyler"
+  }
+]

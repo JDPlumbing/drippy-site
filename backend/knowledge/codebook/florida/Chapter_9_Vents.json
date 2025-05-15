@@ -1,0 +1,64 @@
+{
+  "title": "Chapter 9: Vents",
+  "type": "chapter",
+  "source": "Chapter_9_Vents.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 901: General",
+      "content": [
+        {
+          "text": "**901.1 Scope**"
+        },
+        {
+          "text": "Vent systems prevent trap siphonage and backpressure."
+        },
+        {
+          "text": "**901.2 Protection of Trap Seals**"
+        },
+        {
+          "text": "Traps must be protected by venting to allow air movement."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 903: Vent Terminals",
+      "content": [
+        {
+          "text": "**903.1 Roof Termination**"
+        },
+        {
+          "text": "Vent terminals shall extend to the open air, at least 6 inches above the roof."
+        },
+        {
+          "text": "**903.2 Location of Vent Terminals**"
+        },
+        {
+          "text": "Terminals shall be at least 10 feet from or 2 feet above any air inlet."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 905: Vent Connections and Grades",
+      "content": [
+        {
+          "text": "**905.1 Connection of Vents**"
+        },
+        {
+          "text": "Vents shall connect to the drainage system per specified elevations."
+        },
+        {
+          "text": "**905.4 Horizontal Branch Vents**"
+        },
+        {
+          "text": "Must be sloped and sized per fixture load."
+        },
+        {
+          "text": "(Additional provisions for wet venting, loop vents, and special systems would continue.)"
+        }
+      ]
+    }
+  ]
+}

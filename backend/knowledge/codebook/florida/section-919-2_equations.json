@@ -1,0 +1,97 @@
+{
+  "title": "Section 919.2 \u2013 Individual Branch Fixture and Individual Fixture Header Vents",
+  "type": "chapter",
+  "source": "section-919-2_equations.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 919.2 \u2013 Individual Branch Fixture and Individual Fixture Header Vents",
+      "content": [
+        {
+          "text": "The maximum developed length of individual fixture vents to vent branches and vent headers shall be determined in accordance with Table 919.2 for the minimum pipe diameters at the indicated vent airflow rates. The individual vent airflow rate shall be determined in accordance with the following equations:"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Equation 9-1 (SI Units)",
+      "content": [
+        {
+          "text": "\\["
+        },
+        {
+          "text": "Q_{h,b} = N_{n,b} \\cdot Q_v \\cdot 0.4719"
+        },
+        {
+          "text": "\\]"
+        },
+        {
+          "text": "Where:"
+        },
+        {
+          "bullet": "\\( N_{n,b} \\) = Number of fixtures per header (or vent branch) \u00f7 total number of fixtures connected to vent stack"
+        },
+        {
+          "bullet": "\\( Q_{h,b} \\) = Vent branch or vent header airflow rate (cfm)"
+        },
+        {
+          "bullet": "\\( Q_v \\) = Total vent stack airflow rate (cfm)"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Additional Equations:",
+      "content": [
+        {
+          "text": "\\["
+        },
+        {
+          "text": "Q_v \\text{ (gpm)} = 27.8 \\cdot r_s^{2/3} \\cdot (1 - r_s) \\cdot D^{8/3}"
+        },
+        {
+          "text": "\\]"
+        },
+        {
+          "text": "\\["
+        },
+        {
+          "text": "Q_v \\text{ (cfm)} = 0.134 \\cdot Q_v \\text{ (gpm)}"
+        },
+        {
+          "text": "\\]"
+        },
+        {
+          "text": "Where:"
+        },
+        {
+          "bullet": "\\( D \\) = Drainage stack diameter (inches)"
+        },
+        {
+          "bullet": "\\( Q_w \\) = Design discharge load (gpm)"
+        },
+        {
+          "bullet": "\\( r_s \\) = Waste water flow area to total area"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Notes:",
+      "content": [
+        {
+          "bullet": "Individual vent airflow rates are obtained by equally distributing \\( Q_{h,b} \\) into one-half the total number of fixtures on the branch or header for more than two fixtures."
+        },
+        {
+          "bullet": "For an odd number of total fixtures, decrease by one."
+        },
+        {
+          "bullet": "For one fixture, apply the full value of \\( Q_{h,b} \\)."
+        },
+        {
+          "bullet": "Individual vent developed length shall be increased by 20% of the distance from the vent stack to the fixture vent connection on the vent branch or header."
+        }
+      ]
+    }
+  ]
+}

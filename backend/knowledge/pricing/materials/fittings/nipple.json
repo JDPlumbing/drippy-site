@@ -1,0 +1,46 @@
+[
+  {
+    "sku": "NIPPLE-BRASS-0.5-CLOSE",
+    "fittingType": "nipple",
+    "material": "Brass",
+    "size": "1/2 inch x close (~1.5\")",
+    "variant": "Threaded MIP both ends",
+    "retailPrice": 4.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "NIPPLE-STEEL-0.75X4-GALV",
+    "fittingType": "nipple",
+    "material": "Galvanized Steel",
+    "size": "3/4 inch x 4 inch",
+    "variant": "Threaded MIP both ends",
+    "retailPrice": 2.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "VPC"
+  },
+  {
+    "sku": "NIPPLE-BRASS-0.75X4",
+    "fittingType": "nipple",
+    "material": "Brass",
+    "size": "3/4 inch x 4 inch",
+    "variant": "Threaded MIP both ends",
+    "retailPrice": 11.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "NIPPLE-STEEL-1X6-BLACK",
+    "fittingType": "nipple",
+    "material": "Black Steel",
+    "size": "1 inch x 6 inch",
+    "variant": "Threaded MIP both ends",
+    "retailPrice": 4.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Mueller"
+  }
+]

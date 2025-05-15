@@ -1,0 +1,14 @@
+[
+  {
+    "sku": "TRAP-PVC-1.5",
+    "size": "1.5 inch",
+    "material": "PVC",
+    "price": 4.5
+  },
+  {
+    "sku": "TRAP-CI-2",
+    "size": "2 inch",
+    "material": "Cast Iron",
+    "price": 12.75
+  }
+]

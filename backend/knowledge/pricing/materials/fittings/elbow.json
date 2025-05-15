@@ -1,0 +1,112 @@
+[
+  {
+    "sku": "ELBOW-PVC-1/2-90",
+    "fittingType": "elbow",
+    "material": "PVC Sch40",
+    "size": "1/2 inch",
+    "variant": "Slip x Slip 90\u00b0",
+    "retailPrice": 0.47,
+    "bulkPrice": 0.39,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "ELBOW-PVC-1/2-STREET",
+    "fittingType": "elbow",
+    "material": "PVC Sch40",
+    "size": "1/2 inch",
+    "variant": "Street (Spig x Slip) 90\u00b0",
+    "retailPrice": 0.78,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "ELBOW-COPPER-1/2-SWEAT",
+    "fittingType": "elbow",
+    "material": "Copper (Sweat)",
+    "size": "1/2 inch",
+    "variant": "Cup x Cup 90\u00b0",
+    "retailPrice": 0.88,
+    "bulkPrice": 0.7,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "ELBOW-COPPER-1/2-STREET",
+    "fittingType": "elbow",
+    "material": "Copper (Sweat)",
+    "size": "1/2 inch",
+    "variant": "Street (FTG x Cup) 90\u00b0",
+    "retailPrice": 0.99,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "ELBOW-COPPER-1/2-PRESS",
+    "fittingType": "elbow",
+    "material": "Copper (Press)",
+    "size": "1/2 inch",
+    "variant": "Press 90\u00b0",
+    "retailPrice": 2.84,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Viega"
+  },
+  {
+    "sku": "ELBOW-PEX-1/2-POLY",
+    "fittingType": "elbow",
+    "material": "PEX (Poly Alloy)",
+    "size": "1/2 inch",
+    "variant": "Barb 90\u00b0",
+    "retailPrice": 1.06,
+    "bulkPrice": 0.75,
+    "source": "Home Depot",
+    "brand": "Apollo"
+  },
+  {
+    "sku": "ELBOW-PEX-1/2-BRASS",
+    "fittingType": "elbow",
+    "material": "PEX (Brass)",
+    "size": "1/2 inch",
+    "variant": "Barb 90\u00b0",
+    "retailPrice": 2.32,
+    "bulkPrice": 1.62,
+    "source": "Home Depot",
+    "brand": "SharkBite"
+  },
+  {
+    "sku": "ELBOW-PEX-1/2-DROPEAR",
+    "fittingType": "elbow",
+    "material": "PEX (Brass)",
+    "size": "1/2 inch",
+    "variant": "Drop-Ear FIP 90\u00b0",
+    "retailPrice": 3.47,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Apollo"
+  },
+  {
+    "sku": "ELBOW-CI-1.5-NOHUB-90",
+    "fittingType": "elbow",
+    "material": "Cast Iron",
+    "size": "1-1/2 inch",
+    "variant": "No-Hub 90\u00b0 Bend",
+    "retailPrice": 18.0,
+    "bulkPrice": null,
+    "source": "Ferguson",
+    "brand": "Tyler"
+  },
+  {
+    "sku": "ELBOW-CI-4-NOHUB-45",
+    "fittingType": "elbow",
+    "material": "Cast Iron",
+    "size": "4 inch",
+    "variant": "No-Hub 45\u00b0 (1/8 Bend)",
+    "retailPrice": 31.08,
+    "bulkPrice": null,
+    "source": "Ferguson",
+    "brand": "Tyler"
+  }
+]

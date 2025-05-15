@@ -1,0 +1,41 @@
+{
+  "title": "Table 1106.3 \u2013 Vertical Leader Sizing",
+  "type": "table",
+  "source": "table-1106-3_vertical-leader-sizing.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 1106.3 \u2013 Vertical Leader Sizing",
+      "content": [
+        {
+          "table": [
+            "| Size of Leader (inches) | Capacity (gpm) |",
+            "|--------------------------|----------------|",
+            "| 2                        | 30             |",
+            "| 2 \u00d7 2                    | 30             |",
+            "| 1 1/2 \u00d7 2 1/2            | 30             |",
+            "| 2 1/2                    | 54             |",
+            "| 2 1/2 \u00d7 2 1/2            | 54             |",
+            "| 3                        | 92             |",
+            "| 2 \u00d7 4                    | 92             |",
+            "| 2 1/2 \u00d7 3                | 92             |",
+            "| 4                        | 192            |",
+            "| 3 \u00d7 4 1/4                | 192            |",
+            "| 3 1/2 \u00d7 4                | 192            |",
+            "| 5                        | 360            |",
+            "| 4 \u00d7 5                    | 360            |",
+            "| 4 1/2 \u00d7 4 1/2            | 360            |",
+            "| 6                        | 563            |",
+            "| 5 \u00d7 6                    | 563            |",
+            "| 5 1/2 \u00d7 5 1/2            | 563            |",
+            "| 8                        | 1208           |",
+            "| 6 \u00d7 8                    | 1208           |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 gallon per minute = 3.785 L/min.*"
+        }
+      ]
+    }
+  ]
+}

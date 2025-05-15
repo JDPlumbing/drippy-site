@@ -1,0 +1,25 @@
+{
+  "title": "Table 605.7 \u2013 Valves",
+  "type": "table",
+  "source": "Table_605.7_Valves.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 605.7 \u2013 Valves",
+      "content": [
+        {
+          "table": [
+            "| MATERIAL                             | STANDARD                                                                                                        |",
+            "|--------------------------------------|------------------------------------------------------------------------------------------------------------------|",
+            "| Chlorinated polyvinyl chloride (CPVC) plastic | ASME A112.4.14; ASME A112.18.1/CSA B125.1; ASTM F1970; CSA B125.3; IAPMO Z1157; MSS SP-122              |",
+            "| Copper or copper alloy               | ASME A112.4.14; ASME A112.18.1/CSA B125.1; ASME B16.34; CSA B125.3; IAPMO Z1157; MSS SP-67; MSS SP-80; MSS SP-110; MSS SP-139 |",
+            "| Cross-linked polyethylene (PEX) plastic | ASME A112.4.14; ASME A112.18.1/CSA B125.1; CSA B125.3; IAPMO Z1157; NSF 359                               |",
+            "| Gray iron and ductile iron          | AWWA C500; AWWA C504; AWWA C507; IAPMO Z1157; MSS SP-67; MSS SP-70; MSS SP-71; MSS SP-72; MSS SP-78       |",
+            "| Polypropylene (PP) plastic          | ASME A112.4.14; ASTM F2389; IAPMO Z1157                                                                      |",
+            "| Polyvinyl chloride (PVC) plastic    | ASME A112.4.14; ASTM F1970; IAPMO Z1157; MSS SP-122                                                           |"
+          ]
+        }
+      ]
+    }
+  ]
+}

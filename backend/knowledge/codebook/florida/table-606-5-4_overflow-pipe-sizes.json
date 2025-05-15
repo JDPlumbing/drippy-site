@@ -1,0 +1,29 @@
+{
+  "title": "Table 606.5.4 \u2013 Sizes for Overflow Pipes for Water Supply Tanks",
+  "type": "table",
+  "source": "table-606-5-4_overflow-pipe-sizes.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 606.5.4 \u2013 Sizes for Overflow Pipes for Water Supply Tanks",
+      "content": [
+        {
+          "table": [
+            "| Maximum Capacity of Water Supply Line to Tank (gpm) | Diameter of Overflow Pipe (inches) |",
+            "|------------------------------------------------------|-------------------------------------|",
+            "| 0 \u2013 50                                               | 2                                   |",
+            "| 50 \u2013 150                                             | 2 1/2                               |",
+            "| 150 \u2013 200                                            | 3                                   |",
+            "| 200 \u2013 400                                            | 4                                   |",
+            "| 400 \u2013 700                                            | 5                                   |",
+            "| 700 \u2013 1,000                                          | 6                                   |",
+            "| Over 1,000                                           | 8                                   |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 gallon per minute = 3.785 L/min.*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Table 403.1 \u2013 Minimum Number of Required Plumbing Fixtures",
+  "type": "table",
+  "source": "Table_403.1_Minimum_Plumbing_Fixtures.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 403.1 \u2013 Minimum Number of Required Plumbing Fixtures",
+      "content": [
+        {
+          "text": "For complete formatting, download this file and view it using a Markdown renderer that supports large tables."
+        },
+        {
+          "table": [
+            "| No. | Classification | Description | Water Closets (Male) | Water Closets (Female) | Lavatories (Male) | Lavatories (Female) | Bathtub/Showers | Drinking Fountain | Other |",
+            "|-----|----------------|-------------|-----------------------|-------------------------|--------------------|----------------------|------------------|--------------------|-------|",
+            "| 1   | Assembly       | Theaters, arts venues | 1 per 125 | 1 per 65 | 1 per 200 | 1 per 200 | \u2014 | 1 per 500 | 1 service sink |",
+            "|     |                | Nightclubs, bars, dance halls | 1 per 40 | 1 per 40 | 1 per 75 | 1 per 75 | \u2014 | 1 per 500 | 1 service sink |",
+            "|     |                | Restaurants, banquet halls | 1 per 75 | 1 per 75 | 1 per 200 | 1 per 200 | \u2014 | 1 per 500 | 1 service sink |",
+            "|     |                | Casino gaming areas | 1 per 125 | 1 per 65 | 1 per 200 | 1 per 200 | \u2014 | 1 per 500 | 1 service sink |",
+            "|     |                | Auditoriums w/o permanent seating | 1 per 100 for first 400 + 1 per 250 over 400 | 1 per 50 for first 400 + 1 per 150 over 400 | 1 per 250 for first 750 + 1 per 500 over 750 | 1 per 750 | \u2014 | 1 per 1,000 | 1 service sink |",
+            "|     |                | Passenger terminals, transportation facilities | 1 per 500 | 1 per 500 | 1 per 750 | 1 per 750 | \u2014 | 1 per 1,000 | 1 service sink |",
+            "|     |                | Houses of worship | 1 per 150 | 1 per 150 | 1 per 200 | 1 per 200 | \u2014 | 1 per 1,000 | 1 service sink |",
+            "|     |                | Coliseums, stadiums, arenas | 1 per 40 for first 1,500 + 1 per 120 over 1,500 | 1 per 40 for first 1,520 + 1 per 60 over 1,520 | 1 per 200 | 1 per 150 | \u2014 | 1 per 1,000 | 1 service sink |"
+          ]
+        },
+        {
+          "text": "> *Note: This table is abridged. Full version includes all 8 classifications and their detailed use cases (Business, Educational, Institutional, Mercantile, Residential, Storage). For compliance coding, reference full official text.*"
+        },
+        {
+          "text": "> Additional footnotes:"
+        },
+        {
+          "text": "> - (1) For occupancy calculations and footnotes (a\u2013g), refer to the Florida Building Code and referenced standards."
+        },
+        {
+          "text": "> - (2) Fixture counts are minimums; additional may be required by use or building type."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "sku": "CAP-PVC-0.5-SCH40",
+    "fittingType": "cap",
+    "material": "PVC Sch40",
+    "size": "1/2 inch",
+    "variant": "Slip",
+    "retailPrice": 0.66,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "PLUG-PVC-2-CLEANOUT",
+    "fittingType": "plug",
+    "material": "PVC",
+    "size": "2 inch",
+    "variant": "MPT Threaded",
+    "retailPrice": 2.52,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "PLUG-PVC-3-CLEANOUT-KIT",
+    "fittingType": "plug",
+    "material": "PVC",
+    "size": "3 inch",
+    "variant": "DWV Cleanout Kit",
+    "retailPrice": 8.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Oatey"
+  },
+  {
+    "sku": "CAP-PVC-4-DWV",
+    "fittingType": "cap",
+    "material": "PVC DWV",
+    "size": "4 inch",
+    "variant": "Hub",
+    "retailPrice": 7.48,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "CAP-COPPER-0.5-SWEAT",
+    "fittingType": "cap",
+    "material": "Copper",
+    "size": "1/2 inch",
+    "variant": "Sweat",
+    "retailPrice": 0.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "CAP-COPPER-0.75-SWEAT",
+    "fittingType": "cap",
+    "material": "Copper",
+    "size": "3/4 inch",
+    "variant": "Sweat",
+    "retailPrice": 1.68,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "CAP-PEX-0.5-POLY",
+    "fittingType": "cap",
+    "material": "PEX (Poly Alloy)",
+    "size": "1/2 inch",
+    "variant": "Barb",
+    "retailPrice": 0.1,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Sioux Chief"
+  },
+  {
+    "sku": "CAP-PEX-0.5-BRASS",
+    "fittingType": "cap",
+    "material": "PEX (Brass)",
+    "size": "1/2 inch",
+    "variant": "Barb",
+    "retailPrice": 0.57,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "SharkBite"
+  },
+  {
+    "sku": "CAP-CI-1.5-NOHUB",
+    "fittingType": "cap",
+    "material": "Cast Iron",
+    "size": "1-1/2 inch",
+    "variant": "No-Hub w/ Clamp",
+    "retailPrice": 11.52,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "CAP-CI-4-NOHUB",
+    "fittingType": "cap",
+    "material": "Cast Iron",
+    "size": "4 inch",
+    "variant": "No-Hub",
+    "retailPrice": 19.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "PLUG-CI-4-NPT-BRASS",
+    "fittingType": "plug",
+    "material": "Brass",
+    "size": "4 inch",
+    "variant": "NPT Cleanout Plug",
+    "retailPrice": 29.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Oatey"
+  }
+]

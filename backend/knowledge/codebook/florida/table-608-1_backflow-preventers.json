@@ -1,0 +1,53 @@
+{
+  "title": "Table 608.1 \u2013 Application of Backflow Preventers",
+  "type": "table",
+  "source": "table-608-1_backflow-preventers.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 608.1 \u2013 Application of Backflow Preventers",
+      "content": [
+        {
+          "table": [
+            "| Device | Degree of Hazard | Application | Applicable Standards |",
+            "|--------|------------------|-------------|-----------------------|",
+            "| **Backflow prevention assemblies:** | | | |",
+            "| Double check backflow prevention assembly and double check fire protection backflow prevention assembly | Low hazard | Backpressure or backsiphonage, Sizes 3/8\u2033\u201316\u2033 | ASSE 1015, AWWA C510, CSA B64.5, CSA B64.5.1 |",
+            "| Double check detector fire protection backflow prevention assemblies | Low hazard | Backpressure or backsiphonage, Sizes 2\u2033\u201316\u2033 | ASSE 1048 |",
+            "| Pressure vacuum breaker assembly | High or low hazard | Backsiphonage only, Sizes 1/2\u2033\u20132\u2033 | ASSE 1020, CSA B64.1.2 |",
+            "| Reduced pressure principle backflow prevention assembly and reduced pressure principle fire protection backflow assembly | High or low hazard | Backpressure or backsiphonage, Sizes 3/8\u2033\u201316\u2033 | ASSE 1013, AWWA C511, CSA B64.4, CSA B64.4.1 |",
+            "| Reduced pressure detector fire protection backflow prevention assemblies | High or low hazard | Backsiphonage or backpressure (Automatic sprinkler systems) | ASSE 1047 |",
+            "| Spill-resistant vacuum breaker assembly | High or low hazard | Backsiphonage only, Sizes 1/4\u2033\u20132\u2033 | ASSE 1056, CSA B64.1.3 |",
+            "| **Backflow preventer plumbing devices:** | | | |",
+            "| Antisiphon-type fill valves for gravity water closet flush tanks | High hazard | Backsiphonage only | ASSE 1002, CSA B125.3 |",
+            "| Backflow preventer for carbonated beverage machines | Low hazard | Backpressure or backsiphonage, Sizes 1/4\u2033\u20133/8\u2033 | ASSE 1022 |",
+            "| Backflow preventer with intermediate atmospheric vents | Low hazard | Backpressure or backsiphonage, Sizes 1/4\u2033\u20133/4\u2033 | ASSE 1012, CSA B64.3 |",
+            "| Backflow preventer with intermediate atmospheric vent and pressure-reducing valve | Low hazard | Backpressure or backsiphonage, Sizes 1/4\u2033\u20133/4\u2033 | ASSE 1081 |",
+            "| Dual-check-valve-type backflow preventer | Low hazard | Backpressure or backsiphonage, Sizes 1/4\u2033\u20131\u2033 | ASSE 1024, CSA B64.6 |",
+            "| Hose connection backflow preventer | High or low hazard | Low head backpressure, rated working pressure, backpressure or backsiphonage, Sizes 1/2\u2033\u20131\u2033 | ASME A112.21.3, ASSE 1052, CSA B64.2.1.1 |",
+            "| Hose connection vacuum breaker | High or low hazard | Low head backpressure or backsiphonage, Sizes 1/2\u2033, 3/4\u2033, 1\u2033 | ASME A112.21.3, ASSE 1011, CSA B64.2, CSA B64.2.1 |",
+            "| Laboratory faucet backflow preventer | High or low hazard | Low head backpressure and backsiphonage | ASSE 1035, CSA B64.7 |",
+            "| Pipe-applied atmospheric-type vacuum breaker | High or low hazard | Backsiphonage only, Sizes 1/4\u2033\u20134\u2033 | ASSE 1001, CSA B64.1.1 |",
+            "| Vacuum breaker wall hydrants, frost-resistant, automatic-draining-type | High or low hazard | Low head backpressure or backsiphonage, Sizes 3/4\u2033, 1\u2033 | ASME A112.21.3, ASSE 1019, CSA B64.2.2 |",
+            "| **Other means or methods:** | | | |",
+            "| Air gap | High or low hazard | Backsiphonage or backpressure | ASME A112.1.2 |",
+            "| Air gap fittings for use with plumbing fixtures, appliances and appurtenances | High or low hazard | Backsiphonage or backpressure | ASME A112.1.3 |",
+            "| Barometric loop | High or low hazard | Backsiphonage only | See Section 608.14.4 |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm.*"
+        },
+        {
+          "text": "*Note:*"
+        },
+        {
+          "text": "a. Low hazard\u2014See \u201cPollution\u201d (Section 202). High hazard\u2014See \u201cContamination\u201d (Section 202)."
+        },
+        {
+          "text": "b. See \u201cBackpressure, Low head\u201d (Section 202). See \u201cBacksiphonage\u201d (Section 202)."
+        }
+      ]
+    }
+  ]
+}

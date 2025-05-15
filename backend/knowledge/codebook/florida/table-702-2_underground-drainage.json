@@ -1,0 +1,31 @@
+{
+  "title": "Table 702.2 \u2013 Underground Building Drainage and Vent Pipe",
+  "type": "table",
+  "source": "table-702-2_underground-drainage.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 702.2 \u2013 Underground Building Drainage and Vent Pipe",
+      "content": [
+        {
+          "table": [
+            "| Material                                                                                     | Standard                                                                 |",
+            "|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|",
+            "| Acrylonitrile butadiene styrene (ABS) plastic pipe in IPS diameters, including Schedule 40, DR 22 (PS 200) and DR 24 (PS 140); with a solid, cellular core or composite wall | ASTM D2661; ASTM F628; ASTM F1488; CSA B181.1                            |",
+            "| Cast-iron pipe                                                                               | ASTM A74; ASTM A888; CISPI 301                                          |",
+            "| Copper or copper-alloy tubing (Type K, L, M or DWV)                                           | ASTM B75; ASTM B88; ASTM B251; ASTM B306                                |",
+            "| Polyethylene (PE) plastic pipe                                                               | ASTM F714                                                               |",
+            "| Polyolefin pipe                                                                              | ASTM F714; ASTM F1412; CSA B181.3                                       |",
+            "| Polyvinyl chloride (PVC) plastic pipe in IPS diameters, including Schedule 40, DR 22 (PS 200) and DR 24 (PS 140); with a solid, cellular core or composite wall | ASTM D2665; ASTM F891; ASTM F1488; CSA B181.2                            |",
+            "| Polyvinyl chloride (PVC) plastic pipe with a 3.25-inch O.D. and a solid, cellular core or composite wall | ASTM D2949; ASTM F1488                                                 |",
+            "| Polyvinylidene fluoride (PVDF) plastic pipe                                                  | ASTM F1673; CSA B181.3                                                  |",
+            "| Stainless steel drainage systems, Type 316L                                                  | ASME A112.3.1                                                           |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm.*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Table 605.3: Water Service Pipe",
+  "type": "table",
+  "source": "Table_605.3_Water_Service_Pipe.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 605.3: Water Service Pipe",
+      "content": [
+        {
+          "table": [
+            "| Material                                                                 | Standard                                                      |",
+            "|--------------------------------------------------------------------------|---------------------------------------------------------------|",
+            "| Acrylonitrile butadiene styrene (ABS) plastic pipe                      | ASTM D1527; ASTM D2282                                        |",
+            "| Chlorinated polyvinyl chloride (CPVC) plastic pipe                      | ASTM D2846; ASTM F441; ASTM F442; CSA B137.6                  |",
+            "| CPVC/AL/CPVC (Chlorinated polyvinyl chloride/aluminum/CPVC)            | ASTM F2855                                                   |",
+            "| Copper or copper-alloy pipe                                             | ASTM B42; ASTM B43; ASTM B302                                 |",
+            "| Copper or copper-alloy tubing (Type K, WK, L, WL, M or WM)              | ASTM B75; ASTM B88; ASTM B251; ASTM B447                      |",
+            "| Cross-linked polyethylene (PEX) plastic pipe and tubing                 | ASTM F876; AWWA C904; CSA B137.5                              |",
+            "| PEX-AL-PEX (Cross-linked polyethylene/aluminum/PEX) pipe                | ASTM F1281; ASTM F2262; CSA B137.10                           |",
+            "| PEX-AL-HDPE (Cross-linked polyethylene/aluminum/HDPE)                   | ASTM F1986                                                   |",
+            "| Ductile iron water pipe                                                 | AWWA C151/A21.51; AWWA C115/A21.15                            |",
+            "| Galvanized steel pipe                                                   | ASTM A53                                                     |",
+            "| Polyethylene (PE) plastic pipe                                          | ASTM D2239; ASTM D3035; AWWA C901; CSA B137.1                 |",
+            "| Polyethylene (PE) plastic tubing                                        | ASTM D2737; AWWA C901; CSA B137.1                             |",
+            "| Polyethylene/aluminum/polyethylene (PE-AL-PE) pipe                      | ASTM F1282; CSA B137.9                                       |",
+            "| Polyethylene of raised temperature (PE-RT) plastic tubing               | ASTM F2769; CSA B137.18                                      |",
+            "| Polypropylene (PP) plastic pipe or tubing                               | ASTM F2389; CSA B137.11                                      |",
+            "| Polyvinyl chloride (PVC) plastic pipe                                   | ASTM D1785; ASTM D2241; ASTM D2672; CSA B137.3                |",
+            "| Stainless steel pipe (Type 304/304L)                                    | ASTM A269; ASTM A312; ASTM A778                              |",
+            "| Stainless steel pipe (Type 316/316L)                                    | ASTM A269; ASTM A312; ASTM A778                              |"
+          ]
+        }
+      ]
+    }
+  ]
+}

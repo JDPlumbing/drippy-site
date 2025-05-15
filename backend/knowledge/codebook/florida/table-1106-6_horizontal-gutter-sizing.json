@@ -1,0 +1,47 @@
+{
+  "title": "Table 1106.6 \u2013 Horizontal Gutter Sizing",
+  "type": "table",
+  "source": "table-1106-6_horizontal-gutter-sizing.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 1106.6 \u2013 Horizontal Gutter Sizing",
+      "content": [
+        {
+          "table": [
+            "| Gutter Dimensions (inches)a | Slope (inch/foot) | Capacity (gpm) |",
+            "|-----------------------------|--------------------|----------------|",
+            "| 1 1/2 \u00d7 2 1/2               | 1/4                | 26             |",
+            "| 1 1/2 \u00d7 2 1/2               | 1/2                | 40             |",
+            "| 4                           | 1/8                | 39             |",
+            "| 2 1/4 \u00d7 3                   | 1/4                | 55             |",
+            "| 2 1/4 \u00d7 3                   | 1/2                | 87             |",
+            "| 5                           | 1/8                | 74             |",
+            "| 4 \u00d7 2 1/2                   | 1/4                | 106            |",
+            "| 3 \u00d7 3 1/2                   | 1/2                | 156            |",
+            "| 6                           | 1/8                | 110            |",
+            "| 3 \u00d7 5                       | 1/4                | 157            |",
+            "| 3 \u00d7 5                       | 1/2                | 225            |",
+            "| 8                           | 1/16               | 172            |",
+            "| 8                           | 1/8                | 247            |",
+            "| 4 1/2 \u00d7 6                   | 1/4                | 348            |",
+            "| 4 1/2 \u00d7 6                   | 1/2                | 494            |",
+            "| 10                          | 1/16               | 331            |",
+            "| 10                          | 1/8                | 472            |",
+            "| 5 \u00d7 8                       | 1/4                | 651            |",
+            "| 4 \u00d7 10                      | 1/2                | 1055           |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 foot = 304.8 mm, 1 gallon per minute = 3.785 L/min, 1 inch per foot = 83.3 mm/m.*"
+        },
+        {
+          "text": "**Note:**"
+        },
+        {
+          "text": "a. Dimensions are width by depth for rectangular shapes. Single dimensions are diameters of a semicircle."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Chapter 3: General Regulations",
+  "type": "chapter",
+  "source": "Chapter_3_General_Regulations.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 301: General",
+      "content": [
+        {
+          "text": "**301.1 Scope**"
+        },
+        {
+          "text": "The provisions of this chapter shall govern the general regulations regarding the installation of plumbing not specific to other chapters."
+        },
+        {
+          "text": "**301.2 System Installation**"
+        },
+        {
+          "text": "Plumbing shall be installed with due regard to preservation of the strength of structural members and prevention of damage to walls and other surfaces through fixture usage."
+        },
+        {
+          "text": "**301.3 Connections to Drainage System**"
+        },
+        {
+          "text": "Plumbing fixtures, drains, appurtenances and appliances used to receive or discharge liquid waste or sewage shall be directly connected to the sanitary drainage system of the building or premises, in accordance with the requirements of this code."
+        },
+        {
+          "text": "**Exception:** Fixtures discharging to an approved gray water system (e.g., for flushing water closets) are exempt as specified in Chapter 13."
+        },
+        {
+          "text": "**301.4 Connections to Water Supply**"
+        },
+        {
+          "text": "Every plumbing fixture or appliance using water shall be connected to the supply system per code requirements."
+        },
+        {
+          "text": "**301.5 Pipe, Tube and Fitting Sizes**"
+        },
+        {
+          "text": "Pipe sizes in this code refer to nominal or standard sizes per material standards."
+        },
+        {
+          "text": "**301.6 Prohibited Locations**"
+        },
+        {
+          "text": "Plumbing shall not be located in elevator shafts or equipment rooms."
+        },
+        {
+          "text": "**Exception:** Indirect connections for floor drains, sumps, and sump pumps are permitted with Section 1003.4 compliance."
+        },
+        {
+          "text": "**301.7 Conflicts**"
+        },
+        {
+          "text": "Where manufacturer installation instructions conflict with this code, the more restrictive requirement shall apply."
+        },
+        {
+          "text": "---"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 302: Exclusion of Materials Detrimental to the Sewer System",
+      "content": [
+        {
+          "text": "**302.1 Detrimental or Dangerous Materials**"
+        },
+        {
+          "text": "Materials that could harm or obstruct the public sewer system must be excluded, per code definition."
+        },
+        {
+          "text": "(Additional section content can follow here.)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Table 1303.10.1 \u2013 Location of Rainwater Storage Tanks",
+  "type": "table",
+  "source": "table-1303-10-1_rainwater-storage-tank-location.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 1303.10.1 \u2013 Location of Rainwater Storage Tanks",
+      "content": [
+        {
+          "table": [
+            "| Element                                | Minimum Horizontal Distance from Storage Tank (feet) |",
+            "|----------------------------------------|------------------------------------------------------|",
+            "| Critical root zone (CRZ) of protected trees | 2                                                  |",
+            "| Lot line adjoining private lots        | 5                                                   |",
+            "| Seepage pits                           | 5                                                   |",
+            "| Septic tanks                           | 5                                                   |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 foot = 304.8 mm.*"
+        }
+      ]
+    }
+  ]
+}

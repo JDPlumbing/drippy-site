@@ -1,0 +1,70 @@
+{
+  "title": "Chapter 7: Sanitary Drainage",
+  "type": "chapter",
+  "source": "Chapter_7_Sanitary_Drainage.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Section 701: General",
+      "content": [
+        {
+          "text": "**701.1 Scope**"
+        },
+        {
+          "text": "Covers sanitary drainage systems within buildings and premises."
+        },
+        {
+          "text": "**701.2 Connection to Public Sewer**"
+        },
+        {
+          "text": "Where a public sewer is available, the building sewer shall be connected."
+        },
+        {
+          "text": "**701.3 Materials**"
+        },
+        {
+          "text": "Approved materials include cast iron, PVC, ABS, copper DWV, and others."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 704: Drainage Piping Installation",
+      "content": [
+        {
+          "text": "**704.1 Slope of Horizontal Drainage Piping**"
+        },
+        {
+          "text": "1/4 inch per foot minimum for 2 1/2-inch or smaller piping; 1/8 inch per foot for larger piping."
+        },
+        {
+          "text": "**704.2 Change in Direction**"
+        },
+        {
+          "text": "Shall be made using fittings that ensure flow with minimal turbulence."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Section 705: Joints and Connections",
+      "content": [
+        {
+          "text": "**705.1 General**"
+        },
+        {
+          "text": "Joints shall be tight, durable, and leak-free."
+        },
+        {
+          "text": "**705.10 Cleanouts**"
+        },
+        {
+          "text": "Cleanouts shall be provided for each change of direction greater than 45 degrees in the building drain."
+        },
+        {
+          "text": "(Additional provisions on interceptors, backwater valves, and storm drainage would follow.)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "table-d101 degree-day-design-temps",
+  "type": "table",
+  "source": "table-d101_degree-day-design-temps.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": null,
+      "content": [
+        {
+          "table": [
+            "| State   | City       |   Heating Degree Days |   Winter Temp |   Summer Dry Bulb |   Summer Wet Bulb | Latitude   |",
+            "|:--------|:-----------|----------------------:|--------------:|------------------:|------------------:|:-----------|",
+            "| AL      | Birmingham |                  2551 |            21 |                94 |                77 | 33\u00b030\u2032     |",
+            "| AK      | Anchorage  |                 10864 |           -18 |                68 |                59 | 61\u00b010\u2032     |",
+            "| AZ      | Flagstaff  |                  7152 |             4 |                82 |                60 | 35\u00b010\u2032     |",
+            "| AR      | Fort Smith |                  3292 |            17 |                98 |                79 | 35\u00b020\u2032     |"
+          ]
+        }
+      ]
+    }
+  ]
+}

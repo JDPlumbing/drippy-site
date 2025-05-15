@@ -1,0 +1,49 @@
+{
+  "title": "Table 308.5 \u2014 Hanger Spacing",
+  "type": "table",
+  "source": "Table_308_Hanger_Spacing.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 308.5 \u2014 Hanger Spacing",
+      "content": [
+        {
+          "table": [
+            "| Piping Material                                                        | Max Horizontal Spacing (feet) | Max Vertical Spacing (feet) |",
+            "|------------------------------------------------------------------------|-------------------------------|------------------------------|",
+            "| Acrylonitrile butadiene styrene (ABS) pipe                             | 4                             |                              |",
+            "| Aluminum tubing                                                        | 10                            | 15                           |",
+            "| Brass pipe                                                             | 10                            | 10                           |",
+            "| Cast-iron pipe                                                         | 5 (a)                         |                              |",
+            "| Chlorinated polyvinyl chloride (CPVC) pipe and tubing, 1 inch and smaller | 3                         | 10 (b)                       |",
+            "| Chlorinated polyvinyl chloride (CPVC) pipe and tubing, 1\u00bc inches and larger | 4                         | 10 (b)                       |",
+            "| Copper or copper-alloy pipe                                            | 12                            | 10                           |",
+            "| Copper or copper-alloy tubing, 1\u00bc-inch diameter and smaller            | 6                             |                              |",
+            "| Copper or copper-alloy tubing, 1\u00bd-inch diameter and larger             | 10                            |                              |",
+            "| Cross-linked polyethylene (PEX) pipe 1 inch and smaller                | 2.67 (32 inches) (b)          | 10 (b)                       |",
+            "| Cross-linked polyethylene (PEX) pipe 1\u00bc inch and larger                | 4                             | 10 (b)                       |",
+            "| Cross-linked polyethylene/aluminum/cross-linked polyethylene (PEX-AL-PEX) pipe | 2.67 (32 inches) (b)    | 4                            |",
+            "| Lead pipe                                                              | Continuous                    | 4                            |",
+            "| Polyethylene/aluminum/polyethylene (PE-AL-PE) pipe                     | 2.67 (32 inches)              | 4                            |",
+            "| Polyethylene of raised temperature (PE-RT) pipe 1 inch and smaller     | 2.67 (32 inches) (b)          | 10 (b)                       |",
+            "| Polyethylene of raised temperature (PE-RT) pipe 1\u00bc inch and larger     | 4                             | 10 (b)                       |",
+            "| Polypropylene (PP) pipe or tubing 1 inch and smaller                   | 2.67 (32 inches) (b)          |                              |",
+            "| Polypropylene (PP) pipe or tubing 1\u00bc inches and larger                 | 4                             | 10 (b)                       |",
+            "| Polyvinyl chloride (PVC) pipe                                          | 4                             |                              |",
+            "| Stainless steel drainage systems                                       | 10                            |                              |",
+            "| Steel pipe                                                             | 12                            | 15                           |"
+          ]
+        },
+        {
+          "text": "> **Footnotes:**"
+        },
+        {
+          "text": "> (a) The maximum horizontal spacing of cast-iron pipe hangers shall be increased to 10 feet where 10-foot lengths of pipe are installed."
+        },
+        {
+          "text": "> (b) For size 2 inches and smaller, a guide shall be installed midway between required vertical supports. Such guides shall prevent pipe movement in a direction perpendicular to the axis of the pipe."
+        }
+      ]
+    }
+  ]
+}

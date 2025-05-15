@@ -1,0 +1,163 @@
+{
+  "title": "Appendix E \u2013 Sizing of Water Piping System",
+  "type": "chapter",
+  "source": "appendix-e_section-e103.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "E103.1 General",
+      "content": [
+        {
+          "text": "Use Table 604.3 to determine the desirable minimum residual pressure at the highest fixture in the supply system."
+        },
+        {
+          "bullet": "For flushometer valves: \u2265 15 psi (103.4 kPa) flowing"
+        },
+        {
+          "bullet": "For flush tank supplies: \u2265 8 psi (55.2 kPa) flowing"
+        },
+        {
+          "bullet": "For blowout action fixtures: \u2265 25 psi (172.4 kPa) flowing"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "E103.2.2",
+      "content": [
+        {
+          "text": "Water pipe sizing is based on:"
+        },
+        {
+          "text": "1. Required fixture pressure"
+        },
+        {
+          "text": "2. Static pressure change (0.433 psi/foot)"
+        },
+        {
+          "text": "3. Water meter friction loss"
+        },
+        {
+          "text": "4. Tap loss"
+        },
+        {
+          "text": "5. Device losses (e.g., filters, regulators)"
+        },
+        {
+          "text": "6. Valve and fitting losses (equivalent length method)"
+        },
+        {
+          "text": "7. Pipe friction loss (from pipe charts)"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "E103.3 Segmented Loss Method",
+      "content": [
+        {
+          "text": "This method uses the following steps:"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Step 1: Preliminary",
+      "content": [
+        {
+          "text": "Gather data on:"
+        },
+        {
+          "bullet": "Minimum static service pressure"
+        },
+        {
+          "bullet": "Friction loss for meters (from manufacturers)"
+        },
+        {
+          "bullet": "Pipe material, elevations, fixture locations"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Step 2: Demand Load",
+      "content": [
+        {
+          "text": "Use Table E103.3(3) for fixture unit \u2192 gpm conversion. Continuous fixtures (sprinklers, AC) must be added directly in gpm."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Step 3: Pressure Loss Calculations",
+      "content": [
+        {
+          "text": "Factors include:"
+        },
+        {
+          "bullet": "Fixture pressure requirement"
+        },
+        {
+          "bullet": "Elevation loss/gain (0.433 psi/foot)"
+        },
+        {
+          "bullet": "Meter loss"
+        },
+        {
+          "bullet": "Tap loss"
+        },
+        {
+          "bullet": "Device losses (manufacturer data)"
+        },
+        {
+          "bullet": "Valves/fittings (convert to feet)"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Step 4: Friction Pressure Available",
+      "content": [
+        {
+          "text": "Subtract all losses from supply pressure to determine how much pressure remains for pipe friction."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Step 5\u201312: Tabular Design Method",
+      "content": [
+        {
+          "text": "Use Table E103.3(1) as a design worksheet:"
+        },
+        {
+          "bullet": "Define pipe sections, lengths, and trial sizes"
+        },
+        {
+          "bullet": "Convert fitting/valve losses to equivalent length (Table E103.3(6))"
+        },
+        {
+          "bullet": "Calculate total friction loss (Column 9)"
+        },
+        {
+          "bullet": "Check against available pressure (Line J \u2013 Line K)"
+        },
+        {
+          "bullet": "Adjust pipe sizes for efficiency"
+        },
+        {
+          "text": "**Note**: Use sizing charts (e.g., Figure E103.3(3)) for Type L copper tubing."
+        },
+        {
+          "text": "---"
+        },
+        {
+          "text": "*For SI: 1 foot = 304.8 mm, 1 gpm = 3.785 L/m, 1 psi = 6.895 kPa*"
+        },
+        {
+          "text": "*Source: [FLPC 2023 Appendix E](https://codes.iccsafe.org/content/FLPC2023P1/appendix-e-sizing-of-water-piping-system#FLPC2023P1_AppxE)*"
+        }
+      ]
+    }
+  ]
+}

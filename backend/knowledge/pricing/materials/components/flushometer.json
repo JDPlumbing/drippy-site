@@ -1,0 +1,14 @@
+[
+  {
+    "sku": "FLUSH-MAN",
+    "type": "manual",
+    "material": "Brass",
+    "price": 140.0
+  },
+  {
+    "sku": "FLUSH-SENSOR",
+    "type": "sensor",
+    "material": "Brass",
+    "price": 245.0
+  }
+]

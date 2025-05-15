@@ -1,0 +1,67 @@
+{
+  "title": "Appendix E \u2013 Sizing of Water Piping System",
+  "type": "table",
+  "source": "appendix-e_table-e103-3-2.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Key Tables for Pipe Sizing Calculations",
+      "content": [
+        {
+          "text": "---"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "Table E103.3(2) \u2013 Load Values Assigned to Fixtures (wsfu)",
+      "content": [
+        {
+          "table": [
+            "| Fixture                         | Occupancy         | Type of Supply Control     | Cold | Hot | Total |",
+            "|----------------------------------|--------------------|-----------------------------|------|-----|-------|",
+            "| Bathroom group                  | Private            | Flush tank                  | 2.7  | 1.5 | 3.6   |",
+            "| Bathroom group                  | Private            | Flushometer valve           | 6.0  | 3.0 | 8.0   |",
+            "| Bathtub                         | Private            | Faucet                      | 1.0  | 1.0 | 1.4   |",
+            "| Bathtub                         | Public             | Faucet                      | 3.0  | 3.0 | 4.0   |",
+            "| Bidet                           | Private            | Faucet                      | 1.5  | 1.5 | 2.0   |",
+            "| Combination fixture             | Private            | Faucet                      | 2.25 | 2.25| 3.0   |",
+            "| Dishwashing machine             | Private            | Automatic                   | \u2014    | 1.4 | 1.4   |",
+            "| Drinking fountain               | Offices, etc.      | 3/8\u2033 valve                  | 0.25 | \u2014   | 0.25  |",
+            "| Kitchen sink                    | Private            | Faucet                      | 1.0  | 1.0 | 1.4   |",
+            "| Kitchen sink                    | Hotel, restaurant  | Faucet                      | 3.0  | 3.0 | 4.0   |",
+            "| Laundry trays (1 to 3)          | Private            | Faucet                      | 1.0  | 1.0 | 1.4   |",
+            "| Lavatory                        | Private            | Faucet                      | 0.5  | 0.5 | 0.7   |",
+            "| Lavatory                        | Public             | Faucet                      | 1.5  | 1.5 | 2.0   |",
+            "| Service sink                    | Offices, etc.      | Faucet                      | 2.25 | 2.25| 3.0   |",
+            "| Shower head                     | Public             | Mixing valve                | 3.0  | 3.0 | 4.0   |",
+            "| Shower head                     | Private            | Mixing valve                | 1.0  | 1.0 | 1.4   |",
+            "| Urinal                          | Public             | 1\u2033 flushometer valve        | 10.0 | \u2014   | 10.0  |",
+            "| Urinal                          | Public             | 3/4\u2033 flushometer valve      | 5.0  | \u2014   | 5.0   |",
+            "| Urinal                          | Public             | Flush tank                  | 3.0  | \u2014   | 3.0   |",
+            "| Washing machine (8 lb)         | Private            | Automatic                   | 1.0  | 1.0 | 1.4   |",
+            "| Washing machine (8 lb)         | Public             | Automatic                   | 2.25 | 2.25| 3.0   |",
+            "| Washing machine (15 lb)        | Public             | Automatic                   | 3.0  | 3.0 | 4.0   |",
+            "| Water closet                   | Private            | Flushometer valve           | 6.0  | \u2014   | 6.0   |",
+            "| Water closet                   | Private            | Flush tank                  | 2.2  | \u2014   | 2.2   |",
+            "| Water closet                   | Public             | Flushometer valve           | 10.0 | \u2014   | 10.0  |",
+            "| Water closet                   | Public             | Flush tank                  | 5.0  | \u2014   | 5.0   |",
+            "| Water closet                   | Public or private  | Flushometer tank            | 2.0  | \u2014   | 2.0   |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 pound = 0.454 kg*"
+        },
+        {
+          "text": "---"
+        },
+        {
+          "text": "More tables (e.g., demand estimation, pressure losses, friction allowances) can be added next upon request."
+        },
+        {
+          "text": "*Source: [FLPC 2023 Appendix E](https://codes.iccsafe.org/content/FLPC2023P1/appendix-e-sizing-of-water-piping-system#FLPC2023P1_AppxE)*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Table 608.9.2.2 \u2013 Size of Pipe Identification",
+  "type": "table",
+  "source": "table-608-9-2-2_pipe-identification.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 608.9.2.2 \u2013 Size of Pipe Identification",
+      "content": [
+        {
+          "table": [
+            "| Pipe Diameter (inches) | Length Background Color Field (inches) | Size of Letters (inches) |",
+            "|------------------------|-----------------------------------------|---------------------------|",
+            "| 3/4 to 1 1/4           | 8                                       | 0.5                       |",
+            "| 1 1/2 to 2             | 8                                       | 0.75                      |",
+            "| 2 1/2 to 6             | 12                                      | 1.25                      |",
+            "| 8 to 10                | 24                                      | 2.5                       |",
+            "| Over 10                | 32                                      | 3.5                       |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm.*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Appendix E \u2013 Sizing of Water Piping System",
+  "type": "chapter",
+  "source": "appendix-e_section-e101-e102.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "E101.1 Scope",
+      "content": [
+        {
+          "text": "This appendix outlines two procedures for sizing a water piping system (see Sections E103.3 and E201.1). The design procedures are based on the minimum static pressure available from the supply source, the head changes in the system caused by friction and elevation, and the rates of flow necessary for operation of various fixtures."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "E101.1.2",
+      "content": [
+        {
+          "text": "Due to the variable conditions encountered in hydraulic design, it is impractical to specify definite and detailed rules for sizing the water piping system. Accordingly, other sizing or design methods conforming to good engineering practice standards are acceptable alternatives to those presented herein."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "E102.1 Preliminary",
+      "content": [
+        {
+          "text": "Obtain the necessary information regarding the minimum daily static service pressure in the area where the building is to be located. If the building supply is to be metered, obtain information regarding friction loss relative to the rate of flow for meters in the range of sizes likely to be used."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "E102.2.1",
+      "content": [
+        {
+          "text": "Estimate the supply demand of the building main and the principal branches and risers of the system by totaling the corresponding demand from the applicable part of Table E103.3(3)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "E102.2.2",
+      "content": [
+        {
+          "text": "Estimate continuous supply demands in gallons per minute (L/m) for lawn sprinklers, air conditioners, etc., and add the sum to the total demand for fixtures. The result is the estimated supply demand for the building supply."
+        },
+        {
+          "text": "*For SI: 1 foot = 304.8 mm, 1 gpm = 3.785 L/m*"
+        },
+        {
+          "text": "*Source: [FLPC 2023 Appendix E](https://codes.iccsafe.org/content/FLPC2023P1/appendix-e-sizing-of-water-piping-system#FLPC2023P1_AppxE)*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Table 709.2 \u2013 Drainage Fixture Units for Fixture Drains or Traps",
+  "type": "table",
+  "source": "table-709-2_drainage-fixture-units-traps.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 709.2 \u2013 Drainage Fixture Units for Fixture Drains or Traps",
+      "content": [
+        {
+          "table": [
+            "| Fixture Drain or Trap Size (inches) | Drainage Fixture Unit Value |",
+            "|-------------------------------------|------------------------------|",
+            "| 1 1/4                               | 1                            |",
+            "| 1 1/2                               | 2                            |",
+            "| 2                                   | 3                            |",
+            "| 2 1/2                               | 4                            |",
+            "| 3                                   | 5                            |",
+            "| 4                                   | 6                            |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm.*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Table 606.5.7 \u2013 Size of Drain Pipes for Water Tanks",
+  "type": "table",
+  "source": "table-606-5-7_drain-pipe-sizes.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 606.5.7 \u2013 Size of Drain Pipes for Water Tanks",
+      "content": [
+        {
+          "table": [
+            "| Tank Capacity (gallons) | Drain Pipe (inches) |",
+            "|--------------------------|---------------------|",
+            "| Up to 750                | 1                   |",
+            "| 751 to 1,500             | 1 1/2               |",
+            "| 1,501 to 3,000           | 2                   |",
+            "| 3,001 to 5,000           | 2 1/2               |",
+            "| 5,000 to 7,500           | 3                   |",
+            "| Over 7,500               | 4                   |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 gallon = 3.785 L.*"
+        }
+      ]
+    }
+  ]
+}

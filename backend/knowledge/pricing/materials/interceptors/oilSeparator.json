@@ -1,0 +1,10 @@
+[
+  {
+    "sku": "OS-GRAVITY-100GAL",
+    "type": "Gravity",
+    "capacity": "100 gal+",
+    "retailPrice": 2500.0,
+    "bulkPrice": null,
+    "source": "Local precast supplier"
+  }
+]

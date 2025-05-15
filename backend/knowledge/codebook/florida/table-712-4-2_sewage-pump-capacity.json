@@ -1,0 +1,25 @@
+{
+  "title": "Table 712.4.2 \u2013 Minimum Capacity of Sewage Pump or Sewage Ejector",
+  "type": "table",
+  "source": "table-712-4-2_sewage-pump-capacity.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 712.4.2 \u2013 Minimum Capacity of Sewage Pump or Sewage Ejector",
+      "content": [
+        {
+          "table": [
+            "| Diameter of the Discharge Pipe (inches) | Capacity of Pump or Ejector (gpm) |",
+            "|----------------------------------------|-----------------------------------|",
+            "| 2                                      | 21                                |",
+            "| 2 1/2                                  | 30                                |",
+            "| 3                                      | 46                                |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 gallon per minute = 3.785 L/min.*"
+        }
+      ]
+    }
+  ]
+}

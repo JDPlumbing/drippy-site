@@ -1,0 +1,20 @@
+[
+  {
+    "sku": "CI-2-NH",
+    "size": "2 inch",
+    "length": "10 ft",
+    "material": "Cast Iron No-Hub",
+    "retailPrice": 130.0,
+    "bulkPrice": 89.77,
+    "source": "Cooney Brothers / Guilford"
+  },
+  {
+    "sku": "CI-4-NH",
+    "size": "4 inch",
+    "length": "10 ft",
+    "material": "Cast Iron No-Hub",
+    "retailPrice": 176.67,
+    "bulkPrice": 164.91,
+    "source": "US Supply / Cooney Brothers"
+  }
+]

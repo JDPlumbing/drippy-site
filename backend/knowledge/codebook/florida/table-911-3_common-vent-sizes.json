@@ -1,0 +1,25 @@
+{
+  "title": "Table 911.3 \u2013 Common Vent Sizes",
+  "type": "table",
+  "source": "table-911-3_common-vent-sizes.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 911.3 \u2013 Common Vent Sizes",
+      "content": [
+        {
+          "table": [
+            "| Pipe Size (inches) | Maximum Discharge from Upper Fixture Drain (dfu) |",
+            "|---------------------|---------------------------------------------------|",
+            "| 1 1/2               | 1                                                 |",
+            "| 2                   | 4                                                 |",
+            "| 2 1/2 to 3          | 6                                                 |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm.*"
+        }
+      ]
+    }
+  ]
+}

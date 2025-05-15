@@ -1,0 +1,20 @@
+[
+  {
+    "sku": "WH-ELECTRIC-40G",
+    "type": "Electric",
+    "size": "40 gal",
+    "warranty": "6-year",
+    "retailPrice": 439.0,
+    "bulkPrice": 400.0,
+    "source": "Home Depot"
+  },
+  {
+    "sku": "WH-GAS-40G",
+    "type": "Gas",
+    "size": "40 gal",
+    "warranty": "6-year",
+    "retailPrice": 679.0,
+    "bulkPrice": 439.0,
+    "source": "Home Depot"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "title": "Table 710.1(2) \u2013 Horizontal Fixture Branches and Stacks",
+  "type": "table",
+  "source": "table-710-1-2_fixture-branches-stacks.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 710.1(2) \u2013 Horizontal Fixture Branches and Stacks",
+      "content": [
+        {
+          "table": [
+            "| Diameter of Pipe (inches) | Max DFU: Horizontal Branch | Max DFU: Stack (One Branch Interval) | Max DFU: Stack (\u2264 3 Intervals) | Max DFU: Stack (> 3 Intervals) |",
+            "|---------------------------|-----------------------------|--------------------------------------|----------------------------------|-----------------------------------|",
+            "| 1 1/2                     | 3                           | 2                                    | 4                                | 8                                 |",
+            "| 2                         | 6                           | 6                                    | 10                               | 24                                |",
+            "| 2 1/2                     | 12                          | 9                                    | 20                               | 42                                |",
+            "| 3                         | 20                          | 20                                   | 48                               | 72                                |",
+            "| 4                         | 160                         | 90                                   | 240                              | 500                               |",
+            "| 5                         | 360                         | 200                                  | 540                              | 1,100                             |",
+            "| 6                         | 620                         | 350                                  | 960                              | 1,900                             |",
+            "| 8                         | 1,400                       | 600                                  | 2,200                            | 3,600                             |",
+            "| 10                        | 2,500                       | 1,000                                | 3,800                            | 5,600                             |",
+            "| 12                        | 3,900                       | 1,500                                | 6,000                            | 8,400                             |",
+            "| 15                        | 7,000                       | Note c                               | Note c                           | Note c                            |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm.*"
+        },
+        {
+          "text": "**Notes:**"
+        },
+        {
+          "bullet": "a. Does not include branches of the building drain. Refer to Table 710.1(1)."
+        },
+        {
+          "bullet": "b. Stacks shall be sized based on total accumulated connected load at each story/branch interval. Stack size must not be reduced to less than half the largest required stack size."
+        },
+        {
+          "bullet": "c. Sizing load based on design criteria."
+        }
+      ]
+    }
+  ]
+}

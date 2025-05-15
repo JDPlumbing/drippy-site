@@ -1,0 +1,25 @@
+{
+  "title": "Table 704.1 \u2013 Slope of Horizontal Drainage Pipe",
+  "type": "table",
+  "source": "table-704-1_drainage-slope.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "Table 704.1 \u2013 Slope of Horizontal Drainage Pipe",
+      "content": [
+        {
+          "table": [
+            "| Size (inches)     | Minimum Slope (inch per foot) |",
+            "|-------------------|-------------------------------|",
+            "| 2 1/2 or less     | 1/4                           |",
+            "| 3 to 6            | 1/8                           |",
+            "| 8 or larger       | 1/16                          |"
+          ]
+        },
+        {
+          "text": "*For SI: 1 inch = 25.4 mm, 1 inch per foot = 83.33 mm/m.*"
+        }
+      ]
+    }
+  ]
+}

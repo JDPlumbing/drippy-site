@@ -1,0 +1,90 @@
+[
+  {
+    "sku": "WYE-PVC-1.5-DWV",
+    "fittingType": "wye",
+    "material": "PVC DWV",
+    "size": "1-1/2 inch",
+    "variant": "All Hub",
+    "retailPrice": 5.52,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "WYE-PVC-2-DWV",
+    "fittingType": "wye",
+    "material": "PVC DWV",
+    "size": "2 inch",
+    "variant": "All Hub",
+    "retailPrice": 8.21,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "WYE-PVC-3-DWV",
+    "fittingType": "wye",
+    "material": "PVC DWV",
+    "size": "3 inch",
+    "variant": "All Hub",
+    "retailPrice": 13.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "WYE-PVC-4-DWV",
+    "fittingType": "wye",
+    "material": "PVC DWV",
+    "size": "4 inch",
+    "variant": "All Hub",
+    "retailPrice": 23.21,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "WYE-PVC-4X4X3-COMBO",
+    "fittingType": "wye",
+    "material": "PVC DWV",
+    "size": "4 x 4 x 3 inch",
+    "variant": "Combo Wye + 1/8 Bend",
+    "retailPrice": 27.6,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "WYE-CI-4-NOHUB",
+    "fittingType": "wye",
+    "material": "Cast Iron",
+    "size": "4 inch",
+    "variant": "No-Hub Wye",
+    "retailPrice": 61.04,
+    "bulkPrice": null,
+    "source": "Ferguson",
+    "brand": "Tyler"
+  },
+  {
+    "sku": "WYE-CI-4X3-REDUCING",
+    "fittingType": "wye",
+    "material": "Cast Iron",
+    "size": "4 x 3 inch",
+    "variant": "Reducing Wye",
+    "retailPrice": 83.9,
+    "bulkPrice": null,
+    "source": "Ferguson",
+    "brand": "Tyler"
+  },
+  {
+    "sku": "WYE-CI-4-DOUBLE",
+    "fittingType": "wye",
+    "material": "Cast Iron",
+    "size": "4 inch",
+    "variant": "Double Wye",
+    "retailPrice": 167.83,
+    "bulkPrice": null,
+    "source": "Ferguson",
+    "brand": "Tyler"
+  }
+]

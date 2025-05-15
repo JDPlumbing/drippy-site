@@ -1,0 +1,14 @@
+[
+  {
+    "sku": "PUMP-SUMP",
+    "type": "sump",
+    "material": "Thermoplastic",
+    "price": 145.0
+  },
+  {
+    "sku": "PUMP-EJECT",
+    "type": "sewage ejector",
+    "material": "Cast Iron",
+    "price": 310.0
+  }
+]

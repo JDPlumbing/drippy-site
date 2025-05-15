@@ -1,0 +1,88 @@
+{
+  "title": "Chapter 8 - Indirect/Special Waste",
+  "type": "chapter",
+  "source": "Chapter_8_Indirect_Waste.md",
+  "content": [
+    {
+      "type": "section",
+      "heading": "801 General",
+      "content": [
+        {
+          "text": "801.1 Scope: Covers indirect waste piping and special wastes including air breaks, air gaps, and corrosive waste neutralization."
+        },
+        {
+          "text": "801.2 Protection: Special function equipment must be protected against backflow, fouling, flooding, and stoppage."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "802 Indirect Wastes",
+      "content": [
+        {
+          "text": "802.1 Where required: Includes food-handling equipment (non-dwelling), clear-water waste, humidifiers, dishwashing equipment."
+        },
+        {
+          "text": "802.1.1 Food handling: Must discharge via air gap; each sink well discharges independently."
+        },
+        {
+          "text": "802.1.2 Floor drains in food storage: Must be indirectly connected by air gap or air break; exceptions apply for backflow protection."
+        },
+        {
+          "text": "802.1.3 Potable clear-water waste: Must discharge through indirect waste with air gap."
+        },
+        {
+          "text": "802.1.4 Swimming pools: Backwash and deck drains must discharge via air gap."
+        },
+        {
+          "text": "802.1.5 Nonpotable clear-water waste: Must discharge through air gap or air break."
+        },
+        {
+          "text": "802.1.6 Commercial dishwashers: Require air gap or air break per Section 802.3."
+        },
+        {
+          "text": "802.1.7 Food sinks: Non-residential food-related sinks must discharge indirectly with air gap or air break."
+        },
+        {
+          "text": "802.2 Materials and joints: Must comply with Chapter 7 for installation and materials."
+        },
+        {
+          "text": "802.3 Installation: Air gap or air break into trapped and vented waste receptors. Traps required for indirect lines >30\" horiz. or >54\" total length."
+        },
+        {
+          "text": "802.3.1 Air gap: At least 2\u00d7 effective opening of waste pipe above flood rim."
+        },
+        {
+          "text": "802.3.2 Air break: Provided between pipe and trap seal."
+        },
+        {
+          "text": "802.4 Waste receptors: Must be accessible, not concealed. No installation in plenums, attics, crawl spaces, etc."
+        },
+        {
+          "text": "802.4.1 Sizing: Must accommodate maximum indirect discharge."
+        },
+        {
+          "text": "802.4.2 Hub drains: Pipe hub must extend \u22651\" above floor."
+        },
+        {
+          "text": "802.4.3 Standpipes: Trapped individually, 18\"\u201342\" above trap weir with access for rodding."
+        },
+        {
+          "text": "802.4.3.1 Laundry tray alternative: May connect via standpipe; must meet spacing and height requirements."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "heading": "803 Special Wastes",
+      "content": [
+        {
+          "text": "803.1 Neutralization: Corrosive or harmful liquids must be treated before entering drainage system using automatic neutralizing devices."
+        },
+        {
+          "text": "803.2 System Design: Chemical drainage systems must be separate from sanitary and approved prior to install."
+        }
+      ]
+    }
+  ]
+}

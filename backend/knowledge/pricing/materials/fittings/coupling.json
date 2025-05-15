@@ -1,0 +1,112 @@
+[
+  {
+    "sku": "COUPLING-PVC-1/2-SCH40",
+    "fittingType": "coupling",
+    "material": "PVC Sch40",
+    "size": "1/2 inch",
+    "variant": "Slip",
+    "retailPrice": 0.35,
+    "bulkPrice": 0.3,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "COUPLING-PVC-3/4-SCH40",
+    "fittingType": "coupling",
+    "material": "PVC Sch40",
+    "size": "3/4 inch",
+    "variant": "Slip",
+    "retailPrice": 0.52,
+    "bulkPrice": 0.54,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "COUPLING-PVC-2-SCH40",
+    "fittingType": "coupling",
+    "material": "PVC Sch40",
+    "size": "2 inch",
+    "variant": "Slip",
+    "retailPrice": 1.6,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "COUPLING-PVC-4-DWV",
+    "fittingType": "coupling",
+    "material": "PVC DWV",
+    "size": "4 inch",
+    "variant": "Hub",
+    "retailPrice": 5.98,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Charlotte Pipe"
+  },
+  {
+    "sku": "COUPLING-COPPER-1/2-SWEAT",
+    "fittingType": "coupling",
+    "material": "Copper (Sweat)",
+    "size": "1/2 inch",
+    "variant": "Cup x Cup",
+    "retailPrice": 0.72,
+    "bulkPrice": 0.59,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "COUPLING-COPPER-3/4-SWEAT",
+    "fittingType": "coupling",
+    "material": "Copper (Sweat)",
+    "size": "3/4 inch",
+    "variant": "Cup x Cup",
+    "retailPrice": 0.98,
+    "bulkPrice": 0.88,
+    "source": "Home Depot",
+    "brand": "Everbilt"
+  },
+  {
+    "sku": "COUPLING-COPPER-3/4-PRESS",
+    "fittingType": "coupling",
+    "material": "Copper (Press)",
+    "size": "3/4 inch",
+    "variant": "Press (no-stop)",
+    "retailPrice": 4.14,
+    "bulkPrice": null,
+    "source": "Home Depot",
+    "brand": "Viega"
+  },
+  {
+    "sku": "COUPLING-CI-4-NOHUB",
+    "fittingType": "coupling",
+    "material": "Cast Iron",
+    "size": "4 inch",
+    "variant": "No-Hub Banded",
+    "retailPrice": 9.98,
+    "bulkPrice": 8.25,
+    "source": "Home Depot",
+    "brand": "Oatey Husky"
+  },
+  {
+    "sku": "COUPLING-PEX-1/2-POLY",
+    "fittingType": "coupling",
+    "material": "PEX (Poly Alloy)",
+    "size": "1/2 inch",
+    "variant": "Barb",
+    "retailPrice": 0.84,
+    "bulkPrice": 0.65,
+    "source": "Home Depot",
+    "brand": "Apollo"
+  },
+  {
+    "sku": "COUPLING-PEX-1/2-BRASS",
+    "fittingType": "coupling",
+    "material": "PEX (Brass)",
+    "size": "1/2 inch",
+    "variant": "Barb",
+    "retailPrice": 1.37,
+    "bulkPrice": 1.22,
+    "source": "Home Depot",
+    "brand": "SharkBite"
+  }
+]
