@@ -1,0 +1,122 @@
+{
+  "testId": "bathroomSinkTest",
+  "title": "Bathroom Sink Diagnostic Test",
+  "toolList": [
+    "Flashlight or inspection light",
+    "Paper towels",
+    "Small mirror (for trap and stopper check)",
+    "Bucket or pan",
+    "Wrench (optional)",
+    "Thermometer (optional)",
+    "Stopwatch (optional)",
+    "Pencil (for marking tank waterline if testing connected shutoffs)"
+  ],
+  "steps": [
+    {
+      "id": "bs1",
+      "title": "Check Faucet Functionality",
+      "checks": [
+        "Hot and cold water flow without sputtering",
+        "No dripping from spout after shutoff",
+        "Handles turn smoothly and stop flow completely",
+        "Aerator flows evenly (not spraying sideways)"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "bs2",
+      "title": "Inspect Supply Lines",
+      "checks": [
+        "No signs of dripping, corrosion, or rust",
+        "Hoses are PEX, braided SS, or copper \u2014 not vinyl",
+        "No stiffness, ballooning, or green corrosion at nuts"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "bs3",
+      "title": "Verify Angle Stop Valves",
+      "checks": [
+        "Valve turns freely and stops water fully",
+        "No dripping or crust at packing nut or stem",
+        "Valve outlet is dry"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "bs4",
+      "title": "Check Drain Stopper Function",
+      "checks": [
+        "Stopper lifts/lowers cleanly",
+        "Seals fully when closed",
+        "Opens with one push or pull",
+        "No resistance or jamming"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "bs5",
+      "title": "Look for Passive Drain Leaks",
+      "checks": [
+        "Trap, tailpiece, and connection to wall all dry",
+        "Cabinet floor is dry",
+        "No mildew smell, water stains, or soft cabinet wood"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "bs6",
+      "title": "Perform Active Drain Test",
+      "checks": [
+        "Drain swirls, drains fully within 5\u201310 seconds",
+        "No gurgle or bubbling in other fixtures",
+        "No leaks observed at trap or tailpiece"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "bs7",
+      "title": "Water Temp Check (Optional)",
+      "checks": [
+        "Hot water reaches 105\u2013110\u00b0F within 30 seconds",
+        "Water flow doesn\u2019t drop or pulse while warming up"
+      ],
+      "escalateIf": [
+        "no"
+      ],
+      "skillLevel": "intermediate"
+    }
+  ],
+  "onFailure": {
+    "action": "recommend_repair",
+    "message": "Issues found with your bathroom sink. Review steps that failed and consider taking corrective action."
+  },
+  "onPass": {
+    "action": "confirm_healthy",
+    "message": "Your bathroom sink system appears to be in good working condition with no immediate issues detected."
+  }
+}

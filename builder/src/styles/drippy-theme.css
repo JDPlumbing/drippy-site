@@ -1,0 +1,62 @@
+/* Drippy Theme Color Variables */
+:root {
+  /* Core Brand Colors */
+  --color-electric-cyan: #00eaff;
+  --color-neon-aqua: #00d4ff;
+  --color-core-blue: #004e89;
+  --color-midnight-navy: #0e1320;
+  --color-signal-teal: #009fc2;
+  --color-glow-white: #dffcff;
+  --color-shadow-gray: #1f2c3d;
+
+  /* Transparency variants */
+  --color-electric-cyan-glow: rgba(0, 234, 255, 0.2);
+  --color-core-blue-fade: rgba(0, 78, 137, 0.8);
+}
+
+/* Background Utilities */
+.bg-drippy-core {
+  background-color: var(--color-midnight-navy);
+}
+.bg-drippy-glow {
+  background-color: var(--color-electric-cyan);
+}
+
+/* Text Utilities */
+.text-drippy-primary {
+  color: var(--color-electric-cyan);
+}
+.text-drippy-muted {
+  color: var(--color-glow-white);
+}
+
+/* Border Utilities */
+.border-drippy {
+  border: 2px solid var(--color-signal-teal);
+}
+
+/* Glow Effects */
+.glow-cyan {
+  box-shadow: 0 0 12px var(--color-electric-cyan);
+}
+.glow-white-soft {
+  box-shadow: 0 0 20px var(--color-glow-white);
+}
+
+/* Fill Utility for SVG */
+.fill-drippy-core {
+  fill: var(--color-core-blue);
+}
+.stroke-drippy-accent {
+  stroke: var(--color-electric-cyan);
+}
+
+/* Animation Colors */
+@keyframes drippyPulse {
+  0%   { box-shadow: 0 0 0px var(--color-electric-cyan); }
+  50%  { box-shadow: 0 0 20px var(--color-electric-cyan-glow); }
+  100% { box-shadow: 0 0 0px var(--color-electric-cyan); }
+}
+.animate-drippy-pulse {
+  animation: drippyPulse 2s infinite ease-in-out;
+}

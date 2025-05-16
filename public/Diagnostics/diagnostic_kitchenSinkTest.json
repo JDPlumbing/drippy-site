@@ -1,0 +1,149 @@
+{
+  "testId": "kitchenSinkTest",
+  "title": "Kitchen Sink Diagnostic Test",
+  "toolList": [
+    "Flashlight or inspection light",
+    "Paper towels",
+    "Small mirror (for trap inspection)",
+    "Bucket or pan",
+    "Wrench (optional)",
+    "Food dye (optional for leak tracing)",
+    "Pencil or marker (for waterline check)",
+    "Thermometer (optional)",
+    "Stopwatch (optional)"
+  ],
+  "steps": [
+    {
+      "id": "ks1",
+      "title": "Check Faucet Operation",
+      "checks": [
+        "Both hot and cold water run without sputtering",
+        "Water pressure is normal on both sides",
+        "Handle(s) move smoothly and shut off completely"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "ks2",
+      "title": "Inspect Supply Lines",
+      "checks": [
+        "No signs of dripping, corrosion, or rust at valve or connector",
+        "Hoses are braided stainless, PEX, or copper \u2014 not vinyl",
+        "Hoses MAY be integral to the Faucet Body itself - they should not contain kinks or any signs of damage",
+        "No signs of ballooning, stiffness, or green corrosion at nuts"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "ks3",
+      "title": "Check Angle Stop Valves",
+      "checks": [
+        "Both shutoffs turn freely and actually stop water",
+        "No signs of leaking around stems, packing nut, or compression nuts"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "ks4",
+      "title": "Look for Drain Leaks (Passive)",
+      "checks": [
+        "Cabinet floor is dry",
+        "No musty odor or signs of water damage",
+        "No visible leak marks on trap or tailpiece"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "ks5",
+      "title": "Perform Active Drain Test",
+      "checks": [
+        "Water drains quickly (a healthy drain forms a 'whirlpool') without pooling, gurgling or bubbling",
+        "No active leaks observed"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "ks6",
+      "title": "Check Disposal (if installed)",
+      "checks": [
+        "Turns on without delay",
+        "Sound is smooth, no metal-on-metal grinding",
+        "No vibration or wobble",
+        "No odor"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": "ks7",
+      "title": "Dishwasher Drain Tie-In",
+      "checks": [
+        "Ensure high loop is present (no low-sag loops)",
+        "No crusty residue at port",
+        "No residue inside the dishwasher drain hose"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "ks8",
+      "title": "Overflow or Backflow Check",
+      "checks": [
+        "Run water hard for 30s \u2192 sink must not back up",
+        "Listen for gurgling at other fixtures",
+        "Confirm no water backs into other side (if double bowl)"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "ks9",
+      "title": "Bonus: Water Temp & Flow Rate",
+      "checks": [
+        "Kitchen sink water reached at least 110\u00b0F within 30 seconds",
+        "Temperature remained stable for 10+ seconds after reaching target"
+      ],
+      "escalateIf": [
+        "no"
+      ],
+      "skillLevel": "intermediate"
+    }
+  ],
+  "onFailure": {
+    "action": "recommend_repair",
+    "message": "One or more issues were found in your kitchen sink setup. Review affected components and consider repair or replacement."
+  },
+  "onPass": {
+    "action": "confirm_healthy",
+    "message": "All kitchen sink systems appear to be functioning properly with no leaks or performance concerns detected."
+  }
+}

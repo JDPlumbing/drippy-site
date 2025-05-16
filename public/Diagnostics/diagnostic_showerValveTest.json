@@ -1,0 +1,124 @@
+{
+  "testId": "showerValveTest",
+  "title": "Shower Valve Diagnostic Test",
+  "toolList": [
+    "Flashlight or inspection light",
+    "Small mirror (optional for wall-side inspection)",
+    "Towel or rag",
+    "Allen wrench or flat screwdriver (for escutcheon removal if accessible)",
+    "Thermometer (optional)",
+    "Stopwatch (optional)",
+    "Zip bag or clear cup (for leak isolation under handle)"
+  ],
+  "steps": [
+    {
+      "id": "sv1",
+      "title": "Test Handle & Valve Operation",
+      "checks": [
+        "Handle rotates or lifts smoothly",
+        "No grinding, resistance, squeaking or sticking",
+        "Valve turns water off completely",
+        "No drips when handle is off"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "sv2",
+      "title": "Check Temperature Control",
+      "checks": [
+        "Temperature smoothly increases with handle movement",
+        "Full hot and full cold are both available",
+        "Temperature doesn\u2019t bounce or shift suddenly",
+        "No temperature \u201cdead zone\u201d in middle of range"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": "sv3",
+      "title": "Monitor Showerhead for Drip",
+      "checks": [
+        "No dripping from showerhead with handle OFF",
+        "Water doesn\u2019t slowly leak or trickle after use",
+        "Showerhead is tight and clean at threads"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "sv4",
+      "title": "Inspect Valve Behind Wall (if accessible)",
+      "checks": [
+        "No water behind escutcheon (use mirror or paper towel)",
+        "No rust, staining, or dripping visible on valve body",
+        "No softness or swelling on wall behind trim plate"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": "sv5",
+      "title": "Listen During Use",
+      "checks": [
+        "No hammering or banging sounds",
+        "No whistling or humming under flow",
+        "Water pressure is consistent at all ranges"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "sv6",
+      "title": "Optional Temp Check",
+      "checks": [
+        "Hot water reaches at least 105\u2013110\u00b0F within 30 seconds",
+        "Temp remains stable once reached (no surging or cooling)",
+        "Pressure doesn\u2019t drop when running both hot and cold"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": "sv7",
+      "title": "If Tub Spout Is Present",
+      "checks": [
+        "Pull/lift diverter and check that water diverts to shower head",
+        "Tub spout should not drip while shower is on",
+        "Tub spout should be close to the wall with sealant intact around the tubspout base",
+        "Tub spout should disengage when handle is turned OFF"
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    }
+  ],
+  "onFailure": {
+    "action": "recommend_repair",
+    "message": "Your shower valve may need attention. Review the failed steps and take corrective action to prevent leaks or performance issues."
+  },
+  "onPass": {
+    "action": "confirm_healthy",
+    "message": "Your shower valve appears to be functioning properly with no detected issues."
+  }
+}

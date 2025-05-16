@@ -1,0 +1,191 @@
+[
+  {
+    "category": "PEX Water Piping",
+    "diy_rating": "DIY-friendly",
+    "justification": "PEX tubing is flexible and much easier to install than rigid copper, making it popular for DIY plumbing:contentReference[oaicite:0]{index=0}. It requires simple tools (crimp or clamp kits) and avoids the open-flame soldering of copper, reducing fire hazards. Installers must still follow code (e.g. proper supports and approved fittings) and obtain permits for new supply lines, but homeowners in many jurisdictions can perform minor PEX repairs or additions themselves. Proper technique is crucial to prevent leaks at connections, but overall PEX's ease of use has made it a common choice for DIYers:contentReference[oaicite:1]{index=1}.",
+    "typical_brands": ["Uponor", "SharkBite", "Viega", "Apollo"],
+    "license_required": false
+  },
+  {
+    "category": "Copper Water Piping (Soldered)",
+    "diy_rating": "Pro-only",
+    "justification": "Installing or altering copper supply pipes typically requires professional skill due to the need for soldering (\"sweating\") joints with a torch. Errors in soldering can lead to leaks, costly water damage, or even fire if the flame ignites surrounding materials:contentReference[oaicite:2]{index=2}. Most building codes require a permit (and often a licensed plumber) for significant piping changes:contentReference[oaicite:3]{index=3}. While small repairs are possible for a skilled DIYer, copper work is generally best left to pros who understand code requirements and have the proper tools. Many jurisdictions (e.g., NYC) mandate licensed plumbers for new plumbing lines, reflecting the higher risk and complexity:contentReference[oaicite:4]{index=4}.",
+    "typical_brands": ["Mueller", "NIBCO", "Cerro"],
+    "license_required": true
+  },
+  {
+    "category": "Push-Fit Pipe Connectors",
+    "diy_rating": "DIY-friendly",
+    "justification": "Push-fit connectors (e.g. SharkBite fittings) allow quick joining of pipes (copper, PEX, CPVC) without soldering or special tools. They are designed for ease of use — \"the easiest way for a DIY homeowner to make copper connections\":contentReference[oaicite:5]{index=5}. This makes them very DIY-friendly for repairs or retrofits. They are code-approved if listed, but should be installed per manufacturer instructions (clean, deburred pipe and full insertion) to ensure a secure seal. Improper use can result in leaks, so testing is important. While more expensive per fitting, they eliminate the need for a torch or crimping tool, lowering the skill barrier for plumbing fixes.",
+    "typical_brands": ["SharkBite", "Cash-Acme", "Apollo"],
+    "license_required": false
+  },
+  {
+    "category": "Fixture Shutoff Valve (Angle Stop)",
+    "diy_rating": "DIY-friendly",
+    "justification": "Replacing or installing an under-sink or toilet shutoff valve (angle stop) is generally a simple job. It usually involves screwing or compressing the valve onto existing plumbing, with minimal tools. This is considered routine maintenance in most areas and typically does not require a permit when it's a direct replacement:contentReference[oaicite:6]{index=6}. DIYers should still exercise caution: shutting off the main supply first and checking for leaks after installation. Using the correct type (compression vs. sweat vs. push-fit) is important. While straightforward, a poorly installed shutoff could leak and cause water damage, so ensure connections are tight and use pipe sealant or Teflon as needed. Overall, it's a DIY-friendly task for minor repairs or upgrades:contentReference[oaicite:7]{index=7}.",
+    "typical_brands": ["BrassCraft", "Dahl", "SharkBite"],
+    "license_required": false
+  },
+  {
+    "category": "Hose Bibb (Outdoor Spigot)",
+    "diy_rating": "DIY-friendly",
+    "justification": "Replacing an outdoor hose spigot can often be done by a handy homeowner, though difficulty varies by attachment method (threaded vs soldered). In warm climates (e.g. FL) it's typically a simple threaded swap; in colder regions, frost-proof sillcocks may be soldered in, raising complexity. Key considerations are to use an anti-siphon (vacuum breaker) spigot to prevent garden hoses from causing cross-connections (a common code requirement) and to ensure a watertight seal to prevent leaks. While usually not requiring a permit for a like-for-like replacement, installation must be done carefully. Improper installation can lead to leaks inside the wall or a burst pipe in freezing weather. If soldering is required or the spigot is hard to access, many homeowners opt for a pro to avoid water damage risk.",
+    "typical_brands": ["Mueller/BK", "Woodford", "SharkBite"],
+    "license_required": false
+  },
+  {
+    "category": "Water Heater (Gas Tank-Type)",
+    "diy_rating": "Pro-only",
+    "justification": "Gas water heater installation is a complex and regulated task. It involves gas line connections (with risk of leaks or explosion), venting of carbon monoxide, and proper TPR (pressure relief) discharge. Most U.S. jurisdictions require a permit and inspection for any water heater replacement:contentReference[oaicite:8]{index=8}, and many mandate a licensed plumber for the work. Incorrect installation can lead to gas leaks, carbon monoxide backdrafting, or water damage. In fact, installing a water heater without a licensed professional can void the manufacturer's warranty and even your homeowner’s insurance coverage if something goes wrong:contentReference[oaicite:9]{index=9}. Given the safety risks and code requirements (e.g. seismic strapping in CA, expansion tank in closed systems, proper vent sizing), gas water heaters are firmly a professional-only project.",
+    "typical_brands": ["Rheem", "A.O. Smith", "Bradford White"],
+    "license_required": true
+  },
+  {
+    "category": "Water Heater (Electric Tank-Type)",
+    "diy_rating": "Pro-only",
+    "justification": "Even without gas piping, an electric water heater involves high-voltage wiring in addition to plumbing. Installation still typically requires a permit and must meet code (proper breaker size, wiring, expansion tank, etc.):contentReference[oaicite:10]{index=10}. Mistakes can cause electrical shocks, overheating, or leaks leading to water damage. Like gas units, manufacturers may void the warranty if a unit is not professionally installed:contentReference[oaicite:11]{index=11}. While some experienced homeowners handle electric heater swaps, many jurisdictions require a licensed plumber or electrician especially if new wiring is involved. The heater's weight and the need to properly secure and plumb the unit add to the difficulty. For safety and compliance, electric water heater installs are usually handled by pros, similar to gas heaters.",
+    "typical_brands": ["Rheem", "Bradford White", "Westinghouse"],
+    "license_required": true
+  },
+  {
+    "category": "Tankless Water Heater (Gas)",
+    "diy_rating": "Pro-only",
+    "justification": "Gas tankless water heaters are among the most challenging installations, involving gas piping, venting, and often high-capacity upgrades. They typically require a larger gas supply line and special stainless steel or PVC venting to safely exhaust flue gases. Permits are required in virtually all locales due to the gas and vent modifications. Improper installation can lead to inadequate gas flow (causing appliance malfunctions) or dangerous flue gas leaks. Additionally, tankless units often have specific manufacturer requirements for mounting clearances and combustion air. Given the complexity, many manufacturers recommend professional installation and may require it for warranty validation. This is a pro-only project; it usually demands a licensed plumber (and sometimes electrician for the unit's controls) to meet code and ensure safe operation.",
+    "typical_brands": ["Rinnai", "Navien", "Rheem", "Noritz"],
+    "license_required": true
+  },
+  {
+    "category": "Water Heater Expansion Tank",
+    "diy_rating": "DIY-friendly",
+    "justification": "A thermal expansion tank is a safety add-on for closed plumbing systems, required by code in many areas (e.g., on city water with a check valve):contentReference[oaicite:12]{index=12}. Installing one involves teeing it into the cold water line near the water heater. This is a relatively straightforward task for a DIYer if the plumbing has an accessible connection point. The tank typically screws onto a threaded tee fitting. The main risks are ensuring the tank is properly supported (they can be heavy when full) and pre-charged to the correct air pressure to match the water pressure. While adding an expansion tank during a water heater replacement would be covered under that permit, adding one later usually doesn’t require a separate permit. It's generally DIY-friendly, but one should verify the need and installation specs (some jurisdictions or manufacturers call for a licensed install to guarantee compliance). In Florida and many other states, expansion tanks are commonly required and checked during inspections:contentReference[oaicite:13]{index=13}.",
+    "typical_brands": ["Amtrol", "Watts", "A.O. Smith"],
+    "license_required": false
+  },
+  {
+    "category": "Pressure Reducing Valve (PRV)",
+    "diy_rating": "Pro-only",
+    "justification": "A PRV is installed on the main water inlet to reduce excessive pressure (code requires one if pressure > 80 psi):contentReference[oaicite:14]{index=14}. Installing or replacing a PRV often means working on the home’s main water line, which can involve shutting water off at the meter and cutting into the supply pipe. This job typically requires a permit because it alters the plumbing system’s protection features. Many homeowners defer to professionals for PRVs since the work may involve soldering or threading in tight spaces and the device must be adjusted to a safe pressure (typically ~50-70 psi). High incoming pressure can cause pipe bursts or void fixture warranties:contentReference[oaicite:15]{index=15}, so compliance is important. Given the potential need for specialized tools and coordination with the water utility shutoff, PRV installation is usually handled by licensed plumbers, especially in states like CA or NY where plumbing modifications are tightly regulated:contentReference[oaicite:16]{index=16}.",
+    "typical_brands": ["Watts", "Zurn Wilkins", "Apollo"],
+    "license_required": true
+  },
+  {
+    "category": "Water Softener System",
+    "diy_rating": "DIY-friendly",
+    "justification": "Whole-house water softeners tie into the main water supply to remove hardness. Many homeowners in hard-water areas (TX, FL, etc.) install these themselves using DIY kits from hardware stores. However, a plumbing permit is usually required for the new installation:contentReference[oaicite:17]{index=17}, since it alters the potable water system. The install involves cutting into the cold water supply line to route water through the softener and running a drain line for regeneration waste (which must have an air gap into the drain to prevent cross-connection). The task is moderately complex: improper installation can lead to leaks or brine backflow issues. Some jurisdictions might require a licensed plumber if you’re not the homeowner, but owner-occupants are often allowed to DIY with a permit. One must follow the manufacturer’s specs (bypass valve, drain air gap, etc.) and local code. Skipping required permits or inspections could violate code, but many practical homeowners do replacements themselves to save cost. Just be aware that failing to meet code (like no air gap on the drain) can cause compliance issues.",
+    "typical_brands": ["Whirlpool", "Culligan", "GE Appliances", "Pentair"],
+    "license_required": false
+  },
+  {
+    "category": "Refrigerator Ice Maker/Water Line",
+    "diy_rating": "DIY-friendly",
+    "justification": "Hooking up a refrigerator’s ice maker or water dispenser is generally DIY-friendly. Kits are sold that include small diameter tubing and a saddle valve to tap an existing cold water pipe. However, those self-piercing saddle valves are often not up to code because they're prone to leakage:contentReference[oaicite:18]{index=18} and not an approved plumbing method in many areas. A code-compliant installation uses a dedicated tee and a shutoff valve. The job itself is minor and typically doesn’t require a permit if you are just adding a fridge line to existing plumbing. The primary risks are water leaks (which can cause significant floor damage if unnoticed) and potential water contamination if a non-approved valve or tubing is used. Best practice is to use fridge-rated tubing (copper or braided) and to test all connections thoroughly. Many homeowners handle this task, but they should avoid quick fixes like unapproved saddle valves:contentReference[oaicite:19]{index=19} in favor of proper valves to stay within code.",
+    "typical_brands": ["Watts", "John Guest", "BrassCraft"],
+    "license_required": false
+  },
+  {
+    "category": "P-Trap (Drain Trap)",
+    "diy_rating": "DIY-friendly",
+    "justification": "A P-trap is the U-shaped pipe under sinks, tubs, and other fixtures that prevents sewer gases from entering the home. Replacing a sink P-trap is a common DIY task – usually involving PVC or brass trap kits tightened with compression nuts. It's generally low-risk and does not require a permit to replace an existing trap. However, one must ensure the new trap is properly installed (no leaks at the joints) and is the correct type (code prohibits improper traps like S-traps or accordion-style flexible traps, which can clog or siphon dry). If installed incorrectly, you could get sewer odor or leaks. As long as the trap is the same size and the fixture is already vented, a homeowner can swap this out easily. Always check that the trap arm has the correct slope toward the wall and that all seals are tight. Overall it's DIY-friendly plumbing maintenance, with code simply requiring that the trap be accessible and not create its own issues (e.g., avoid illegal accordion traps that are \"awful\" per code due to clogging issues:contentReference[oaicite:20]{index=20}).",
+    "typical_brands": ["Keeney", "Oatey", "Everbilt"],
+    "license_required": false
+  },
+  {
+    "category": "Toilet (Fixture)",
+    "diy_rating": "DIY-friendly",
+    "justification": "Installing or replacing a toilet is a task many homeowners tackle. A direct replacement (setting a new toilet on an existing flange) is considered a minor alteration – in places like NYC it's viewed as a \"cosmetic\" replacement that does not require a permit:contentReference[oaicite:21]{index=21}. DIYers must ensure the wax ring (or rubber seal) is properly seated to prevent leaks and that the toilet is bolted down firmly to the flange. The risk of DIY is a hidden wax seal leak, which can rot floors over time, or overtightening bolts and cracking the porcelain. New toilet installations (from rough plumbing) are more complex – positioning the flange, meeting plumbing code for drain and vent – and those aspects are done by pros during construction. But swapping out an existing toilet is typically DIY-friendly. Common code considerations include using a low-flow 1.6/1.28 gpf model in jurisdictions with conservation rules and ensuring a shutoff valve is in place. As long as the flange and plumbing are in good condition, a homeowner can replace a toilet with basic tools and careful adherence to the manufacturer's installation instructions.",
+    "typical_brands": ["Kohler", "Toto", "American Standard", "Gerber"],
+    "license_required": false
+  },
+  {
+    "category": "Toilet Flange",
+    "diy_rating": "Pro-only",
+    "justification": "The toilet flange is the critical fitting that connects a toilet to the DWV system. Installing or repairing a flange often means working at the interface of the bathroom floor and the sewer pipe. This can get tricky – for example, old cast iron flanges may need special tools or spacers, and new PVC flanges must be securely glued at the proper height. If a flange is not set correctly (ideally flush with the finished floor level and firmly anchored), the toilet will not seal properly, leading to sewer gas leaks or rocking. While flange repair kits exist for DIY fixes (e.g., metal repair rings for broken bolt slots), any work that involves cutting or chipping out a pipe to replace a flange outright is usually for professionals. Additionally, code requires a secure, gas-tight connection here; a flange is typically inspected as part of any permitted toilet installation. Because mistakes can result in persistent leaks under the toilet or structural damage, this is categorized as pro-only unless it's a very basic repair. A licensed plumber will ensure the new flange meets standards (material compatibility, bolt alignment, height) and will reseal the drain if needed.",
+    "typical_brands": ["Oatey", "Sioux Chief", "Danco"],
+    "license_required": true
+  },
+  {
+    "category": "DWV Drain Pipes (PVC/ABS)",
+    "diy_rating": "Pro-only",
+    "justification": "Drain-waste-vent (DWV) piping installation (using PVC, ABS, or cast iron) is a complex task that must adhere to strict plumbing codes. It involves laying out drain lines with the proper slope (typically 1/4 inch per foot for horizontal runs):contentReference[oaicite:22]{index=22}, using the correct fittings (e.g., long sweep elbows, sanitary tees oriented correctly), and ensuring every fixture is adequately vented. Improper DWV work can lead to chronic clogs, sewer gas escape, or even sewage backups. Because DWV alterations usually require opening walls/floors and are subject to permit and inspection, they are typically handled by licensed plumbers. For example, adding a new bathroom drain in a home in CA or NY would require a permit and compliance with local code on pipe sizing, vent placement, and cleanouts. DIY attempts without full knowledge of code often result in violations (such as an undersized vent or an \"S-trap\" situation). Given the high stakes (sewage leaks or code infractions), any significant DWV rough-in or re-route is pro-only. Homeowners might only tackle very minor fixes (like replacing a short section of cracked pipe) but even then, proper solvent welding and grading are crucial. In summary, DWV piping is foundational to plumbing safety and functionality, and it demands professional expertise.",
+    "typical_brands": ["Charlotte Pipe", "JM Eagle", "Nibco"],
+    "license_required": true
+  },
+  {
+    "category": "Air Admittance Valve (AAV)",
+    "diy_rating": "Pro-only",
+    "justification": "An AAV is a one-way valve that admits air into the drain system to facilitate venting without a roof-penetrating vent pipe. While the physical installation (screwing or gluing the AAV onto a stub) is simple, its use is heavily governed by code and not universally allowed. Many US jurisdictions that follow the International Plumbing Code do permit AAVs in certain situations (with requirements like being accessible and installed above the fixture’s flood rim), but other areas (e.g., those using the Uniform Plumbing Code such as California) generally do not accept AAVs except under special engineered conditions:contentReference[oaicite:23]{index=23}. This means that installing an AAV without understanding local code could create a non-compliant (and thus illegal) situation. Because venting is critical to proper drainage and trap function, it's typically designed by professionals. If an AAV is used, it's usually to solve a specific venting challenge (like an island sink) and often needs sign-off by an inspector. The risks of a DIY AAV install include trap siphonage if it's placed incorrectly or failure of the valve over time (they can eventually stick, leading to sewer gas leaks). Given the code nuances and the importance of venting, AAV implementation should be overseen by a pro. In short, use of an AAV is a code-driven decision, not just a casual DIY tweak, hence it's rated pro-only despite the part itself being easy to screw on.",
+    "typical_brands": ["Studor", "Oatey", "Sioux Chief"],
+    "license_required": true
+  },
+  {
+    "category": "Shower/Tub Mixing Valve",
+    "diy_rating": "Pro-only",
+    "justification": "The shower/tub mixing valve (the in-wall faucet that mixes hot and cold water) is typically installed during rough-in by a plumber. Replacing or upgrading one requires opening the wall and sweating solder joints or making PEX connections in a tight space. It's a task that almost always necessitates a permit when done as part of a remodel, because plumbing codes mandate that any new shower valve be a pressure-balanced or thermostatic anti-scald type:contentReference[oaicite:24]{index=24}. Ensuring compliance (the valve must limit outlet temperature to prevent scalding) is critical. DIY installation risks include unseen leaks inside the wall and incorrect assembly leading to scalding hazards or poor water pressure balance. Additionally, the valve needs to be set at the correct depth so that the trim fits properly after the wall is finished – something that requires careful measurement. Because this job intersects with both plumbing and finish work (tile/wall repair), and because improper work can cause major leaks, it is firmly pro-only. Licensed plumbers will test the connections (and often have to cap and pressure-test the new valve as part of inspection). Given the combination of code requirements and complexity, a homeowner should not attempt to self-install a new shower mixing valve.",
+    "typical_brands": ["Moen", "Delta", "Kohler", "Grohe"],
+    "license_required": true
+  },
+  {
+    "category": "Sink/Kitchen Faucet",
+    "diy_rating": "DIY-friendly",
+    "justification": "Replacing a sink faucet is one of the most common DIY plumbing jobs. It generally involves disconnecting supply lines and the mounting hardware, then fitting the new faucet in place and reconnecting. As long as the shutoff valves and trap aren't moved, this is considered a like-for-like fixture swap that doesn't usually require a permit:contentReference[oaicite:25]{index=25}. DIYers should check for leaks at the connections (supply line joints, faucet base, and drain pop-up) after installation. The risks are relatively low: a misinstalled gasket might cause a drip under the sink, or an overtightened connection could damage a supply line. These are manageable with basic caution. Modern faucets often come with clear instructions and even pre-attached supply lines, further simplifying installation. While no license is required to change out a faucet, if the project expands (say, moving a sink or altering piping) then it crosses into professional territory. For the simple replacement, it's DIY-friendly. Just ensure to use quality supply lines and new washers, and adhere to any local plumbing standards (for example, in CA, certain low-flow fixtures are required by code in replacements, but the act of replacing is still homeowner-friendly).",
+    "typical_brands": ["Moen", "Delta", "Kohler", "Pfister"],
+    "license_required": false
+  },
+  {
+    "category": "Garbage Disposal (Food Disposer)",
+    "diy_rating": "DIY-friendly",
+    "justification": "Installing or replacing a garbage disposal is moderately heavy work but well within DIY scope for those comfortable under a sink. The unit mounts to the sink’s drain outlet (usually via a twist-lock collar) and plugs into an under-sink outlet (or hardwires) for power. Replacing an existing disposal typically doesn't need a permit, as it's an appliance hookup. Key points for compliance: use the proper outlet or switch (meeting electrical code), ensure the dishwasher drain plug in the disposal is punched out if a dishwasher is connected, and hook up the trap and discharge tube correctly. The common risks include water leaks at the sink flange or drain if gaskets are not seated right, and electrical hazards if the wiring isn't done properly (for hardwired units, turning off the circuit is essential). Some jurisdictions like NYC historically restricted disposals, but generally now they’re allowed with certain specs. For most homeowners, swapping a disposal is DIY-friendly with the caveat to follow the manufacturer’s instructions closely. If a new circuit or outlet is needed, then an electrician might be required (making it a pro job in that case). But the plumbing connection alone is straightforward. Always test for leaks and run water through to check for proper operation after installation.",
+    "typical_brands": ["InSinkErator", "Waste King", "Moen"],
+    "license_required": false
+  },
+  {
+    "category": "Dishwasher (Built-in)",
+    "diy_rating": "DIY-friendly",
+    "justification": "Connecting or replacing a built-in dishwasher can be a DIY task if the necessary hookups (power, water supply, drain) are already in place. The dishwasher typically connects to a hot water line (via a flex supply hose) and drains via a hose into the sink drain or garbage disposal. It's important to follow local code for the drain connection: many plumbing codes in the US require an air gap fitting on the sink or countertop for the dishwasher drain to prevent dirty water backflow:contentReference[oaicite:26]{index=26} (states like CA, WA, MN, etc. mandate an air gap:contentReference[oaicite:27]{index=27}). In other areas, a high-loop in the drain hose is acceptable. A DIY installer must be aware of which method is required. Electrically, most dishwashers plug in or are hard-wired to a circuit – if hard-wired, that crosses into electrical work which may require an electrician. The mechanical aspects (sliding the unit in, leveling the legs, securing to cabinet) are straightforward. Common risks are water leaks at the supply or drain hose if not tightened (potentially causing significant damage over time) and improper drain installation leading to cross-connection issues. Many homeowners replace dishwashers themselves or via an appliance service without a dedicated plumbing license, which is generally fine for direct replacements. But if new plumbing or electrical lines are needed (for instance, installing a dishwasher where there wasn’t one), permits and pros are needed. For a like-for-like swap, DIY is feasible, with the note to double-check all connections and code requirements for the drain setup.",
+    "typical_brands": ["Whirlpool", "GE", "Bosch", "KitchenAid"],
+    "license_required": false
+  },
+  {
+    "category": "Gas Supply Line (Black Iron)",
+    "diy_rating": "Pro-only",
+    "justification": "Installing or modifying interior natural gas piping in black iron (steel) pipe is a job strictly for professionals in almost all cases. Gas work requires precise pipe threading, proper use of pipe sealant, and adherence to code on sizing and layout (e.g., no concealed unions, proper support, shutoff placement). The stakes are extremely high: a mistake can lead to gas leaks, fire, or explosion. Codes require that new gas piping be pressure-tested and inspected before use. Many jurisdictions do not allow anyone but a licensed plumber or gasfitter to perform gas line installations (homeowners may be allowed under an owner-builder permit in some areas, but it's heavily discouraged). As one expert source notes, doing gas work without proper credentials may even be illegal and will certainly void insurance if something goes wrong:contentReference[oaicite:28]{index=28}. This is considered pro-only due to both safety and legal compliance. Professionals will calculate the correct pipe size for the BTU load, use threaded steel or approved CSST with bonding, and include required features like unions, shutoff valves, and drip legs per code. DIY attempts here are extremely risky – even a seemingly small gas line addition must be leak-tested (usually with air pressure for inspection). In summary, because of the life-safety risks, gas supply piping falls squarely under licensed professional work.",
+    "typical_brands": ["Mueller Industries", "Southland", "Ward"],
+    "license_required": true
+  },
+  {
+    "category": "Gas Supply Line (CSST Flexible)",
+    "diy_rating": "Pro-only",
+    "justification": "CSST (Corrugated Stainless Steel Tubing) is a flexible gas distribution system used in many newer homes. While it is easier to route than black iron, it has special installation requirements that make it pro-only. Manufacturers mandate that installers be trained and certified for the specific brand of CSST:contentReference[oaicite:29]{index=29}, and local codes require proper bonding of the CSST to the electrical ground due to its vulnerability to lightning strikes. A DIYer is not likely to have access to the required certification or tools (each CSST brand has specific fittings and assembly techniques). Improper installation of CSST can lead to dangerous leaks or fire hazards – for example, failing to bond it can result in the tubing rupturing if struck by lightning energy. Codes treat CSST installation on par with any gas piping: it requires permits, pressure testing, and a licensed professional. In practice, only licensed plumbers or gas contractors who have taken the manufacturer’s course can legally install most CSST systems:contentReference[oaicite:30]{index=30}. Attempting DIY on CSST not only risks safety but could violate both plumbing and electrical codes. Therefore, flexible gas tubing is exclusively a pro job.",
+    "typical_brands": ["Gastite", "HOME-FLEX", "Pro-Flex", "TracPipe"],
+    "license_required": true
+  },
+  {
+    "category": "Gas Appliance Connector",
+    "diy_rating": "Pro-only",
+    "justification": "Connecting a gas appliance (like a kitchen range or clothes dryer) with a flexible connector might seem simple, but it is a task that carries significant safety implications. The connector and shutoff valve must be properly installed and tested for leaks. Even a small mistake (cross-threading a fitting or not tightening enough) can cause a gas leak. Professional installers and plumbers use leak-detection fluid or instruments to verify a tight seal. In some jurisdictions, the connection of gas appliances is legally required to be done by a licensed plumber or the gas utility; in others, an appliance installer or homeowner can do it, but any error can be catastrophic. For example, Massachusetts law requires a licensed plumber for all gas connections, after a tragic incident where an improper DIY hookup led to a fatal explosion. Common code requirements include: a shutoff valve within 6 feet, using a new connector (never reuse an old flexible line), and not concealing the connector through walls or floors:contentReference[oaicite:31]{index=31}:contentReference[oaicite:32]{index=32}. Because the general public often underestimates the risk, we classify this as pro-only. At the very least, if a homeowner does attempt it, it should be checked by the gas company or a professional. The cost of a mistake is too high. Therefore, hooking up or replacing a gas appliance connector is best done by a pro with the right tools (like a manometer) to ensure zero leaks.",
+    "typical_brands": ["Dormont", "BrassCraft", "Eastman"],
+    "license_required": true
+  },
+  {
+    "category": "Gas Sediment Trap (Drip Leg)",
+    "diy_rating": "Pro-only",
+    "justification": "A sediment trap (drip leg) is a short vertical pipe leg that traps debris or moisture in a gas line before it enters an appliance. They are simple in concept, but they must be installed correctly to meet code: as close to the appliance inlet as possible, after the appliance shutoff valve, and oriented vertically so that gravity can collect particles:contentReference[oaicite:33]{index=33}:contentReference[oaicite:34]{index=34}. Most building codes (and appliance manufacturers) require sediment traps on gas appliances like furnaces, water heaters, and boilers:contentReference[oaicite:35]{index=35}:contentReference[oaicite:36]{index=36}. While adding a drip leg might seem like a minor task, it's typically done during the appliance installation by the professional handling the gas piping. If an appliance installation lacks one, the fix involves shutting off gas, disassembling part of the gas line, and threading in the appropriate tee and capped nipple. This is essentially gas piping work – requiring the same precautions and permit considerations (a pressure test might be needed if opening the gas line). Because it's integral to the gas line for safety, and not just a screw-on accessory, we consider it pro-only. A licensed plumber will know the code mandates and ensure the trap is the correct length (usually ~3 inches minimum) and properly positioned. Homeowners generally wouldn’t add a sediment trap on their own; they might not even be aware of this requirement until an inspector flags it. Given that it deals with gas line modifications, a pro should handle sediment traps.",
+    "typical_brands": ["N/A (uses standard pipes/fittings)"],
+    "license_required": true
+  },
+  {
+    "category": "Lawn Sprinkler System",
+    "diy_rating": "DIY-friendly",
+    "justification": "Installing an in-ground lawn irrigation system (sprinkler heads, underground PVC/PE piping, and zone valves) is often done by specialized contractors, but many dedicated homeowners also tackle it. Trenching and laying pipe is labor-intensive but straightforward, and sprinkler system components from brands like Rain Bird or Orbit are designed for consumer installation with detailed guides. However, an important compliance factor is the backflow prevention: any irrigation system connected to a potable supply **must** include a code-approved backflow preventer (e.g., pressure vacuum breaker or double-check assembly) to prevent contamination of the home’s drinking water. Almost every jurisdiction requires a permit for installing the backflow device and mandates that it be tested by a certified backflow tester upon installation:contentReference[oaicite:37]{index=37}. In some states (like Texas and Florida), homeowners can install their own irrigation on their property, but a licensed irrigator or plumber is required if you’re doing it for someone else (and a permit/inspection is still needed). The DIY parts of the job include running the lateral lines and wiring the zone controller, which are manageable with basic skills. But connecting to the main water supply and installing the backflow unit might push this into pro territory if the homeowner isn’t comfortable with plumbing and local codes. Many homeowners do everything except the final tie-in, which they leave for a professional. Overall, designing and laying out sprinklers can be DIY-friendly with research, but due to cross-connection safeguards and permit requirements, it's a project that blurs the line: physically DIY possible, yet requiring some pro oversight for code compliance (hence we note it as generally DIY-friendly with those caveats).",
+    "typical_brands": ["Rain Bird", "Hunter", "Orbit", "Toro"],
+    "license_required": false
+  },
+  {
+    "category": "Irrigation Backflow Preventer",
+    "diy_rating": "Pro-only",
+    "justification": "The backflow prevention assembly for an irrigation system (such as a pressure vacuum breaker or double-check valve assembly) is a critical safety device that separates the sprinkler system from the potable water supply. Its proper installation and certification are often subject to strict regulations. Many local codes require that a licensed plumber or a certified irrigation contractor install and/or test this device:contentReference[oaicite:38]{index=38}:contentReference[oaicite:39]{index=39}. For instance, some cities allow a homeowner to put it in, but still require a plumbing permit and an inspection with a certified tester to verify it functions correctly and is properly installed (usually above grade, with correct orientation and clearance). Because this assembly protects against cross-connection contamination (fertilizers, pesticides, or bacteria from the lawn siphoning into drinking water), inspectors pay close attention to it. A DIY installer might not be familiar with the specific installation requirements (proper placement, unions for service, freeze protection in cold climates, etc.). Additionally, annual testing by a certified backflow tester is required in many jurisdictions. Given the health risk implications and the legal requirements, this component leans pro-only. Installing a backflow preventer incorrectly or without necessary permits could result in fines or water service shutoff. Therefore, while a savvy homeowner might mechanically be able to attach one, it is recommended and often required to have a licensed professional handle the backflow preventer installation and ensure it passes inspection.",
+    "typical_brands": ["Febco", "Watts", "Zurn Wilkins", "Apollo"],
+    "license_required": true
+  }
+]

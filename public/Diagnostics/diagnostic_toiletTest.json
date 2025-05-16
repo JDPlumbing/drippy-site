@@ -1,0 +1,155 @@
+{
+  "testId": "toiletTest",
+  "title": "Toilet Diagnostic Test",
+  "toolList": [
+    "Towel/Rag",
+    "Inspection Mirror (or any small mirror)",
+    "Wet/Dry Vac",
+    "Nitrile Gloves",
+    "Small Flashlight/Inspection light",
+    "Pencil (not pen or marker)"
+  ],
+  "steps": [
+    {
+      "id": "t1",
+      "title": "Check Stop Valve Function",
+      "description": "Ensure the toilet stop valve opens and closes completely. After shutting it off, flush the toilet and confirm the tank does not refill.",
+      "checks": [
+        "The valve stops water flow when turned off.",
+        "The toilet does not refill after flushing with valve off."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "t2",
+      "title": "Inspect Supply Line",
+      "description": "Determine the supply line type and check for corrosion, wear, or outdated materials. Refer to the supply line diagnostic if unsure.",
+      "checks": [
+        "The supply line shows no signs of corrosion or damage.",
+        "The supply line type is up to current code or best practice."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "t3",
+      "title": "Check Toilet Lid Stability",
+      "description": "Ensure the toilet seat lid is tight and does not shift when sat on. Hand-tighten or use screwdriver if needed.",
+      "checks": [
+        "The lid is securely attached and doesn't move during use."
+      ],
+      "escalateIf": [
+        "no"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "t4",
+      "title": "Inspect Tank-to-Bowl Connection",
+      "description": "Sit backwards on the toilet and gently push against the tank. It should not wobble. Inspect bolts and ensure they are not rusted or loose. For Kohler toilets, confirm 3-bolt configuration.",
+      "checks": [
+        "Tank does not wobble or shift.",
+        "Bolts are not rusted or corroded."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": "t5",
+      "title": "Test Fill Valve",
+      "description": "Watch the tank fill after flushing. Confirm the float rises and shuts off the water. Check the refill tube is directed to the overflow tube.",
+      "checks": [
+        "Fill valve shuts off cleanly once water level is reached.",
+        "Refill tube is correctly placed."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "t6",
+      "title": "Inspect Flapper or Cylinder Seal",
+      "description": "Check that flapper is sealing properly and isn\u2019t discolored or warped. For Kohler: inspect cylinder seal for integrity.",
+      "checks": [
+        "Flapper or seal sits flush and has no visible distortion.",
+        "No visible signs of rubber decay or improper closure."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "t7",
+      "title": "Manual Pencil Mark Leak Test",
+      "description": "After tank fills, mark water line with a pencil. Wait 5\u201310 mins. If water level drops, flush valve gasket is leaking.",
+      "checks": [
+        "Tank water level stayed at pencil mark after 10 mins."
+      ],
+      "escalateIf": [
+        "no"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "t8",
+      "title": "Check Tank-to-Bowl Gasket (Flush Test)",
+      "description": "Flush toilet while watching for leaks between tank and bowl. If leaking, tank-to-bowl gasket may be compromised.",
+      "checks": [
+        "No leaks occurred between tank and bowl during flush."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": "t9",
+      "title": "Inspect Toilet Base Seal",
+      "description": "Check for signs of failing caulk, grout, or base instability. Smell for sewer gas.",
+      "checks": [
+        "Base is secure and free of damage.",
+        "No odors present at the base."
+      ],
+      "escalateIf": [
+        "no",
+        "notsure"
+      ],
+      "skillLevel": "basic"
+    },
+    {
+      "id": "t10",
+      "title": "Wax Ring Leak Test",
+      "description": "Flush toilet several times. Inspect around base for any water escaping from underneath.",
+      "checks": [
+        "No water seen at the base after multiple flushes."
+      ],
+      "escalateIf": [
+        "no"
+      ],
+      "skillLevel": "intermediate"
+    }
+  ],
+  "onFailure": {
+    "action": "recommend_repair",
+    "message": "Your toilet may have one or more repair needs. Review which components failed the test and consider replacing gaskets, seals, or valve parts."
+  },
+  "onPass": {
+    "action": "confirm_healthy",
+    "message": "All toilet systems appear to be functioning properly. No signs of leaks or performance issues were detected."
+  }
+}

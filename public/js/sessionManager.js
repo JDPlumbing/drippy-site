@@ -1,4 +1,3 @@
-
 // sessionManager.js
 // Manages anonymous session continuity using localStorage
 
@@ -18,6 +17,9 @@ function generateAnonymousID() {
   });
 }
 
+// -----------------------------
+// Valve Test Status
+// -----------------------------
 export function hasCompletedValveTest() {
   return localStorage.getItem("valveTestConfirmed") === "true";
 }
@@ -26,9 +28,50 @@ export function markValveTestCompleted() {
   localStorage.setItem("valveTestConfirmed", "true");
 }
 
+// -----------------------------
+// Step History (array of test keys)
+// -----------------------------
+export function getStepHistory() {
+  const raw = localStorage.getItem("stepHistory");
+  return raw ? JSON.parse(raw) : [];
+}
+
+export function addStepToHistory(stepKey) {
+  const history = getStepHistory();
+  if (!history.includes(stepKey)) {
+    history.push(stepKey);
+    localStorage.setItem("stepHistory", JSON.stringify(history));
+  }
+}
+
+// -----------------------------
+// DIY Unlocks
+// -----------------------------
+export function getUnlockedDIY() {
+  const raw = localStorage.getItem("unlockedDIY");
+  return raw ? JSON.parse(raw) : [];
+}
+
+export function unlockDIYFor(system) {
+  const unlocked = getUnlockedDIY();
+  if (!unlocked.includes(system)) {
+    unlocked.push(system);
+    localStorage.setItem("unlockedDIY", JSON.stringify(unlocked));
+  }
+}
+
+export function hasUnlockedDIY(system) {
+  return getUnlockedDIY().includes(system);
+}
+
+// -----------------------------
+// Reset All
+// -----------------------------
 export function resetSession() {
   localStorage.removeItem("drippyUserID");
   localStorage.removeItem("valveTestConfirmed");
   localStorage.removeItem("propertyType");
   localStorage.removeItem("userRole");
+  localStorage.removeItem("stepHistory");
+  localStorage.removeItem("unlockedDIY");
 }
